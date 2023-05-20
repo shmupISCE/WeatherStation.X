@@ -1,0 +1,168 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"55 ./mcc_generated_files/examples/i2c1_master_example.h
+[; ;./mcc_generated_files/examples/i2c1_master_example.h: 55: uint16_t I2C1_Read2ByteRegister(i2c1_address_t address, uint8_t reg);
+[v _I2C1_Read2ByteRegister `(us ~T0 @X0 0 ef2`uc`uc ]
+"57
+[; ;./mcc_generated_files/examples/i2c1_master_example.h: 57: void I2C1_Write2ByteRegister(i2c1_address_t address, uint8_t reg, uint16_t data);
+[v _I2C1_Write2ByteRegister `(v ~T0 @X0 0 ef3`uc`uc`us ]
+"60
+[; ;./mcc_generated_files/examples/i2c1_master_example.h: 60: void I2C1_ReadDataBlock(i2c1_address_t address, uint8_t reg, uint8_t *data, size_t len);
+[v _I2C1_ReadDataBlock `(v ~T0 @X0 0 ef4`uc`uc`*uc`ui ]
+"12 OPT3001.c
+[; ;OPT3001.c: 12: uint16_t OPT3001_Read2ByteRegister(uint8_t reg_addr){
+[v _OPT3001_Read2ByteRegister `(us ~T0 @X0 1 ef1`uc ]
+{
+[e :U _OPT3001_Read2ByteRegister ]
+[v _reg_addr `uc ~T0 @X0 1 r1 ]
+[f ]
+"13
+[; ;OPT3001.c: 13:     uint16_t buffer = I2C1_Read2ByteRegister((0x44), reg_addr);
+[v _buffer `us ~T0 @X0 1 a ]
+[e = _buffer ( _I2C1_Read2ByteRegister (2 , -> -> 68 `i `uc _reg_addr ]
+"14
+[; ;OPT3001.c: 14:     return buffer;
+[e ) _buffer ]
+[e $UE 3  ]
+"15
+[; ;OPT3001.c: 15: }
+[e :UE 3 ]
+}
+"22
+[; ;OPT3001.c: 22: void OPT3001_Write2ByteRegister(uint8_t reg_addr, uint16_t data_tw){
+[v _OPT3001_Write2ByteRegister `(v ~T0 @X0 1 ef2`uc`us ]
+{
+[e :U _OPT3001_Write2ByteRegister ]
+[v _reg_addr `uc ~T0 @X0 1 r1 ]
+[v _data_tw `us ~T0 @X0 1 r2 ]
+[f ]
+"23
+[; ;OPT3001.c: 23:     I2C1_Write2ByteRegister((0x44), reg_addr, data_tw);
+[e ( _I2C1_Write2ByteRegister (3 , , -> -> 68 `i `uc _reg_addr _data_tw ]
+"24
+[; ;OPT3001.c: 24: }
+[e :UE 4 ]
+}
+"34
+[; ;OPT3001.c: 34: void OPT3001_ReadnReplace(uint16_t reg_addr, uint16_t value){
+[v _OPT3001_ReadnReplace `(v ~T0 @X0 1 ef2`us`us ]
+{
+[e :U _OPT3001_ReadnReplace ]
+[v _reg_addr `us ~T0 @X0 1 r1 ]
+[v _value `us ~T0 @X0 1 r2 ]
+[f ]
+"35
+[; ;OPT3001.c: 35:     uint16_t buffer = OPT3001_Read2ByteRegister(reg_addr);
+[v _buffer `us ~T0 @X0 1 a ]
+[e = _buffer ( _OPT3001_Read2ByteRegister (1 -> _reg_addr `uc ]
+"36
+[; ;OPT3001.c: 36:     uint16_t new_reg = (buffer | value);
+[v _new_reg `us ~T0 @X0 1 a ]
+[e = _new_reg -> | -> _buffer `ui -> _value `ui `us ]
+"37
+[; ;OPT3001.c: 37:     OPT3001_Write2ByteRegister(reg_addr, new_reg);
+[e ( _OPT3001_Write2ByteRegister (2 , -> _reg_addr `uc _new_reg ]
+"38
+[; ;OPT3001.c: 38: }
+[e :UE 5 ]
+}
+"40
+[; ;OPT3001.c: 40: void OPT3001_full_scale_mode(void){
+[v _OPT3001_full_scale_mode `(v ~T0 @X0 1 ef ]
+{
+[e :U _OPT3001_full_scale_mode ]
+[f ]
+"44
+[; ;OPT3001.c: 44:     uint8_t current_reg_val[2];
+[v _current_reg_val `uc ~T0 @X0 -> 2 `i a ]
+"45
+[; ;OPT3001.c: 45:     uint16_t buffer;
+[v _buffer `us ~T0 @X0 1 a ]
+"47
+[; ;OPT3001.c: 47:     I2C1_ReadDataBlock((0x44), (0x01), current_reg_val, 2);
+[e ( _I2C1_ReadDataBlock (4 , , , -> -> 68 `i `uc -> -> 1 `i `uc &U _current_reg_val -> -> 2 `i `ui ]
+"48
+[; ;OPT3001.c: 48:     buffer = (buffer | current_reg_val[0]) << 8;
+[e = _buffer -> << | -> _buffer `ui -> *U + &U _current_reg_val * -> -> -> 0 `i `ui `ux -> -> # *U &U _current_reg_val `ui `ux `ui -> 8 `i `us ]
+"49
+[; ;OPT3001.c: 49:     buffer |= current_reg_val[1];
+[e =| _buffer -> *U + &U _current_reg_val * -> -> -> 1 `i `ui `ux -> -> # *U &U _current_reg_val `ui `ux `us ]
+"50
+[; ;OPT3001.c: 50:     buffer |= 0x00CE;
+[e =| _buffer -> -> 206 `i `us ]
+"51
+[; ;OPT3001.c: 51:     I2C1_Write2ByteRegister((0x44), (0x01), buffer);
+[e ( _I2C1_Write2ByteRegister (3 , , -> -> 68 `i `uc -> -> 1 `i `uc _buffer ]
+"52
+[; ;OPT3001.c: 52: }
+[e :UE 6 ]
+}
+"54
+[; ;OPT3001.c: 54: void OPT3001_init(void){
+[v _OPT3001_init `(v ~T0 @X0 1 ef ]
+{
+[e :U _OPT3001_init ]
+[f ]
+"55
+[; ;OPT3001.c: 55:     I2C1_Write2ByteRegister((0x44), (0x01), 0xCE10);
+[e ( _I2C1_Write2ByteRegister (3 , , -> -> 68 `i `uc -> -> 1 `i `uc -> -> 52752 `ui `us ]
+"56
+[; ;OPT3001.c: 56: }
+[e :UE 7 ]
+}
+"58
+[; ;OPT3001.c: 58: uint16_t read_data(void){
+[v _read_data `(us ~T0 @X0 1 ef ]
+{
+[e :U _read_data ]
+[f ]
+"59
+[; ;OPT3001.c: 59:     uint8_t buffer[2];
+[v _buffer `uc ~T0 @X0 -> 2 `i a ]
+"60
+[; ;OPT3001.c: 60:     uint16_t result;
+[v _result `us ~T0 @X0 1 a ]
+"62
+[; ;OPT3001.c: 62:     I2C1_ReadDataBlock((0x44), (0x00), buffer, 2);
+[e ( _I2C1_ReadDataBlock (4 , , , -> -> 68 `i `uc -> -> 0 `i `uc &U _buffer -> -> 2 `i `ui ]
+"63
+[; ;OPT3001.c: 63:     result = (buffer[0] << 8) | buffer[1];
+[e = _result -> | << -> *U + &U _buffer * -> -> -> 0 `i `ui `ux -> -> # *U &U _buffer `ui `ux `i -> 8 `i -> *U + &U _buffer * -> -> -> 1 `i `ui `ux -> -> # *U &U _buffer `ui `ux `i `us ]
+"64
+[; ;OPT3001.c: 64:     return result;
+[e ) _result ]
+[e $UE 8  ]
+"65
+[; ;OPT3001.c: 65: }
+[e :UE 8 ]
+}
+"67
+[; ;OPT3001.c: 67: float OPT3001_calculate_lux(uint16_t data){
+[v _OPT3001_calculate_lux `(f ~T0 @X0 1 ef1`us ]
+{
+[e :U _OPT3001_calculate_lux ]
+[v _data `us ~T0 @X0 1 r1 ]
+[f ]
+"68
+[; ;OPT3001.c: 68:     float lux;
+[v _lux `f ~T0 @X0 1 a ]
+"69
+[; ;OPT3001.c: 69:     uint16_t mantissa, exponent;
+[v _mantissa `us ~T0 @X0 1 a ]
+[v _exponent `us ~T0 @X0 1 a ]
+"71
+[; ;OPT3001.c: 71:     mantissa = data & 0x0FFF;
+[e = _mantissa -> & -> _data `ui -> -> 4095 `i `ui `us ]
+"72
+[; ;OPT3001.c: 72:     exponent = (data & 0xF000) >> 12;
+[e = _exponent -> >> & -> _data `ui -> 61440 `ui -> 12 `i `us ]
+"73
+[; ;OPT3001.c: 73:     lux = mantissa * (0.01 * (1 << exponent));
+[e = _lux -> * -> -> _mantissa `ui `d * .0.01 -> << -> 1 `i -> _exponent `ui `d `f ]
+"75
+[; ;OPT3001.c: 75:     return lux;
+[e ) _lux ]
+[e $UE 9  ]
+"76
+[; ;OPT3001.c: 76: }
+[e :UE 9 ]
+}

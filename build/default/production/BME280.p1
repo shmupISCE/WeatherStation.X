@@ -1,0 +1,2441 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"15 ./BME280.h
+[; ;./BME280.h: 15: void BME280_Write1ByteRegister(uint8_t reg_addr, uint8_t data_tw);
+[v _BME280_Write1ByteRegister `(v ~T0 @X0 0 ef2`uc`uc ]
+"54 ./mcc_generated_files/examples/i2c1_master_example.h
+[; ;./mcc_generated_files/examples/i2c1_master_example.h: 54: uint8_t I2C1_Read1ByteRegister(i2c1_address_t address, uint8_t reg);
+[v _I2C1_Read1ByteRegister `(uc ~T0 @X0 0 ef2`uc`uc ]
+"55
+[; ;./mcc_generated_files/examples/i2c1_master_example.h: 55: uint16_t I2C1_Read2ByteRegister(i2c1_address_t address, uint8_t reg);
+[v _I2C1_Read2ByteRegister `(us ~T0 @X0 0 ef2`uc`uc ]
+"56
+[; ;./mcc_generated_files/examples/i2c1_master_example.h: 56: void I2C1_Write1ByteRegister(i2c1_address_t address, uint8_t reg, uint8_t data);
+[v _I2C1_Write1ByteRegister `(v ~T0 @X0 0 ef3`uc`uc`uc ]
+"57
+[; ;./mcc_generated_files/examples/i2c1_master_example.h: 57: void I2C1_Write2ByteRegister(i2c1_address_t address, uint8_t reg, uint16_t data);
+[v _I2C1_Write2ByteRegister `(v ~T0 @X0 0 ef3`uc`uc`us ]
+"22 ./BME280.h
+[; ;./BME280.h: 22: void BME280_Config(uint8_t osrs_t, uint8_t osrs_p, uint8_t osrs_h, uint8_t filter, uint8_t t_sb, uint8_t mode);
+[v _BME280_Config `(v ~T0 @X0 0 ef6`uc`uc`uc`uc`uc`uc ]
+"68 ./BME280_def.h
+[; ;./BME280_def.h: 68: typedef struct{
+[s S830 `uc 1 `uc 1 `uc 1 ]
+[n S830 . ctrl_meas_reg config_reg ctrl_hum_reg ]
+"60 ./mcc_generated_files/examples/i2c1_master_example.h
+[; ;./mcc_generated_files/examples/i2c1_master_example.h: 60: void I2C1_ReadDataBlock(i2c1_address_t address, uint8_t reg, uint8_t *data, size_t len);
+[v _I2C1_ReadDataBlock `(v ~T0 @X0 0 ef4`uc`uc`*uc`ui ]
+"74 ./BME280_def.h
+[; ;./BME280_def.h: 74: typedef struct{
+[s S831 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 ]
+[n S831 . osrs_t osrs_p mode osrs_h standby_time filter spi3w_en ]
+"129
+[; ;./BME280_def.h: 129: typedef struct{
+[s S836 `us 1 `s 1 `s 1 `us 1 `s 1 `s 1 `s 1 `s 1 `s 1 `s 1 `s 1 `s 1 `uc 1 `s 1 `uc 1 `s 1 `s 1 `c 1 `l 1 ]
+[n S836 . dig_t1 dig_t2 dig_t3 dig_p1 dig_p2 dig_p3 dig_p4 dig_p5 dig_p6 dig_p7 dig_p8 dig_p9 dig_h1 dig_h2 dig_h3 dig_h4 dig_h5 dig_h6 t_fine ]
+"93
+[; ;./BME280_def.h: 93: typedef struct{
+[s S833 `ul 1 `ul 1 `ul 1 ]
+[n S833 . pressure temperature humidity ]
+"105
+[; ;./BME280_def.h: 105: typedef struct {
+[s S834 `ul 1 `ul 1 `ul 1 ]
+[n S834 . pressure temperature humidity ]
+"117
+[; ;./BME280_def.h: 117: typedef struct {
+[s S835 `f 1 `f 1 `f 1 ]
+[n S835 . pressure temperature humidity ]
+"82
+[; ;./BME280_def.h: 82: typedef struct{
+[s S832 `*uc 1 `*uc 1 `*uc 1 `*uc 1 `*uc 1 `*uc 1 ]
+[n S832 . Mode Temperature_oversampling Pressure_oversampling Humidity_oversampling Filter Time_standby ]
+"55 C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 55: __asm("PMD3 equ 0F16h");
+[; <" PMD3 equ 0F16h ;# ">
+"117
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 117: __asm("PMD2 equ 0F17h");
+[; <" PMD2 equ 0F17h ;# ">
+"179
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 179: __asm("PMD1 equ 0F18h");
+[; <" PMD1 equ 0F18h ;# ">
+"241
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 241: __asm("PMD0 equ 0F19h");
+[; <" PMD0 equ 0F19h ;# ">
+"318
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 318: __asm("PSTR3CON equ 0F1Ah");
+[; <" PSTR3CON equ 0F1Ah ;# ">
+"429
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 429: __asm("PSTR2CON equ 0F1Bh");
+[; <" PSTR2CON equ 0F1Bh ;# ">
+"618
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 618: __asm("TXREG2 equ 0F1Ch");
+[; <" TXREG2 equ 0F1Ch ;# ">
+"638
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 638: __asm("RCREG2 equ 0F1Dh");
+[; <" RCREG2 equ 0F1Dh ;# ">
+"658
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 658: __asm("SPBRG2 equ 0F1Eh");
+[; <" SPBRG2 equ 0F1Eh ;# ">
+"678
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 678: __asm("SPBRGH2 equ 0F1Fh");
+[; <" SPBRGH2 equ 0F1Fh ;# ">
+"698
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 698: __asm("BAUDCON2 equ 0F20h");
+[; <" BAUDCON2 equ 0F20h ;# ">
+"821
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 821: __asm("TXSTA2 equ 0F21h");
+[; <" TXSTA2 equ 0F21h ;# ">
+"948
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 948: __asm("RCSTA2 equ 0F22h");
+[; <" RCSTA2 equ 0F22h ;# ">
+"1084
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 1084: __asm("ANCON2 equ 0F23h");
+[; <" ANCON2 equ 0F23h ;# ">
+"1196
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 1196: __asm("ANCON1 equ 0F24h");
+[; <" ANCON1 equ 0F24h ;# ">
+"1308
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 1308: __asm("ANCON0 equ 0F25h");
+[; <" ANCON0 equ 0F25h ;# ">
+"1420
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 1420: __asm("MEMCON equ 0F26h");
+[; <" MEMCON equ 0F26h ;# ">
+"1481
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 1481: __asm("ODCON3 equ 0F27h");
+[; <" ODCON3 equ 0F27h ;# ">
+"1514
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 1514: __asm("ODCON2 equ 0F28h");
+[; <" ODCON2 equ 0F28h ;# ">
+"1576
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 1576: __asm("ODCON1 equ 0F29h");
+[; <" ODCON1 equ 0F29h ;# ">
+"1615
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 1615: __asm("REFOCON equ 0F2Ah");
+[; <" REFOCON equ 0F2Ah ;# ">
+"1680
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 1680: __asm("CCPTMRS2 equ 0F2Bh");
+[; <" CCPTMRS2 equ 0F2Bh ;# ">
+"1727
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 1727: __asm("CCPTMRS1 equ 0F2Ch");
+[; <" CCPTMRS1 equ 0F2Ch ;# ">
+"1794
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 1794: __asm("CCPTMRS0 equ 0F2Dh");
+[; <" CCPTMRS0 equ 0F2Dh ;# ">
+"1876
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 1876: __asm("CM3CON equ 0F2Eh");
+[; <" CM3CON equ 0F2Eh ;# ">
+"1881
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 1881: __asm("CM3CON1 equ 0F2Eh");
+[; <" CM3CON1 equ 0F2Eh ;# ">
+"2128
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 2128: __asm("CM2CON equ 0F2Fh");
+[; <" CM2CON equ 0F2Fh ;# ">
+"2133
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 2133: __asm("CM2CON1 equ 0F2Fh");
+[; <" CM2CON1 equ 0F2Fh ;# ">
+"2380
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 2380: __asm("T12CON equ 0F30h");
+[; <" T12CON equ 0F30h ;# ">
+"2451
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 2451: __asm("PR12 equ 0F31h");
+[; <" PR12 equ 0F31h ;# ">
+"2471
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 2471: __asm("TMR12 equ 0F32h");
+[; <" TMR12 equ 0F32h ;# ">
+"2491
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 2491: __asm("T10CON equ 0F33h");
+[; <" T10CON equ 0F33h ;# ">
+"2562
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 2562: __asm("PR10 equ 0F34h");
+[; <" PR10 equ 0F34h ;# ">
+"2582
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 2582: __asm("TMR10 equ 0F35h");
+[; <" TMR10 equ 0F35h ;# ">
+"2602
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 2602: __asm("T8CON equ 0F36h");
+[; <" T8CON equ 0F36h ;# ">
+"2673
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 2673: __asm("PR8 equ 0F37h");
+[; <" PR8 equ 0F37h ;# ">
+"2693
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 2693: __asm("TMR8 equ 0F38h");
+[; <" TMR8 equ 0F38h ;# ">
+"2713
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 2713: __asm("T6CON equ 0F39h");
+[; <" T6CON equ 0F39h ;# ">
+"2784
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 2784: __asm("PR6 equ 0F3Ah");
+[; <" PR6 equ 0F3Ah ;# ">
+"2804
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 2804: __asm("TMR6 equ 0F3Bh");
+[; <" TMR6 equ 0F3Bh ;# ">
+"2824
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 2824: __asm("T7GCON equ 0F3Ch");
+[; <" T7GCON equ 0F3Ch ;# ">
+"2928
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 2928: __asm("T7CON equ 0F3Dh");
+[; <" T7CON equ 0F3Dh ;# ">
+"3030
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3030: __asm("TMR7 equ 0F3Eh");
+[; <" TMR7 equ 0F3Eh ;# ">
+"3037
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3037: __asm("TMR7L equ 0F3Eh");
+[; <" TMR7L equ 0F3Eh ;# ">
+"3107
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3107: __asm("TMR7H equ 0F3Fh");
+[; <" TMR7H equ 0F3Fh ;# ">
+"3127
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3127: __asm("CCP10CON equ 0F40h");
+[; <" CCP10CON equ 0F40h ;# ">
+"3206
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3206: __asm("CCPR10 equ 0F41h");
+[; <" CCPR10 equ 0F41h ;# ">
+"3213
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3213: __asm("CCPR10L equ 0F41h");
+[; <" CCPR10L equ 0F41h ;# ">
+"3233
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3233: __asm("CCPR10H equ 0F42h");
+[; <" CCPR10H equ 0F42h ;# ">
+"3253
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3253: __asm("CCP9CON equ 0F43h");
+[; <" CCP9CON equ 0F43h ;# ">
+"3332
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3332: __asm("CCPR9 equ 0F44h");
+[; <" CCPR9 equ 0F44h ;# ">
+"3339
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3339: __asm("CCPR9L equ 0F44h");
+[; <" CCPR9L equ 0F44h ;# ">
+"3359
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3359: __asm("CCPR9H equ 0F45h");
+[; <" CCPR9H equ 0F45h ;# ">
+"3379
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3379: __asm("CCP8CON equ 0F46h");
+[; <" CCP8CON equ 0F46h ;# ">
+"3458
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3458: __asm("CCPR8 equ 0F47h");
+[; <" CCPR8 equ 0F47h ;# ">
+"3465
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3465: __asm("CCPR8L equ 0F47h");
+[; <" CCPR8L equ 0F47h ;# ">
+"3485
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3485: __asm("CCPR8H equ 0F48h");
+[; <" CCPR8H equ 0F48h ;# ">
+"3505
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3505: __asm("CCP3CON equ 0F49h");
+[; <" CCP3CON equ 0F49h ;# ">
+"3587
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3587: __asm("CCPR3 equ 0F4Ah");
+[; <" CCPR3 equ 0F4Ah ;# ">
+"3594
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3594: __asm("CCPR3L equ 0F4Ah");
+[; <" CCPR3L equ 0F4Ah ;# ">
+"3614
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3614: __asm("CCPR3H equ 0F4Bh");
+[; <" CCPR3H equ 0F4Bh ;# ">
+"3634
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3634: __asm("ECCP3DEL equ 0F4Ch");
+[; <" ECCP3DEL equ 0F4Ch ;# ">
+"3704
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3704: __asm("ECCP3AS equ 0F4Dh");
+[; <" ECCP3AS equ 0F4Dh ;# ">
+"3786
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3786: __asm("CCP2CON equ 0F4Eh");
+[; <" CCP2CON equ 0F4Eh ;# ">
+"3791
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3791: __asm("ECCP2CON equ 0F4Eh");
+[; <" ECCP2CON equ 0F4Eh ;# ">
+"3978
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3978: __asm("CCPR2 equ 0F4Fh");
+[; <" CCPR2 equ 0F4Fh ;# ">
+"3985
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3985: __asm("CCPR2L equ 0F4Fh");
+[; <" CCPR2L equ 0F4Fh ;# ">
+"4005
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4005: __asm("CCPR2H equ 0F50h");
+[; <" CCPR2H equ 0F50h ;# ">
+"4025
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4025: __asm("ECCP2DEL equ 0F51h");
+[; <" ECCP2DEL equ 0F51h ;# ">
+"4030
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4030: __asm("PWM2CON equ 0F51h");
+[; <" PWM2CON equ 0F51h ;# ">
+"4163
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4163: __asm("ECCP2AS equ 0F52h");
+[; <" ECCP2AS equ 0F52h ;# ">
+"4245
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4245: __asm("PADCFG1 equ 0F53h");
+[; <" PADCFG1 equ 0F53h ;# ">
+"4300
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4300: __asm("CM1CON equ 0F54h");
+[; <" CM1CON equ 0F54h ;# ">
+"4305
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4305: __asm("CM1CON1 equ 0F54h");
+[; <" CM1CON1 equ 0F54h ;# ">
+"4580
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4580: __asm("CTMUICON equ 0F55h");
+[; <" CTMUICON equ 0F55h ;# ">
+"4656
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4656: __asm("CTMUCONL equ 0F56h");
+[; <" CTMUCONL equ 0F56h ;# ">
+"4734
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4734: __asm("CTMUCONH equ 0F57h");
+[; <" CTMUCONH equ 0F57h ;# ">
+"4791
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4791: __asm("ALRMVAL equ 0F58h");
+[; <" ALRMVAL equ 0F58h ;# ">
+"4798
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4798: __asm("ALRMVALL equ 0F58h");
+[; <" ALRMVALL equ 0F58h ;# ">
+"4818
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4818: __asm("ALRMVALH equ 0F59h");
+[; <" ALRMVALH equ 0F59h ;# ">
+"4838
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4838: __asm("ALRMRPT equ 0F5Ah");
+[; <" ALRMRPT equ 0F5Ah ;# ">
+"4908
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4908: __asm("ALRMCFG equ 0F5Bh");
+[; <" ALRMCFG equ 0F5Bh ;# ">
+"4984
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4984: __asm("RTCVAL equ 0F5Ch");
+[; <" RTCVAL equ 0F5Ch ;# ">
+"4991
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4991: __asm("RTCVALL equ 0F5Ch");
+[; <" RTCVALL equ 0F5Ch ;# ">
+"5011
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 5011: __asm("RTCVALH equ 0F5Dh");
+[; <" RTCVALH equ 0F5Dh ;# ">
+"5081
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 5081: __asm("RTCCAL equ 0F5Eh");
+[; <" RTCCAL equ 0F5Eh ;# ">
+"5151
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 5151: __asm("RTCCFG equ 0F5Fh");
+[; <" RTCCFG equ 0F5Fh ;# ">
+"5216
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 5216: __asm("PIE6 equ 0F60h");
+[; <" PIE6 equ 0F60h ;# ">
+"5255
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 5255: __asm("EEDATA equ 0F61h");
+[; <" EEDATA equ 0F61h ;# ">
+"5275
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 5275: __asm("EEADR equ 0F62h");
+[; <" EEADR equ 0F62h ;# ">
+"5295
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 5295: __asm("EEADRH equ 0F63h");
+[; <" EEADRH equ 0F63h ;# ">
+"5315
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 5315: __asm("OSCCON2 equ 0F64h");
+[; <" OSCCON2 equ 0F64h ;# ">
+"5355
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 5355: __asm("BAUDCON1 equ 0F65h");
+[; <" BAUDCON1 equ 0F65h ;# ">
+"5360
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 5360: __asm("BAUDCTL equ 0F65h");
+[; <" BAUDCTL equ 0F65h ;# ">
+"5364
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 5364: __asm("BAUDCON equ 0F65h");
+[; <" BAUDCON equ 0F65h ;# ">
+"5862
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 5862: __asm("SSP2CON2 equ 0F66h");
+[; <" SSP2CON2 equ 0F66h ;# ">
+"6040
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 6040: __asm("SSP2CON1 equ 0F67h");
+[; <" SSP2CON1 equ 0F67h ;# ">
+"6160
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 6160: __asm("SSP2STAT equ 0F68h");
+[; <" SSP2STAT equ 0F68h ;# ">
+"6587
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 6587: __asm("SSP2ADD equ 0F69h");
+[; <" SSP2ADD equ 0F69h ;# ">
+"6657
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 6657: __asm("SSP2MSK equ 0F69h");
+[; <" SSP2MSK equ 0F69h ;# ">
+"6727
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 6727: __asm("SSP2BUF equ 0F6Ah");
+[; <" SSP2BUF equ 0F6Ah ;# ">
+"6747
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 6747: __asm("T4CON equ 0F6Bh");
+[; <" T4CON equ 0F6Bh ;# ">
+"6818
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 6818: __asm("PR4 equ 0F6Ch");
+[; <" PR4 equ 0F6Ch ;# ">
+"6838
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 6838: __asm("TMR4 equ 0F6Dh");
+[; <" TMR4 equ 0F6Dh ;# ">
+"6858
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 6858: __asm("CCP7CON equ 0F6Eh");
+[; <" CCP7CON equ 0F6Eh ;# ">
+"6937
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 6937: __asm("CCPR7 equ 0F6Fh");
+[; <" CCPR7 equ 0F6Fh ;# ">
+"6944
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 6944: __asm("CCPR7L equ 0F6Fh");
+[; <" CCPR7L equ 0F6Fh ;# ">
+"6964
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 6964: __asm("CCPR7H equ 0F70h");
+[; <" CCPR7H equ 0F70h ;# ">
+"6984
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 6984: __asm("CCP6CON equ 0F71h");
+[; <" CCP6CON equ 0F71h ;# ">
+"7063
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7063: __asm("CCPR6 equ 0F72h");
+[; <" CCPR6 equ 0F72h ;# ">
+"7070
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7070: __asm("CCPR6L equ 0F72h");
+[; <" CCPR6L equ 0F72h ;# ">
+"7090
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7090: __asm("CCPR6H equ 0F73h");
+[; <" CCPR6H equ 0F73h ;# ">
+"7110
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7110: __asm("CCP5CON equ 0F74h");
+[; <" CCP5CON equ 0F74h ;# ">
+"7189
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7189: __asm("CCPR5 equ 0F75h");
+[; <" CCPR5 equ 0F75h ;# ">
+"7196
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7196: __asm("CCPR5L equ 0F75h");
+[; <" CCPR5L equ 0F75h ;# ">
+"7216
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7216: __asm("CCPR5H equ 0F76h");
+[; <" CCPR5H equ 0F76h ;# ">
+"7236
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7236: __asm("CCP4CON equ 0F77h");
+[; <" CCP4CON equ 0F77h ;# ">
+"7315
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7315: __asm("CCPR4 equ 0F78h");
+[; <" CCPR4 equ 0F78h ;# ">
+"7322
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7322: __asm("CCPR4L equ 0F78h");
+[; <" CCPR4L equ 0F78h ;# ">
+"7342
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7342: __asm("CCPR4H equ 0F79h");
+[; <" CCPR4H equ 0F79h ;# ">
+"7362
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7362: __asm("T5GCON equ 0F7Ah");
+[; <" T5GCON equ 0F7Ah ;# ">
+"7466
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7466: __asm("T5CON equ 0F7Bh");
+[; <" T5CON equ 0F7Bh ;# ">
+"7568
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7568: __asm("TMR5 equ 0F7Ch");
+[; <" TMR5 equ 0F7Ch ;# ">
+"7575
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7575: __asm("TMR5L equ 0F7Ch");
+[; <" TMR5L equ 0F7Ch ;# ">
+"7595
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7595: __asm("TMR5H equ 0F7Dh");
+[; <" TMR5H equ 0F7Dh ;# ">
+"7615
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7615: __asm("EECON2 equ 0F7Eh");
+[; <" EECON2 equ 0F7Eh ;# ">
+"7635
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7635: __asm("EECON1 equ 0F7Fh");
+[; <" EECON1 equ 0F7Fh ;# ">
+"7701
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7701: __asm("PORTA equ 0F80h");
+[; <" PORTA equ 0F80h ;# ">
+"7893
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7893: __asm("PORTB equ 0F81h");
+[; <" PORTB equ 0F81h ;# ">
+"8079
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 8079: __asm("PORTC equ 0F82h");
+[; <" PORTC equ 0F82h ;# ">
+"8261
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 8261: __asm("PORTD equ 0F83h");
+[; <" PORTD equ 0F83h ;# ">
+"8502
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 8502: __asm("PORTE equ 0F84h");
+[; <" PORTE equ 0F84h ;# ">
+"8855
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 8855: __asm("PORTF equ 0F85h");
+[; <" PORTF equ 0F85h ;# ">
+"9040
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 9040: __asm("PORTG equ 0F86h");
+[; <" PORTG equ 0F86h ;# ">
+"9251
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 9251: __asm("PORTH equ 0F87h");
+[; <" PORTH equ 0F87h ;# ">
+"9461
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 9461: __asm("PORTJ equ 0F88h");
+[; <" PORTJ equ 0F88h ;# ">
+"9573
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 9573: __asm("LATA equ 0F89h");
+[; <" LATA equ 0F89h ;# ">
+"9685
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 9685: __asm("LATB equ 0F8Ah");
+[; <" LATB equ 0F8Ah ;# ">
+"9797
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 9797: __asm("LATC equ 0F8Bh");
+[; <" LATC equ 0F8Bh ;# ">
+"9909
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 9909: __asm("LATD equ 0F8Ch");
+[; <" LATD equ 0F8Ch ;# ">
+"10021
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10021: __asm("LATE equ 0F8Dh");
+[; <" LATE equ 0F8Dh ;# ">
+"10133
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10133: __asm("LATF equ 0F8Eh");
+[; <" LATF equ 0F8Eh ;# ">
+"10235
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10235: __asm("LATG equ 0F8Fh");
+[; <" LATG equ 0F8Fh ;# ">
+"10311
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10311: __asm("LATH equ 0F90h");
+[; <" LATH equ 0F90h ;# ">
+"10423
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10423: __asm("LATJ equ 0F91h");
+[; <" LATJ equ 0F91h ;# ">
+"10535
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10535: __asm("TRISA equ 0F92h");
+[; <" TRISA equ 0F92h ;# ">
+"10597
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10597: __asm("TRISB equ 0F93h");
+[; <" TRISB equ 0F93h ;# ">
+"10659
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10659: __asm("TRISC equ 0F94h");
+[; <" TRISC equ 0F94h ;# ">
+"10721
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10721: __asm("TRISD equ 0F95h");
+[; <" TRISD equ 0F95h ;# ">
+"10783
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10783: __asm("TRISE equ 0F96h");
+[; <" TRISE equ 0F96h ;# ">
+"10845
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10845: __asm("TRISF equ 0F97h");
+[; <" TRISF equ 0F97h ;# ">
+"10902
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10902: __asm("TRISG equ 0F98h");
+[; <" TRISG equ 0F98h ;# ">
+"10946
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10946: __asm("TRISH equ 0F99h");
+[; <" TRISH equ 0F99h ;# ">
+"11008
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 11008: __asm("TRISJ equ 0F9Ah");
+[; <" TRISJ equ 0F9Ah ;# ">
+"11070
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 11070: __asm("OSCTUNE equ 0F9Bh");
+[; <" OSCTUNE equ 0F9Bh ;# ">
+"11140
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 11140: __asm("PSTR1CON equ 0F9Ch");
+[; <" PSTR1CON equ 0F9Ch ;# ">
+"11206
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 11206: __asm("PIE1 equ 0F9Dh");
+[; <" PIE1 equ 0F9Dh ;# ">
+"11289
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 11289: __asm("PIR1 equ 0F9Eh");
+[; <" PIR1 equ 0F9Eh ;# ">
+"11372
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 11372: __asm("IPR1 equ 0F9Fh");
+[; <" IPR1 equ 0F9Fh ;# ">
+"11455
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 11455: __asm("PIE2 equ 0FA0h");
+[; <" PIE2 equ 0FA0h ;# ">
+"11527
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 11527: __asm("PIR2 equ 0FA1h");
+[; <" PIR2 equ 0FA1h ;# ">
+"11599
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 11599: __asm("IPR2 equ 0FA2h");
+[; <" IPR2 equ 0FA2h ;# ">
+"11671
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 11671: __asm("PIE3 equ 0FA3h");
+[; <" PIE3 equ 0FA3h ;# ">
+"11776
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 11776: __asm("PIR3 equ 0FA4h");
+[; <" PIR3 equ 0FA4h ;# ">
+"11849
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 11849: __asm("IPR3 equ 0FA5h");
+[; <" IPR3 equ 0FA5h ;# ">
+"11922
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 11922: __asm("PIR6 equ 0FA6h");
+[; <" PIR6 equ 0FA6h ;# ">
+"11961
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 11961: __asm("PSPCON equ 0FA7h");
+[; <" PSPCON equ 0FA7h ;# ">
+"12000
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 12000: __asm("HLVDCON equ 0FA8h");
+[; <" HLVDCON equ 0FA8h ;# ">
+"12070
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 12070: __asm("IPR6 equ 0FA9h");
+[; <" IPR6 equ 0FA9h ;# ">
+"12109
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 12109: __asm("T1GCON equ 0FAAh");
+[; <" T1GCON equ 0FAAh ;# ">
+"12213
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 12213: __asm("RCSTA1 equ 0FABh");
+[; <" RCSTA1 equ 0FABh ;# ">
+"12218
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 12218: __asm("RCSTA equ 0FABh");
+[; <" RCSTA equ 0FABh ;# ">
+"12551
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 12551: __asm("TXSTA1 equ 0FACh");
+[; <" TXSTA1 equ 0FACh ;# ">
+"12556
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 12556: __asm("TXSTA equ 0FACh");
+[; <" TXSTA equ 0FACh ;# ">
+"12839
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 12839: __asm("TXREG1 equ 0FADh");
+[; <" TXREG1 equ 0FADh ;# ">
+"12844
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 12844: __asm("TXREG equ 0FADh");
+[; <" TXREG equ 0FADh ;# ">
+"12877
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 12877: __asm("RCREG1 equ 0FAEh");
+[; <" RCREG1 equ 0FAEh ;# ">
+"12882
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 12882: __asm("RCREG equ 0FAEh");
+[; <" RCREG equ 0FAEh ;# ">
+"12915
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 12915: __asm("SPBRG1 equ 0FAFh");
+[; <" SPBRG1 equ 0FAFh ;# ">
+"12920
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 12920: __asm("SPBRG equ 0FAFh");
+[; <" SPBRG equ 0FAFh ;# ">
+"12953
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 12953: __asm("T3GCON equ 0FB0h");
+[; <" T3GCON equ 0FB0h ;# ">
+"13057
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13057: __asm("T3CON equ 0FB1h");
+[; <" T3CON equ 0FB1h ;# ">
+"13168
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13168: __asm("TMR3 equ 0FB2h");
+[; <" TMR3 equ 0FB2h ;# ">
+"13175
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13175: __asm("TMR3L equ 0FB2h");
+[; <" TMR3L equ 0FB2h ;# ">
+"13195
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13195: __asm("TMR3H equ 0FB3h");
+[; <" TMR3H equ 0FB3h ;# ">
+"13215
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13215: __asm("CMSTAT equ 0FB4h");
+[; <" CMSTAT equ 0FB4h ;# ">
+"13220
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13220: __asm("CMSTATUS equ 0FB4h");
+[; <" CMSTATUS equ 0FB4h ;# ">
+"13321
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13321: __asm("CVRCON equ 0FB5h");
+[; <" CVRCON equ 0FB5h ;# ">
+"13406
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13406: __asm("PIE4 equ 0FB6h");
+[; <" PIE4 equ 0FB6h ;# ">
+"13468
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13468: __asm("PIR4 equ 0FB7h");
+[; <" PIR4 equ 0FB7h ;# ">
+"13530
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13530: __asm("IPR4 equ 0FB8h");
+[; <" IPR4 equ 0FB8h ;# ">
+"13600
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13600: __asm("PIE5 equ 0FB9h");
+[; <" PIE5 equ 0FB9h ;# ">
+"13662
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13662: __asm("PIR5 equ 0FBAh");
+[; <" PIR5 equ 0FBAh ;# ">
+"13724
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13724: __asm("CCP1CON equ 0FBBh");
+[; <" CCP1CON equ 0FBBh ;# ">
+"13729
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13729: __asm("ECCP1CON equ 0FBBh");
+[; <" ECCP1CON equ 0FBBh ;# ">
+"13916
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13916: __asm("CCPR1 equ 0FBCh");
+[; <" CCPR1 equ 0FBCh ;# ">
+"13923
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13923: __asm("CCPR1L equ 0FBCh");
+[; <" CCPR1L equ 0FBCh ;# ">
+"13943
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13943: __asm("CCPR1H equ 0FBDh");
+[; <" CCPR1H equ 0FBDh ;# ">
+"13963
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13963: __asm("ECCP1DEL equ 0FBEh");
+[; <" ECCP1DEL equ 0FBEh ;# ">
+"13968
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13968: __asm("PWM1CON equ 0FBEh");
+[; <" PWM1CON equ 0FBEh ;# ">
+"14101
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 14101: __asm("ECCP1AS equ 0FBFh");
+[; <" ECCP1AS equ 0FBFh ;# ">
+"14183
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 14183: __asm("ADCON2 equ 0FC0h");
+[; <" ADCON2 equ 0FC0h ;# ">
+"14254
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 14254: __asm("ADCON1 equ 0FC1h");
+[; <" ADCON1 equ 0FC1h ;# ">
+"14358
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 14358: __asm("ADCON0 equ 0FC2h");
+[; <" ADCON0 equ 0FC2h ;# ">
+"14483
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 14483: __asm("ADRES equ 0FC3h");
+[; <" ADRES equ 0FC3h ;# ">
+"14490
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 14490: __asm("ADRESL equ 0FC3h");
+[; <" ADRESL equ 0FC3h ;# ">
+"14510
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 14510: __asm("ADRESH equ 0FC4h");
+[; <" ADRESH equ 0FC4h ;# ">
+"14530
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 14530: __asm("SSP1CON2 equ 0FC5h");
+[; <" SSP1CON2 equ 0FC5h ;# ">
+"14535
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 14535: __asm("SSPCON2 equ 0FC5h");
+[; <" SSPCON2 equ 0FC5h ;# ">
+"14884
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 14884: __asm("SSP1CON1 equ 0FC6h");
+[; <" SSP1CON1 equ 0FC6h ;# ">
+"14889
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 14889: __asm("SSPCON1 equ 0FC6h");
+[; <" SSPCON1 equ 0FC6h ;# ">
+"15122
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 15122: __asm("SSP1STAT equ 0FC7h");
+[; <" SSP1STAT equ 0FC7h ;# ">
+"15127
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 15127: __asm("SSPSTAT equ 0FC7h");
+[; <" SSPSTAT equ 0FC7h ;# ">
+"15720
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 15720: __asm("SSP1ADD equ 0FC8h");
+[; <" SSP1ADD equ 0FC8h ;# ">
+"15725
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 15725: __asm("SSPADD equ 0FC8h");
+[; <" SSPADD equ 0FC8h ;# ">
+"15958
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 15958: __asm("SSP1MSK equ 0FC8h");
+[; <" SSP1MSK equ 0FC8h ;# ">
+"16028
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16028: __asm("SSP1BUF equ 0FC9h");
+[; <" SSP1BUF equ 0FC9h ;# ">
+"16033
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16033: __asm("SSPBUF equ 0FC9h");
+[; <" SSPBUF equ 0FC9h ;# ">
+"16066
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16066: __asm("T2CON equ 0FCAh");
+[; <" T2CON equ 0FCAh ;# ">
+"16137
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16137: __asm("PR2 equ 0FCBh");
+[; <" PR2 equ 0FCBh ;# ">
+"16157
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16157: __asm("TMR2 equ 0FCCh");
+[; <" TMR2 equ 0FCCh ;# ">
+"16177
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16177: __asm("T1CON equ 0FCDh");
+[; <" T1CON equ 0FCDh ;# ">
+"16279
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16279: __asm("TMR1 equ 0FCEh");
+[; <" TMR1 equ 0FCEh ;# ">
+"16286
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16286: __asm("TMR1L equ 0FCEh");
+[; <" TMR1L equ 0FCEh ;# ">
+"16306
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16306: __asm("TMR1H equ 0FCFh");
+[; <" TMR1H equ 0FCFh ;# ">
+"16326
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16326: __asm("RCON equ 0FD0h");
+[; <" RCON equ 0FD0h ;# ">
+"16479
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16479: __asm("WDTCON equ 0FD1h");
+[; <" WDTCON equ 0FD1h ;# ">
+"16539
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16539: __asm("IPR5 equ 0FD2h");
+[; <" IPR5 equ 0FD2h ;# ">
+"16628
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16628: __asm("OSCCON equ 0FD3h");
+[; <" OSCCON equ 0FD3h ;# ">
+"16705
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16705: __asm("SPBRGH1 equ 0FD4h");
+[; <" SPBRGH1 equ 0FD4h ;# ">
+"16725
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16725: __asm("T0CON equ 0FD5h");
+[; <" T0CON equ 0FD5h ;# ">
+"16795
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16795: __asm("TMR0 equ 0FD6h");
+[; <" TMR0 equ 0FD6h ;# ">
+"16802
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16802: __asm("TMR0L equ 0FD6h");
+[; <" TMR0L equ 0FD6h ;# ">
+"16822
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16822: __asm("TMR0H equ 0FD7h");
+[; <" TMR0H equ 0FD7h ;# ">
+"16842
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16842: __asm("STATUS equ 0FD8h");
+[; <" STATUS equ 0FD8h ;# ">
+"16913
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16913: __asm("FSR2 equ 0FD9h");
+[; <" FSR2 equ 0FD9h ;# ">
+"16920
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16920: __asm("FSR2L equ 0FD9h");
+[; <" FSR2L equ 0FD9h ;# ">
+"16940
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16940: __asm("FSR2H equ 0FDAh");
+[; <" FSR2H equ 0FDAh ;# ">
+"16947
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16947: __asm("PLUSW2 equ 0FDBh");
+[; <" PLUSW2 equ 0FDBh ;# ">
+"16967
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16967: __asm("PREINC2 equ 0FDCh");
+[; <" PREINC2 equ 0FDCh ;# ">
+"16987
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16987: __asm("POSTDEC2 equ 0FDDh");
+[; <" POSTDEC2 equ 0FDDh ;# ">
+"17007
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17007: __asm("POSTINC2 equ 0FDEh");
+[; <" POSTINC2 equ 0FDEh ;# ">
+"17027
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17027: __asm("INDF2 equ 0FDFh");
+[; <" INDF2 equ 0FDFh ;# ">
+"17047
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17047: __asm("BSR equ 0FE0h");
+[; <" BSR equ 0FE0h ;# ">
+"17054
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17054: __asm("FSR1 equ 0FE1h");
+[; <" FSR1 equ 0FE1h ;# ">
+"17061
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17061: __asm("FSR1L equ 0FE1h");
+[; <" FSR1L equ 0FE1h ;# ">
+"17081
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17081: __asm("FSR1H equ 0FE2h");
+[; <" FSR1H equ 0FE2h ;# ">
+"17088
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17088: __asm("PLUSW1 equ 0FE3h");
+[; <" PLUSW1 equ 0FE3h ;# ">
+"17108
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17108: __asm("PREINC1 equ 0FE4h");
+[; <" PREINC1 equ 0FE4h ;# ">
+"17128
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17128: __asm("POSTDEC1 equ 0FE5h");
+[; <" POSTDEC1 equ 0FE5h ;# ">
+"17148
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17148: __asm("POSTINC1 equ 0FE6h");
+[; <" POSTINC1 equ 0FE6h ;# ">
+"17168
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17168: __asm("INDF1 equ 0FE7h");
+[; <" INDF1 equ 0FE7h ;# ">
+"17188
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17188: __asm("WREG equ 0FE8h");
+[; <" WREG equ 0FE8h ;# ">
+"17208
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17208: __asm("FSR0 equ 0FE9h");
+[; <" FSR0 equ 0FE9h ;# ">
+"17215
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17215: __asm("FSR0L equ 0FE9h");
+[; <" FSR0L equ 0FE9h ;# ">
+"17235
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17235: __asm("FSR0H equ 0FEAh");
+[; <" FSR0H equ 0FEAh ;# ">
+"17242
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17242: __asm("PLUSW0 equ 0FEBh");
+[; <" PLUSW0 equ 0FEBh ;# ">
+"17262
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17262: __asm("PREINC0 equ 0FECh");
+[; <" PREINC0 equ 0FECh ;# ">
+"17282
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17282: __asm("POSTDEC0 equ 0FEDh");
+[; <" POSTDEC0 equ 0FEDh ;# ">
+"17302
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17302: __asm("POSTINC0 equ 0FEEh");
+[; <" POSTINC0 equ 0FEEh ;# ">
+"17322
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17322: __asm("INDF0 equ 0FEFh");
+[; <" INDF0 equ 0FEFh ;# ">
+"17342
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17342: __asm("INTCON3 equ 0FF0h");
+[; <" INTCON3 equ 0FF0h ;# ">
+"17454
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17454: __asm("INTCON2 equ 0FF1h");
+[; <" INTCON2 equ 0FF1h ;# ">
+"17547
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17547: __asm("INTCON equ 0FF2h");
+[; <" INTCON equ 0FF2h ;# ">
+"17664
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17664: __asm("PROD equ 0FF3h");
+[; <" PROD equ 0FF3h ;# ">
+"17671
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17671: __asm("PRODL equ 0FF3h");
+[; <" PRODL equ 0FF3h ;# ">
+"17691
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17691: __asm("PRODH equ 0FF4h");
+[; <" PRODH equ 0FF4h ;# ">
+"17711
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17711: __asm("TABLAT equ 0FF5h");
+[; <" TABLAT equ 0FF5h ;# ">
+"17733
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17733: __asm("TBLPTR equ 0FF6h");
+[; <" TBLPTR equ 0FF6h ;# ">
+"17740
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17740: __asm("TBLPTRL equ 0FF6h");
+[; <" TBLPTRL equ 0FF6h ;# ">
+"17760
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17760: __asm("TBLPTRH equ 0FF7h");
+[; <" TBLPTRH equ 0FF7h ;# ">
+"17780
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17780: __asm("TBLPTRU equ 0FF8h");
+[; <" TBLPTRU equ 0FF8h ;# ">
+"17789
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17789: __asm("PCLAT equ 0FF9h");
+[; <" PCLAT equ 0FF9h ;# ">
+"17796
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17796: __asm("PC equ 0FF9h");
+[; <" PC equ 0FF9h ;# ">
+"17803
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17803: __asm("PCL equ 0FF9h");
+[; <" PCL equ 0FF9h ;# ">
+"17823
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17823: __asm("PCLATH equ 0FFAh");
+[; <" PCLATH equ 0FFAh ;# ">
+"17843
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17843: __asm("PCLATU equ 0FFBh");
+[; <" PCLATU equ 0FFBh ;# ">
+"17850
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17850: __asm("STKPTR equ 0FFCh");
+[; <" STKPTR equ 0FFCh ;# ">
+"17924
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17924: __asm("TOS equ 0FFDh");
+[; <" TOS equ 0FFDh ;# ">
+"17931
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17931: __asm("TOSL equ 0FFDh");
+[; <" TOSL equ 0FFDh ;# ">
+"17951
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17951: __asm("TOSH equ 0FFEh");
+[; <" TOSH equ 0FFEh ;# ">
+"17971
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17971: __asm("TOSU equ 0FFFh");
+[; <" TOSU equ 0FFFh ;# ">
+"5 BME280.c
+[; ;BME280.c: 5: void BME280_Reset(void){
+[v _BME280_Reset `(v ~T0 @X0 1 ef ]
+{
+[e :U _BME280_Reset ]
+[f ]
+"6
+[; ;BME280.c: 6:     BME280_Write1ByteRegister(0xE0, 0xB6);;
+[e ( _BME280_Write1ByteRegister (2 , -> -> 224 `i `uc -> -> 182 `i `uc ]
+"7
+[; ;BME280.c: 7: }
+[e :UE 837 ]
+}
+"14
+[; ;BME280.c: 14: uint8_t BME280_Read1ByteRegister(uint8_t reg_addr){
+[v _BME280_Read1ByteRegister `(uc ~T0 @X0 1 ef1`uc ]
+{
+[e :U _BME280_Read1ByteRegister ]
+[v _reg_addr `uc ~T0 @X0 1 r1 ]
+[f ]
+"15
+[; ;BME280.c: 15:     uint8_t buffer = I2C1_Read1ByteRegister(0x76, reg_addr);
+[v _buffer `uc ~T0 @X0 1 a ]
+[e = _buffer ( _I2C1_Read1ByteRegister (2 , -> -> 118 `i `uc _reg_addr ]
+"16
+[; ;BME280.c: 16:     return buffer;
+[e ) _buffer ]
+[e $UE 838  ]
+"17
+[; ;BME280.c: 17: }
+[e :UE 838 ]
+}
+"25
+[; ;BME280.c: 25: uint16_t BME280_Read2ByteRegister(uint8_t reg_addr){
+[v _BME280_Read2ByteRegister `(us ~T0 @X0 1 ef1`uc ]
+{
+[e :U _BME280_Read2ByteRegister ]
+[v _reg_addr `uc ~T0 @X0 1 r1 ]
+[f ]
+"26
+[; ;BME280.c: 26:     uint16_t buffer = I2C1_Read2ByteRegister(0x76, reg_addr);
+[v _buffer `us ~T0 @X0 1 a ]
+[e = _buffer ( _I2C1_Read2ByteRegister (2 , -> -> 118 `i `uc _reg_addr ]
+"27
+[; ;BME280.c: 27:     return buffer;
+[e ) _buffer ]
+[e $UE 839  ]
+"28
+[; ;BME280.c: 28: }
+[e :UE 839 ]
+}
+"35
+[; ;BME280.c: 35: void BME280_Write1ByteRegister(uint8_t reg_addr, uint8_t data_tw){
+[v _BME280_Write1ByteRegister `(v ~T0 @X0 1 ef2`uc`uc ]
+{
+[e :U _BME280_Write1ByteRegister ]
+[v _reg_addr `uc ~T0 @X0 1 r1 ]
+[v _data_tw `uc ~T0 @X0 1 r2 ]
+[f ]
+"36
+[; ;BME280.c: 36:     I2C1_Write1ByteRegister(0x76, reg_addr, data_tw);
+[e ( _I2C1_Write1ByteRegister (3 , , -> -> 118 `i `uc _reg_addr _data_tw ]
+"37
+[; ;BME280.c: 37: }
+[e :UE 840 ]
+}
+"44
+[; ;BME280.c: 44: void BME280_Write2ByteRegister(uint8_t reg_addr, uint16_t data_tw){
+[v _BME280_Write2ByteRegister `(v ~T0 @X0 1 ef2`uc`us ]
+{
+[e :U _BME280_Write2ByteRegister ]
+[v _reg_addr `uc ~T0 @X0 1 r1 ]
+[v _data_tw `us ~T0 @X0 1 r2 ]
+[f ]
+"45
+[; ;BME280.c: 45:     I2C1_Write2ByteRegister(0x76, reg_addr, data_tw);
+[e ( _I2C1_Write2ByteRegister (3 , , -> -> 118 `i `uc _reg_addr _data_tw ]
+"46
+[; ;BME280.c: 46: }
+[e :UE 841 ]
+}
+"56
+[; ;BME280.c: 56: void BME280_ReadnReplace(uint8_t reg_addr, uint8_t value){
+[v _BME280_ReadnReplace `(v ~T0 @X0 1 ef2`uc`uc ]
+{
+[e :U _BME280_ReadnReplace ]
+[v _reg_addr `uc ~T0 @X0 1 r1 ]
+[v _value `uc ~T0 @X0 1 r2 ]
+[f ]
+"57
+[; ;BME280.c: 57:     uint8_t buffer = BME280_Read1ByteRegister(reg_addr);
+[v _buffer `uc ~T0 @X0 1 a ]
+[e = _buffer ( _BME280_Read1ByteRegister (1 _reg_addr ]
+"58
+[; ;BME280.c: 58:     uint8_t new_reg = (buffer | value);
+[v _new_reg `uc ~T0 @X0 1 a ]
+[e = _new_reg -> | -> _buffer `i -> _value `i `uc ]
+"59
+[; ;BME280.c: 59:     BME280_Write1ByteRegister(reg_addr, new_reg);
+[e ( _BME280_Write1ByteRegister (2 , _reg_addr _new_reg ]
+"60
+[; ;BME280.c: 60: }
+[e :UE 842 ]
+}
+"64
+[; ;BME280.c: 64: void BME280_Init(){
+[v _BME280_Init `(v ~T0 @X0 1 ef ]
+{
+[e :U _BME280_Init ]
+[f ]
+"65
+[; ;BME280.c: 65:     BME280_Config(0x01,
+[e ( _BME280_Config (4 , , , , , -> -> 1 `i `uc -> -> 1 `i `uc -> -> 1 `i `uc -> -> 0 `i `uc -> -> 4 `i `uc -> -> 36 `i `uc ]
+"71
+[; ;BME280.c: 71: }
+[e :UE 843 ]
+}
+"79
+[; ;BME280.c: 79: void BME280_set_mode(uint8_t BME280_MODE){
+[v _BME280_set_mode `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _BME280_set_mode ]
+[v _BME280_MODE `uc ~T0 @X0 1 r1 ]
+[f ]
+"80
+[; ;BME280.c: 80:     uint8_t ctrl_meas_reg = BME280_Read1ByteRegister((0xF4));
+[v _ctrl_meas_reg `uc ~T0 @X0 1 a ]
+[e = _ctrl_meas_reg ( _BME280_Read1ByteRegister (1 -> -> 244 `i `uc ]
+"81
+[; ;BME280.c: 81:     ctrl_meas_reg = ctrl_meas_reg | BME280_MODE;
+[e = _ctrl_meas_reg -> | -> _ctrl_meas_reg `i -> _BME280_MODE `i `uc ]
+"82
+[; ;BME280.c: 82:     BME280_Write1ByteRegister((0xF4), ctrl_meas_reg);
+[e ( _BME280_Write1ByteRegister (2 , -> -> 244 `i `uc _ctrl_meas_reg ]
+"83
+[; ;BME280.c: 83: }
+[e :UE 844 ]
+}
+"86
+[; ;BME280.c: 86: void BME280_change_settings(uint8_t reg, uint8_t setting_mask, uint8_t new_setting){
+[v _BME280_change_settings `(v ~T0 @X0 1 ef3`uc`uc`uc ]
+{
+[e :U _BME280_change_settings ]
+[v _reg `uc ~T0 @X0 1 r1 ]
+[v _setting_mask `uc ~T0 @X0 1 r2 ]
+[v _new_setting `uc ~T0 @X0 1 r3 ]
+[f ]
+"87
+[; ;BME280.c: 87:     uint8_t reg_val = BME280_Read1ByteRegister(reg);
+[v _reg_val `uc ~T0 @X0 1 a ]
+[e = _reg_val ( _BME280_Read1ByteRegister (1 _reg ]
+"88
+[; ;BME280.c: 88:     reg_val = (reg_val & ~setting_mask) | new_setting;
+[e = _reg_val -> | & -> _reg_val `i ~ -> _setting_mask `i -> _new_setting `i `uc ]
+"89
+[; ;BME280.c: 89:     BME280_Write1ByteRegister(reg, reg_val);
+[e ( _BME280_Write1ByteRegister (2 , _reg _reg_val ]
+"90
+[; ;BME280.c: 90: }
+[e :UE 845 ]
+}
+"95
+[; ;BME280.c: 95: static void bme280_read_settings_reg(bme280_settings_reg* settings){
+[v _bme280_read_settings_reg `(v ~T0 @X0 1 sf1`*S830 ]
+{
+[e :U _bme280_read_settings_reg ]
+[v _settings `*S830 ~T0 @X0 1 r1 ]
+[f ]
+"96
+[; ;BME280.c: 96:     uint8_t register_buffer[4];
+[v _register_buffer `uc ~T0 @X0 -> 4 `i a ]
+"97
+[; ;BME280.c: 97:     I2C1_ReadDataBlock(0x76, (0xF2), register_buffer, 4);
+[e ( _I2C1_ReadDataBlock (4 , , , -> -> 118 `i `uc -> -> 242 `i `uc &U _register_buffer -> -> 4 `i `ui ]
+"99
+[; ;BME280.c: 99:     settings->ctrl_hum_reg= register_buffer[0];
+[e = . *U _settings 2 *U + &U _register_buffer * -> -> -> 0 `i `ui `ux -> -> # *U &U _register_buffer `ui `ux ]
+"100
+[; ;BME280.c: 100:     settings->ctrl_meas_reg = register_buffer[2];
+[e = . *U _settings 0 *U + &U _register_buffer * -> -> -> 2 `i `ui `ux -> -> # *U &U _register_buffer `ui `ux ]
+"101
+[; ;BME280.c: 101:     settings->config_reg= register_buffer[3];
+[e = . *U _settings 1 *U + &U _register_buffer * -> -> -> 3 `i `ui `ux -> -> # *U &U _register_buffer `ui `ux ]
+"102
+[; ;BME280.c: 102: }
+[e :UE 846 ]
+}
+"104
+[; ;BME280.c: 104: void _bme280_get_settings(bme280_num_settings *settings){
+[v __bme280_get_settings `(v ~T0 @X0 1 ef1`*S831 ]
+{
+[e :U __bme280_get_settings ]
+[v _settings `*S831 ~T0 @X0 1 r1 ]
+[f ]
+"105
+[; ;BME280.c: 105:     bme280_settings_reg reg_settings;
+[v _reg_settings `S830 ~T0 @X0 1 a ]
+"106
+[; ;BME280.c: 106:     bme280_read_settings_reg(&reg_settings);
+[e ( _bme280_read_settings_reg (1 &U _reg_settings ]
+"108
+[; ;BME280.c: 108:     settings-> mode = reg_settings.ctrl_meas_reg | 0x03;
+[e = . *U _settings 2 -> | -> . _reg_settings 0 `i -> 3 `i `uc ]
+"109
+[; ;BME280.c: 109:     settings-> osrs_p = ((reg_settings.ctrl_meas_reg | 0x1C) << 3) >> 6;
+[e = . *U _settings 1 -> >> << | -> . _reg_settings 0 `i -> 28 `i -> 3 `i -> 6 `i `uc ]
+"110
+[; ;BME280.c: 110:     settings-> osrs_t = (reg_settings.ctrl_meas_reg | 0xE0) >> 6;
+[e = . *U _settings 0 -> >> | -> . _reg_settings 0 `i -> 224 `i -> 6 `i `uc ]
+"112
+[; ;BME280.c: 112:     settings-> osrs_h = reg_settings.ctrl_hum_reg | 0x07;
+[e = . *U _settings 3 -> | -> . _reg_settings 2 `i -> 7 `i `uc ]
+"114
+[; ;BME280.c: 114:     settings-> spi3w_en = reg_settings.config_reg | 0x01;
+[e = . *U _settings 6 -> | -> . _reg_settings 1 `i -> 1 `i `uc ]
+"115
+[; ;BME280.c: 115:     settings-> filter = ((reg_settings.config_reg | 0x1C) << 3) >> 6;
+[e = . *U _settings 5 -> >> << | -> . _reg_settings 1 `i -> 28 `i -> 3 `i -> 6 `i `uc ]
+"116
+[; ;BME280.c: 116:     settings-> standby_time = (reg_settings.config_reg | 0xE0) >> 6;
+[e = . *U _settings 4 -> >> | -> . _reg_settings 1 `i -> 224 `i -> 6 `i `uc ]
+"117
+[; ;BME280.c: 117: }
+[e :UE 847 ]
+}
+"119
+[; ;BME280.c: 119: static void parse_temp_press_calib_data(bme280_calib_data *calib_data){
+[v _parse_temp_press_calib_data `(v ~T0 @X0 1 sf1`*S836 ]
+{
+[e :U _parse_temp_press_calib_data ]
+[v _calib_data `*S836 ~T0 @X0 1 r1 ]
+[f ]
+"120
+[; ;BME280.c: 120:     uint8_t reg_data[26];
+[v _reg_data `uc ~T0 @X0 -> 26 `i a ]
+"122
+[; ;BME280.c: 122:     I2C1_ReadDataBlock(0x76, 0x88, reg_data, 26);
+[e ( _I2C1_ReadDataBlock (4 , , , -> -> 118 `i `uc -> -> 136 `i `uc &U _reg_data -> -> 26 `i `ui ]
+"124
+[; ;BME280.c: 124:     calib_data->dig_t1 = (((uint16_t)reg_data[1] << 8) | (uint16_t)reg_data[0]);
+[e = . *U _calib_data 0 -> | << -> -> *U + &U _reg_data * -> -> -> 1 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `us `ui -> 8 `i -> -> *U + &U _reg_data * -> -> -> 0 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `us `ui `us ]
+"125
+[; ;BME280.c: 125:     calib_data->dig_t2 = (int16_t)(((uint16_t)reg_data[3] << 8) | (uint16_t)reg_data[2]);
+[e = . *U _calib_data 1 -> | << -> -> *U + &U _reg_data * -> -> -> 3 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `us `ui -> 8 `i -> -> *U + &U _reg_data * -> -> -> 2 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `us `ui `s ]
+"126
+[; ;BME280.c: 126:     calib_data->dig_t3 = (int16_t)(((uint16_t)reg_data[5] << 8) | (uint16_t)reg_data[4]);
+[e = . *U _calib_data 2 -> | << -> -> *U + &U _reg_data * -> -> -> 5 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `us `ui -> 8 `i -> -> *U + &U _reg_data * -> -> -> 4 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `us `ui `s ]
+"128
+[; ;BME280.c: 128:     calib_data->dig_p1 = (((uint16_t)reg_data[7] << 8) | (uint16_t)reg_data[6]);
+[e = . *U _calib_data 3 -> | << -> -> *U + &U _reg_data * -> -> -> 7 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `us `ui -> 8 `i -> -> *U + &U _reg_data * -> -> -> 6 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `us `ui `us ]
+"129
+[; ;BME280.c: 129:     calib_data->dig_p2 = (int16_t)(((uint16_t)reg_data[9] << 8) | (uint16_t)reg_data[8]);
+[e = . *U _calib_data 4 -> | << -> -> *U + &U _reg_data * -> -> -> 9 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `us `ui -> 8 `i -> -> *U + &U _reg_data * -> -> -> 8 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `us `ui `s ]
+"130
+[; ;BME280.c: 130:     calib_data->dig_p3 = (int16_t)(((uint16_t)reg_data[11] << 8) | (uint16_t)reg_data[10]);
+[e = . *U _calib_data 5 -> | << -> -> *U + &U _reg_data * -> -> -> 11 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `us `ui -> 8 `i -> -> *U + &U _reg_data * -> -> -> 10 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `us `ui `s ]
+"131
+[; ;BME280.c: 131:     calib_data->dig_p4 = (int16_t)(((uint16_t)reg_data[13] << 8) | (uint16_t)reg_data[12]);
+[e = . *U _calib_data 6 -> | << -> -> *U + &U _reg_data * -> -> -> 13 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `us `ui -> 8 `i -> -> *U + &U _reg_data * -> -> -> 12 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `us `ui `s ]
+"132
+[; ;BME280.c: 132:     calib_data->dig_p5 = (int16_t)(((uint16_t)reg_data[15] << 8) | (uint16_t)reg_data[14]);
+[e = . *U _calib_data 7 -> | << -> -> *U + &U _reg_data * -> -> -> 15 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `us `ui -> 8 `i -> -> *U + &U _reg_data * -> -> -> 14 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `us `ui `s ]
+"133
+[; ;BME280.c: 133:     calib_data->dig_p6 = (int16_t)(((uint16_t)reg_data[17] << 8) | (uint16_t)reg_data[16]);
+[e = . *U _calib_data 8 -> | << -> -> *U + &U _reg_data * -> -> -> 17 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `us `ui -> 8 `i -> -> *U + &U _reg_data * -> -> -> 16 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `us `ui `s ]
+"134
+[; ;BME280.c: 134:     calib_data->dig_p7 = (int16_t)(((uint16_t)reg_data[19] << 8) | (uint16_t)reg_data[18]);
+[e = . *U _calib_data 9 -> | << -> -> *U + &U _reg_data * -> -> -> 19 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `us `ui -> 8 `i -> -> *U + &U _reg_data * -> -> -> 18 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `us `ui `s ]
+"135
+[; ;BME280.c: 135:     calib_data->dig_p8 = (int16_t)(((uint16_t)reg_data[21] << 8) | (uint16_t)reg_data[20]);
+[e = . *U _calib_data 10 -> | << -> -> *U + &U _reg_data * -> -> -> 21 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `us `ui -> 8 `i -> -> *U + &U _reg_data * -> -> -> 20 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `us `ui `s ]
+"136
+[; ;BME280.c: 136:     calib_data->dig_p9 = (int16_t)(((uint16_t)reg_data[23] << 8) | (uint16_t)reg_data[22]);
+[e = . *U _calib_data 11 -> | << -> -> *U + &U _reg_data * -> -> -> 23 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `us `ui -> 8 `i -> -> *U + &U _reg_data * -> -> -> 22 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `us `ui `s ]
+"137
+[; ;BME280.c: 137:     calib_data->dig_h1 = reg_data[25];
+[e = . *U _calib_data 12 *U + &U _reg_data * -> -> -> 25 `i `ui `ux -> -> # *U &U _reg_data `ui `ux ]
+"138
+[; ;BME280.c: 138: }
+[e :UE 848 ]
+}
+"140
+[; ;BME280.c: 140: static void parse_humidity_calib_data(bme280_calib_data *calib_data){
+[v _parse_humidity_calib_data `(v ~T0 @X0 1 sf1`*S836 ]
+{
+[e :U _parse_humidity_calib_data ]
+[v _calib_data `*S836 ~T0 @X0 1 r1 ]
+[f ]
+"141
+[; ;BME280.c: 141:     uint8_t reg_data[7];
+[v _reg_data `uc ~T0 @X0 -> 7 `i a ]
+"142
+[; ;BME280.c: 142:     int16_t dig_h4_lsb;
+[v _dig_h4_lsb `s ~T0 @X0 1 a ]
+"143
+[; ;BME280.c: 143:     int16_t dig_h4_msb;
+[v _dig_h4_msb `s ~T0 @X0 1 a ]
+"144
+[; ;BME280.c: 144:     int16_t dig_h5_lsb;
+[v _dig_h5_lsb `s ~T0 @X0 1 a ]
+"145
+[; ;BME280.c: 145:     int16_t dig_h5_msb;
+[v _dig_h5_msb `s ~T0 @X0 1 a ]
+"146
+[; ;BME280.c: 146:     I2C1_ReadDataBlock(0x76, 0xE1, reg_data, 7);
+[e ( _I2C1_ReadDataBlock (4 , , , -> -> 118 `i `uc -> -> 225 `i `uc &U _reg_data -> -> 7 `i `ui ]
+"148
+[; ;BME280.c: 148:     calib_data->dig_h2 = (int16_t)(((uint16_t)reg_data[1] << 8) | (uint16_t)reg_data[0]);
+[e = . *U _calib_data 13 -> | << -> -> *U + &U _reg_data * -> -> -> 1 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `us `ui -> 8 `i -> -> *U + &U _reg_data * -> -> -> 0 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `us `ui `s ]
+"149
+[; ;BME280.c: 149:     calib_data->dig_h3 = reg_data[2];
+[e = . *U _calib_data 14 *U + &U _reg_data * -> -> -> 2 `i `ui `ux -> -> # *U &U _reg_data `ui `ux ]
+"150
+[; ;BME280.c: 150:     dig_h4_msb = (int16_t)(int8_t)reg_data[3] * 16;
+[e = _dig_h4_msb -> * -> -> -> *U + &U _reg_data * -> -> -> 3 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `c `s `i -> 16 `i `s ]
+"151
+[; ;BME280.c: 151:     dig_h4_lsb = (int16_t)(reg_data[4] & 0x0F);
+[e = _dig_h4_lsb -> & -> *U + &U _reg_data * -> -> -> 4 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `i -> 15 `i `s ]
+"152
+[; ;BME280.c: 152:     calib_data->dig_h4 = dig_h4_msb | dig_h4_lsb;
+[e = . *U _calib_data 15 -> | -> _dig_h4_msb `i -> _dig_h4_lsb `i `s ]
+"153
+[; ;BME280.c: 153:     dig_h5_msb = (int16_t)(int8_t)reg_data[5] * 16;
+[e = _dig_h5_msb -> * -> -> -> *U + &U _reg_data * -> -> -> 5 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `c `s `i -> 16 `i `s ]
+"154
+[; ;BME280.c: 154:     dig_h5_lsb = (int16_t)(reg_data[4] >> 4);
+[e = _dig_h5_lsb -> >> -> *U + &U _reg_data * -> -> -> 4 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `i -> 4 `i `s ]
+"155
+[; ;BME280.c: 155:     calib_data->dig_h5 = dig_h5_msb | dig_h5_lsb;
+[e = . *U _calib_data 16 -> | -> _dig_h5_msb `i -> _dig_h5_lsb `i `s ]
+"156
+[; ;BME280.c: 156:     calib_data->dig_h6 = (int8_t)reg_data[6];
+[e = . *U _calib_data 17 -> *U + &U _reg_data * -> -> -> 6 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `c ]
+"157
+[; ;BME280.c: 157: }
+[e :UE 849 ]
+}
+"159
+[; ;BME280.c: 159: void BME280_readFactoryCalibration(bme280_calib_data *calib_data){
+[v _BME280_readFactoryCalibration `(v ~T0 @X0 1 ef1`*S836 ]
+{
+[e :U _BME280_readFactoryCalibration ]
+[v _calib_data `*S836 ~T0 @X0 1 r1 ]
+[f ]
+"160
+[; ;BME280.c: 160:     parse_temp_press_calib_data(calib_data);
+[e ( _parse_temp_press_calib_data (1 _calib_data ]
+"161
+[; ;BME280.c: 161:     parse_humidity_calib_data(calib_data);
+[e ( _parse_humidity_calib_data (1 _calib_data ]
+"162
+[; ;BME280.c: 162: }
+[e :UE 850 ]
+}
+"165
+[; ;BME280.c: 165: static uint8_t reverseBitsByte(uint8_t byte) {
+[v _reverseBitsByte `(uc ~T0 @X0 1 sf1`uc ]
+{
+[e :U _reverseBitsByte ]
+[v _byte `uc ~T0 @X0 1 r1 ]
+[f ]
+"166
+[; ;BME280.c: 166:     uint8_t reversed_byte=0;
+[v _reversed_byte `uc ~T0 @X0 1 a ]
+[e = _reversed_byte -> -> 0 `i `uc ]
+"167
+[; ;BME280.c: 167:     for(int position=7; position>0; position--){
+{
+[v _position `i ~T0 @X0 1 a ]
+[e = _position -> 7 `i ]
+[e $ > _position -> 0 `i 852  ]
+[e $U 853  ]
+[e :U 852 ]
+{
+"168
+[; ;BME280.c: 168:       reversed_byte += ((byte & 1) << position);
+[e =+ _reversed_byte -> << & -> _byte `i -> 1 `i _position `uc ]
+"169
+[; ;BME280.c: 169:       byte >>= 1;
+[e =>> _byte -> -> 1 `i `uc ]
+"170
+[; ;BME280.c: 170:     }
+}
+[e -- _position -> 1 `i ]
+[e $ > _position -> 0 `i 852  ]
+[e :U 853 ]
+}
+"171
+[; ;BME280.c: 171:     return reversed_byte;
+[e ) _reversed_byte ]
+[e $UE 851  ]
+"172
+[; ;BME280.c: 172: }
+[e :UE 851 ]
+}
+"175
+[; ;BME280.c: 175: void BME280_read_measurement(bme280_uncomp_data *uncomp_data){
+[v _BME280_read_measurement `(v ~T0 @X0 1 ef1`*S833 ]
+{
+[e :U _BME280_read_measurement ]
+[v _uncomp_data `*S833 ~T0 @X0 1 r1 ]
+[f ]
+"176
+[; ;BME280.c: 176:     uint32_t data_xlsb;
+[v _data_xlsb `ul ~T0 @X0 1 a ]
+"177
+[; ;BME280.c: 177:     uint32_t data_lsb;
+[v _data_lsb `ul ~T0 @X0 1 a ]
+"178
+[; ;BME280.c: 178:     uint32_t data_msb;
+[v _data_msb `ul ~T0 @X0 1 a ]
+"180
+[; ;BME280.c: 180:     uint8_t reg_data[8];
+[v _reg_data `uc ~T0 @X0 -> 8 `i a ]
+"182
+[; ;BME280.c: 182:     I2C1_ReadDataBlock(0x76, (0xF7), reg_data, 8);
+[e ( _I2C1_ReadDataBlock (4 , , , -> -> 118 `i `uc -> -> 247 `i `uc &U _reg_data -> -> 8 `i `ui ]
+"185
+[; ;BME280.c: 185:     data_msb = (uint32_t)reg_data[0] << 12;
+[e = _data_msb << -> *U + &U _reg_data * -> -> -> 0 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `ul -> 12 `i ]
+"186
+[; ;BME280.c: 186:     data_lsb = (uint32_t)reg_data[1] << 4;
+[e = _data_lsb << -> *U + &U _reg_data * -> -> -> 1 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `ul -> 4 `i ]
+"187
+[; ;BME280.c: 187:     data_xlsb = (uint32_t)reg_data[2] >> 4;
+[e = _data_xlsb >> -> *U + &U _reg_data * -> -> -> 2 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `ul -> 4 `i ]
+"188
+[; ;BME280.c: 188:     uncomp_data->pressure = data_msb | data_lsb | data_xlsb;
+[e = . *U _uncomp_data 0 | | _data_msb _data_lsb _data_xlsb ]
+"191
+[; ;BME280.c: 191:     data_msb = (uint32_t)reg_data[3] << 12;
+[e = _data_msb << -> *U + &U _reg_data * -> -> -> 3 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `ul -> 12 `i ]
+"192
+[; ;BME280.c: 192:     data_lsb = (uint32_t)reg_data[4] << 4;
+[e = _data_lsb << -> *U + &U _reg_data * -> -> -> 4 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `ul -> 4 `i ]
+"193
+[; ;BME280.c: 193:     data_xlsb = (uint32_t)reg_data[5] >> 4;
+[e = _data_xlsb >> -> *U + &U _reg_data * -> -> -> 5 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `ul -> 4 `i ]
+"194
+[; ;BME280.c: 194:     uncomp_data->temperature = data_msb | data_lsb | data_xlsb;
+[e = . *U _uncomp_data 1 | | _data_msb _data_lsb _data_xlsb ]
+"197
+[; ;BME280.c: 197:     data_msb = (uint32_t)reg_data[6] << 8;
+[e = _data_msb << -> *U + &U _reg_data * -> -> -> 6 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `ul -> 8 `i ]
+"198
+[; ;BME280.c: 198:     data_lsb = (uint32_t)reg_data[7];
+[e = _data_lsb -> *U + &U _reg_data * -> -> -> 7 `i `ui `ux -> -> # *U &U _reg_data `ui `ux `ul ]
+"199
+[; ;BME280.c: 199:     uncomp_data->humidity = data_msb | data_lsb;
+[e = . *U _uncomp_data 2 | _data_msb _data_lsb ]
+"200
+[; ;BME280.c: 200: }
+[e :UE 855 ]
+}
+"203
+[; ;BME280.c: 203: void BME280_WakeUp_FM(void){
+[v _BME280_WakeUp_FM `(v ~T0 @X0 1 ef ]
+{
+[e :U _BME280_WakeUp_FM ]
+[f ]
+"204
+[; ;BME280.c: 204:     uint8_t reg_val = BME280_Read1ByteRegister((0xF4));
+[v _reg_val `uc ~T0 @X0 1 a ]
+[e = _reg_val ( _BME280_Read1ByteRegister (1 -> -> 244 `i `uc ]
+"205
+[; ;BME280.c: 205:     reg_val = reg_val | 0x01;
+[e = _reg_val -> | -> _reg_val `i -> 1 `i `uc ]
+"206
+[; ;BME280.c: 206:     BME280_Write1ByteRegister((0xF4), reg_val);
+[e ( _BME280_Write1ByteRegister (2 , -> -> 244 `i `uc _reg_val ]
+"207
+[; ;BME280.c: 207: }
+[e :UE 856 ]
+}
+"210
+[; ;BME280.c: 210: static BME280_S32_t BME280_compensate_T_int32(bme280_uncomp_data *adc_T, bme280_calib_data *calib_data){
+[v _BME280_compensate_T_int32 `(l ~T0 @X0 1 sf2`*S833`*S836 ]
+{
+[e :U _BME280_compensate_T_int32 ]
+[v _adc_T `*S833 ~T0 @X0 1 r1 ]
+[v _calib_data `*S836 ~T0 @X0 1 r2 ]
+[f ]
+"211
+[; ;BME280.c: 211:     BME280_S32_t var1, var2, T;
+[v _var1 `l ~T0 @X0 1 a ]
+[v _var2 `l ~T0 @X0 1 a ]
+[v _T `l ~T0 @X0 1 a ]
+"212
+[; ;BME280.c: 212:     var1 = ((((adc_T->temperature >> 3) - ((BME280_S32_t)calib_data->dig_t1 << 1))) * ((BME280_S32_t)calib_data->dig_t2)) >> 11;
+[e = _var1 -> >> * - >> . *U _adc_T 1 -> 3 `i -> << -> . *U _calib_data 0 `l -> 1 `i `ul -> -> . *U _calib_data 1 `l `ul -> 11 `i `l ]
+"213
+[; ;BME280.c: 213:     var2 = (((((adc_T->temperature >> 4) - ((BME280_S32_t)calib_data->dig_t1)) * ((adc_T->temperature>>4) - ((BME280_S32_t)calib_data->dig_t1)))
+[e = _var2 -> >> * >> * - >> . *U _adc_T 1 -> 4 `i -> -> . *U _calib_data 0 `l `ul - >> . *U _adc_T 1 -> 4 `i -> -> . *U _calib_data 0 `l `ul -> 12 `i -> -> . *U _calib_data 2 `l `ul -> 14 `i `l ]
+"216
+[; ;BME280.c: 216:     calib_data->t_fine = var1 + var2;
+[e = . *U _calib_data 18 + _var1 _var2 ]
+"217
+[; ;BME280.c: 217:     T = (calib_data->t_fine * 5 + 128) >> 8;
+[e = _T >> + * . *U _calib_data 18 -> -> 5 `i `l -> -> 128 `i `l -> 8 `i ]
+"218
+[; ;BME280.c: 218:     return T;
+[e ) _T ]
+[e $UE 857  ]
+"219
+[; ;BME280.c: 219: }
+[e :UE 857 ]
+}
+"223
+[; ;BME280.c: 223: static BME280_U32_t BME280_compensate_P_int32(bme280_uncomp_data *adc_P, bme280_calib_data *calib_data){
+[v _BME280_compensate_P_int32 `(ul ~T0 @X0 1 sf2`*S833`*S836 ]
+{
+[e :U _BME280_compensate_P_int32 ]
+[v _adc_P `*S833 ~T0 @X0 1 r1 ]
+[v _calib_data `*S836 ~T0 @X0 1 r2 ]
+[f ]
+"224
+[; ;BME280.c: 224:     BME280_S32_t var1, var2;
+[v _var1 `l ~T0 @X0 1 a ]
+[v _var2 `l ~T0 @X0 1 a ]
+"225
+[; ;BME280.c: 225:     BME280_U32_t p;
+[v _p `ul ~T0 @X0 1 a ]
+"227
+[; ;BME280.c: 227:     var1 = (((BME280_S32_t)calib_data->t_fine) >> 1) - (BME280_S32_t)64000;
+[e = _var1 - >> . *U _calib_data 18 -> 1 `i -> 64000 `l ]
+"228
+[; ;BME280.c: 228:     var2 = (((var1 >> 2) * (var1>>2)) >> 11 ) * ((BME280_S32_t)calib_data->dig_p6);
+[e = _var2 * >> * >> _var1 -> 2 `i >> _var1 -> 2 `i -> 11 `i -> . *U _calib_data 8 `l ]
+"229
+[; ;BME280.c: 229:     var2 = var2 + ((var1*((BME280_S32_t)calib_data->dig_p5))<<1);
+[e = _var2 + _var2 << * _var1 -> . *U _calib_data 7 `l -> 1 `i ]
+"230
+[; ;BME280.c: 230:     var2 = (var2 >> 2) + (((BME280_S32_t)calib_data->dig_p4) << 16);
+[e = _var2 + >> _var2 -> 2 `i << -> . *U _calib_data 6 `l -> 16 `i ]
+"231
+[; ;BME280.c: 231:     var1 = (((calib_data-> dig_p3 * (((var1 >> 2) * (var1 >> 2)) >> 13 )) >> 3) + ((((BME280_S32_t)calib_data->dig_p2) *
+[e = _var1 >> + >> * -> . *U _calib_data 5 `l >> * >> _var1 -> 2 `i >> _var1 -> 2 `i -> 13 `i -> 3 `i >> * -> . *U _calib_data 4 `l _var1 -> 1 `i -> 18 `i ]
+"233
+[; ;BME280.c: 233:     var1 =((((32768 + var1)) * ((BME280_S32_t)calib_data->dig_p1)) >> 15);
+[e = _var1 >> * + -> 32768 `l _var1 -> . *U _calib_data 3 `l -> 15 `i ]
+"235
+[; ;BME280.c: 235:     if (var1 == 0){
+[e $ ! == _var1 -> -> 0 `i `l 859  ]
+{
+"236
+[; ;BME280.c: 236:     return 0;
+[e ) -> -> -> 0 `i `l `ul ]
+[e $UE 858  ]
+"237
+[; ;BME280.c: 237:     }
+}
+[e :U 859 ]
+"239
+[; ;BME280.c: 239:     p = (((BME280_U32_t)(((BME280_S32_t)1048576) - adc_P->pressure) - (var2 >> 12)) )* 3125;
+[e = _p * - - -> -> 1048576 `l `ul . *U _adc_P 0 -> >> _var2 -> 12 `i `ul -> -> -> 3125 `i `l `ul ]
+"240
+[; ;BME280.c: 240:     if (p < 0x80000000){
+[e $ ! < _p -> 2147483648 `ul 860  ]
+{
+"241
+[; ;BME280.c: 241:     p = (p << 1) / ((BME280_U32_t)var1);}
+[e = _p / << _p -> 1 `i -> _var1 `ul ]
+}
+[e $U 861  ]
+"242
+[; ;BME280.c: 242:     else{
+[e :U 860 ]
+{
+"243
+[; ;BME280.c: 243:     p = (p / (BME280_U32_t)var1) * 2;
+[e = _p * / _p -> _var1 `ul -> -> -> 2 `i `l `ul ]
+"244
+[; ;BME280.c: 244:     }
+}
+[e :U 861 ]
+"246
+[; ;BME280.c: 246:     var1 = (((BME280_S32_t)calib_data->dig_p9) * ((BME280_S32_t)(((p >> 3) * (p >> 3)) >> 13))) >> 12;
+[e = _var1 >> * -> . *U _calib_data 11 `l -> >> * >> _p -> 3 `i >> _p -> 3 `i -> 13 `i `l -> 12 `i ]
+"247
+[; ;BME280.c: 247:     var2 = (((BME280_S32_t)(p >> 2)) * ((BME280_S32_t)calib_data->dig_p8)) >> 13;
+[e = _var2 >> * -> >> _p -> 2 `i `l -> . *U _calib_data 10 `l -> 13 `i ]
+"248
+[; ;BME280.c: 248:     p = (BME280_U32_t)((BME280_S32_t)p + ((var1 + var2 + calib_data->dig_p7) >> 4));
+[e = _p -> + -> _p `l >> + + _var1 _var2 -> . *U _calib_data 9 `l -> 4 `i `ul ]
+"249
+[; ;BME280.c: 249:     return p;
+[e ) _p ]
+[e $UE 858  ]
+"250
+[; ;BME280.c: 250: }
+[e :UE 858 ]
+}
+"255
+[; ;BME280.c: 255: static BME280_U32_t BME280_compensate_H_int32(bme280_uncomp_data *adc_H, bme280_calib_data *calib_data){
+[v _BME280_compensate_H_int32 `(ul ~T0 @X0 1 sf2`*S833`*S836 ]
+{
+[e :U _BME280_compensate_H_int32 ]
+[v _adc_H `*S833 ~T0 @X0 1 r1 ]
+[v _calib_data `*S836 ~T0 @X0 1 r2 ]
+[f ]
+"256
+[; ;BME280.c: 256:     BME280_S32_t v_x1_u32r;
+[v _v_x1_u32r `l ~T0 @X0 1 a ]
+"258
+[; ;BME280.c: 258:     v_x1_u32r = (calib_data->t_fine - ((BME280_S32_t)76800));
+[e = _v_x1_u32r - . *U _calib_data 18 -> 76800 `l ]
+"259
+[; ;BME280.c: 259:     v_x1_u32r = (((((adc_H->humidity << 14) - (((BME280_S32_t)calib_data->dig_h4) << 20) - (((BME280_S32_t)calib_data->dig_h5) *
+[e = _v_x1_u32r -> * >> + - - << . *U _adc_H 2 -> 14 `i -> << -> . *U _calib_data 15 `l -> 20 `i `ul -> * -> . *U _calib_data 16 `l _v_x1_u32r `ul -> -> -> 16384 `i `l `ul -> 15 `i -> >> + * + >> * >> * _v_x1_u32r -> . *U _calib_data 17 `l -> 10 `i + >> * _v_x1_u32r -> . *U _calib_data 14 `l -> 11 `i -> 32768 `l -> 10 `i -> 2097152 `l -> . *U _calib_data 13 `l -> -> 8192 `i `l -> 14 `i `ul `l ]
+"265
+[; ;BME280.c: 265:     v_x1_u32r = (v_x1_u32r - (((((v_x1_u32r >> 15) * (v_x1_u32r >> 15)) >> 7) *
+[e = _v_x1_u32r - _v_x1_u32r >> * >> * >> _v_x1_u32r -> 15 `i >> _v_x1_u32r -> 15 `i -> 7 `i -> . *U _calib_data 12 `l -> 4 `i ]
+"267
+[; ;BME280.c: 267:     v_x1_u32r = (v_x1_u32r < 0 ? 0 : v_x1_u32r);
+[e = _v_x1_u32r ? < _v_x1_u32r -> -> 0 `i `l : -> -> 0 `i `l _v_x1_u32r ]
+"268
+[; ;BME280.c: 268:     v_x1_u32r = (v_x1_u32r > 419430400 ? 419430400 : v_x1_u32r);
+[e = _v_x1_u32r ? > _v_x1_u32r -> 419430400 `l : -> 419430400 `l _v_x1_u32r ]
+"270
+[; ;BME280.c: 270:     return (BME280_U32_t)(v_x1_u32r >> 12);
+[e ) -> >> _v_x1_u32r -> 12 `i `ul ]
+[e $UE 862  ]
+"271
+[; ;BME280.c: 271: }
+[e :UE 862 ]
+}
+"274
+[; ;BME280.c: 274: static int32_t compensate_temperature(bme280_uncomp_data *uncomp_data,
+[v _compensate_temperature `(l ~T0 @X0 1 sf2`*S833`*S836 ]
+"276
+[; ;BME280.c: 276: {
+{
+[e :U _compensate_temperature ]
+"274
+[; ;BME280.c: 274: static int32_t compensate_temperature(bme280_uncomp_data *uncomp_data,
+[v _uncomp_data `*S833 ~T0 @X0 1 r1 ]
+"275
+[; ;BME280.c: 275:                                       bme280_calib_data *calib_data)
+[v _calib_data `*S836 ~T0 @X0 1 r2 ]
+"276
+[; ;BME280.c: 276: {
+[f ]
+"277
+[; ;BME280.c: 277:     int32_t var1;
+[v _var1 `l ~T0 @X0 1 a ]
+"278
+[; ;BME280.c: 278:     int32_t var2;
+[v _var2 `l ~T0 @X0 1 a ]
+"279
+[; ;BME280.c: 279:     int32_t temperature;
+[v _temperature `l ~T0 @X0 1 a ]
+"280
+[; ;BME280.c: 280:     int32_t temperature_min = -4000;
+[v _temperature_min `l ~T0 @X0 1 a ]
+[e = _temperature_min -> -U -> 4000 `i `l ]
+"281
+[; ;BME280.c: 281:     int32_t temperature_max = 8500;
+[v _temperature_max `l ~T0 @X0 1 a ]
+[e = _temperature_max -> -> 8500 `i `l ]
+"283
+[; ;BME280.c: 283:     var1 = (int32_t)((uncomp_data->temperature / 8) - ((int32_t)calib_data->dig_t1 * 2));
+[e = _var1 -> - / . *U _uncomp_data 1 -> -> -> 8 `i `l `ul -> * -> . *U _calib_data 0 `l -> -> 2 `i `l `ul `l ]
+"284
+[; ;BME280.c: 284:     var1 = (var1 * ((int32_t)calib_data->dig_t2)) / 2048;
+[e = _var1 / * _var1 -> . *U _calib_data 1 `l -> -> 2048 `i `l ]
+"285
+[; ;BME280.c: 285:     var2 = (int32_t)((uncomp_data->temperature / 16) - ((int32_t)calib_data->dig_t1));
+[e = _var2 -> - / . *U _uncomp_data 1 -> -> -> 16 `i `l `ul -> -> . *U _calib_data 0 `l `ul `l ]
+"286
+[; ;BME280.c: 286:     var2 = (((var2 * var2) / 4096) * ((int32_t)calib_data->dig_t3)) / 16384;
+[e = _var2 / * / * _var2 _var2 -> -> 4096 `i `l -> . *U _calib_data 2 `l -> -> 16384 `i `l ]
+"287
+[; ;BME280.c: 287:     calib_data->t_fine = var1 + var2;
+[e = . *U _calib_data 18 + _var1 _var2 ]
+"288
+[; ;BME280.c: 288:     temperature = (calib_data->t_fine * 5 + 128) / 256;
+[e = _temperature / + * . *U _calib_data 18 -> -> 5 `i `l -> -> 128 `i `l -> -> 256 `i `l ]
+"290
+[; ;BME280.c: 290:     if (temperature < temperature_min)
+[e $ ! < _temperature _temperature_min 864  ]
+"291
+[; ;BME280.c: 291:     {
+{
+"292
+[; ;BME280.c: 292:         temperature = temperature_min;
+[e = _temperature _temperature_min ]
+"293
+[; ;BME280.c: 293:     }
+}
+[e $U 865  ]
+"294
+[; ;BME280.c: 294:     else if (temperature > temperature_max)
+[e :U 864 ]
+[e $ ! > _temperature _temperature_max 866  ]
+"295
+[; ;BME280.c: 295:     {
+{
+"296
+[; ;BME280.c: 296:         temperature = temperature_max;
+[e = _temperature _temperature_max ]
+"297
+[; ;BME280.c: 297:     }
+}
+[e :U 866 ]
+[e :U 865 ]
+"299
+[; ;BME280.c: 299:     return temperature;
+[e ) _temperature ]
+[e $UE 863  ]
+"300
+[; ;BME280.c: 300: }
+[e :UE 863 ]
+}
+"301
+[; ;BME280.c: 301: static uint32_t compensate_pressure(bme280_uncomp_data *uncomp_data,
+[v _compensate_pressure `(ul ~T0 @X0 1 sf2`*S833`*S836 ]
+"303
+[; ;BME280.c: 303: {
+{
+[e :U _compensate_pressure ]
+"301
+[; ;BME280.c: 301: static uint32_t compensate_pressure(bme280_uncomp_data *uncomp_data,
+[v _uncomp_data `*S833 ~T0 @X0 1 r1 ]
+"302
+[; ;BME280.c: 302:                                     bme280_calib_data *calib_data)
+[v _calib_data `*S836 ~T0 @X0 1 r2 ]
+"303
+[; ;BME280.c: 303: {
+[f ]
+"304
+[; ;BME280.c: 304:     int32_t var1;
+[v _var1 `l ~T0 @X0 1 a ]
+"305
+[; ;BME280.c: 305:     int32_t var2;
+[v _var2 `l ~T0 @X0 1 a ]
+"306
+[; ;BME280.c: 306:     int32_t var3;
+[v _var3 `l ~T0 @X0 1 a ]
+"307
+[; ;BME280.c: 307:     int32_t var4;
+[v _var4 `l ~T0 @X0 1 a ]
+"308
+[; ;BME280.c: 308:     uint32_t var5;
+[v _var5 `ul ~T0 @X0 1 a ]
+"309
+[; ;BME280.c: 309:     uint32_t pressure;
+[v _pressure `ul ~T0 @X0 1 a ]
+"310
+[; ;BME280.c: 310:     uint32_t pressure_min = 30000;
+[v _pressure_min `ul ~T0 @X0 1 a ]
+[e = _pressure_min -> -> -> 30000 `i `l `ul ]
+"311
+[; ;BME280.c: 311:     uint32_t pressure_max = 110000;
+[v _pressure_max `ul ~T0 @X0 1 a ]
+[e = _pressure_max -> -> 110000 `l `ul ]
+"313
+[; ;BME280.c: 313:     var1 = (((int32_t)calib_data->t_fine) / 2) - (int32_t)64000;
+[e = _var1 - / . *U _calib_data 18 -> -> 2 `i `l -> 64000 `l ]
+"314
+[; ;BME280.c: 314:     var2 = (((var1 / 4) * (var1 / 4)) / 2048) * ((int32_t)calib_data->dig_p6);
+[e = _var2 * / * / _var1 -> -> 4 `i `l / _var1 -> -> 4 `i `l -> -> 2048 `i `l -> . *U _calib_data 8 `l ]
+"315
+[; ;BME280.c: 315:     var2 = var2 + ((var1 * ((int32_t)calib_data->dig_p5)) * 2);
+[e = _var2 + _var2 * * _var1 -> . *U _calib_data 7 `l -> -> 2 `i `l ]
+"316
+[; ;BME280.c: 316:     var2 = (var2 / 4) + (((int32_t)calib_data->dig_p4) * 65536);
+[e = _var2 + / _var2 -> -> 4 `i `l * -> . *U _calib_data 6 `l -> 65536 `l ]
+"317
+[; ;BME280.c: 317:     var3 = (calib_data->dig_p3 * (((var1 / 4) * (var1 / 4)) / 8192)) / 8;
+[e = _var3 / * -> . *U _calib_data 5 `l / * / _var1 -> -> 4 `i `l / _var1 -> -> 4 `i `l -> -> 8192 `i `l -> -> 8 `i `l ]
+"318
+[; ;BME280.c: 318:     var4 = (((int32_t)calib_data->dig_p2) * var1) / 2;
+[e = _var4 / * -> . *U _calib_data 4 `l _var1 -> -> 2 `i `l ]
+"319
+[; ;BME280.c: 319:     var1 = (var3 + var4) / 262144;
+[e = _var1 / + _var3 _var4 -> 262144 `l ]
+"320
+[; ;BME280.c: 320:     var1 = (((32768 + var1)) * ((int32_t)calib_data->dig_p1)) / 32768;
+[e = _var1 / * + -> 32768 `l _var1 -> . *U _calib_data 3 `l -> 32768 `l ]
+"323
+[; ;BME280.c: 323:     if (var1)
+[e $ ! != _var1 -> -> 0 `i `l 868  ]
+"324
+[; ;BME280.c: 324:     {
+{
+"325
+[; ;BME280.c: 325:         var5 = (uint32_t)((uint32_t)1048576) - uncomp_data->pressure;
+[e = _var5 - -> -> 1048576 `l `ul . *U _uncomp_data 0 ]
+"326
+[; ;BME280.c: 326:         pressure = ((uint32_t)(var5 - (uint32_t)(var2 / 4096))) * 3125;
+[e = _pressure * - _var5 -> / _var2 -> -> 4096 `i `l `ul -> -> -> 3125 `i `l `ul ]
+"328
+[; ;BME280.c: 328:         if (pressure < 0x80000000)
+[e $ ! < _pressure -> 2147483648 `ul 869  ]
+"329
+[; ;BME280.c: 329:         {
+{
+"330
+[; ;BME280.c: 330:             pressure = (pressure << 1) / ((uint32_t)var1);
+[e = _pressure / << _pressure -> 1 `i -> _var1 `ul ]
+"331
+[; ;BME280.c: 331:         }
+}
+[e $U 870  ]
+"332
+[; ;BME280.c: 332:         else
+[e :U 869 ]
+"333
+[; ;BME280.c: 333:         {
+{
+"334
+[; ;BME280.c: 334:             pressure = (pressure / (uint32_t)var1) * 2;
+[e = _pressure * / _pressure -> _var1 `ul -> -> -> 2 `i `l `ul ]
+"335
+[; ;BME280.c: 335:         }
+}
+[e :U 870 ]
+"337
+[; ;BME280.c: 337:         var1 = (((int32_t)calib_data->dig_p9) * ((int32_t)(((pressure / 8) * (pressure / 8)) / 8192))) / 4096;
+[e = _var1 / * -> . *U _calib_data 11 `l -> / * / _pressure -> -> -> 8 `i `l `ul / _pressure -> -> -> 8 `i `l `ul -> -> -> 8192 `i `l `ul `l -> -> 4096 `i `l ]
+"338
+[; ;BME280.c: 338:         var2 = (((int32_t)(pressure / 4)) * ((int32_t)calib_data->dig_p8)) / 8192;
+[e = _var2 / * -> / _pressure -> -> -> 4 `i `l `ul `l -> . *U _calib_data 10 `l -> -> 8192 `i `l ]
+"339
+[; ;BME280.c: 339:         pressure = (uint32_t)((int32_t)pressure + ((var1 + var2 + calib_data->dig_p7) / 16));
+[e = _pressure -> + -> _pressure `l / + + _var1 _var2 -> . *U _calib_data 9 `l -> -> 16 `i `l `ul ]
+"342
+[; ;BME280.c: 342:         if (pressure < pressure_min)
+[e $ ! < _pressure _pressure_min 871  ]
+"343
+[; ;BME280.c: 343:         {
+{
+"344
+[; ;BME280.c: 344:             pressure = pressure_min;
+[e = _pressure _pressure_min ]
+"345
+[; ;BME280.c: 345:         }
+}
+[e $U 872  ]
+"346
+[; ;BME280.c: 346:         else if (pressure > pressure_max)
+[e :U 871 ]
+[e $ ! > _pressure _pressure_max 873  ]
+"347
+[; ;BME280.c: 347:         {
+{
+"348
+[; ;BME280.c: 348:             pressure = pressure_max;
+[e = _pressure _pressure_max ]
+"349
+[; ;BME280.c: 349:         }
+}
+[e :U 873 ]
+[e :U 872 ]
+"350
+[; ;BME280.c: 350:     }
+}
+[e $U 874  ]
+"351
+[; ;BME280.c: 351:     else
+[e :U 868 ]
+"352
+[; ;BME280.c: 352:     {
+{
+"353
+[; ;BME280.c: 353:         pressure = pressure_min;
+[e = _pressure _pressure_min ]
+"354
+[; ;BME280.c: 354:     }
+}
+[e :U 874 ]
+"356
+[; ;BME280.c: 356:     return pressure;
+[e ) _pressure ]
+[e $UE 867  ]
+"357
+[; ;BME280.c: 357: }
+[e :UE 867 ]
+}
+"358
+[; ;BME280.c: 358: static uint32_t compensate_humidity(bme280_uncomp_data *uncomp_data,
+[v _compensate_humidity `(ul ~T0 @X0 1 sf2`*S833`*S836 ]
+"360
+[; ;BME280.c: 360: {
+{
+[e :U _compensate_humidity ]
+"358
+[; ;BME280.c: 358: static uint32_t compensate_humidity(bme280_uncomp_data *uncomp_data,
+[v _uncomp_data `*S833 ~T0 @X0 1 r1 ]
+"359
+[; ;BME280.c: 359:                                     bme280_calib_data *calib_data)
+[v _calib_data `*S836 ~T0 @X0 1 r2 ]
+"360
+[; ;BME280.c: 360: {
+[f ]
+"361
+[; ;BME280.c: 361:     int32_t var1;
+[v _var1 `l ~T0 @X0 1 a ]
+"362
+[; ;BME280.c: 362:     int32_t var2;
+[v _var2 `l ~T0 @X0 1 a ]
+"363
+[; ;BME280.c: 363:     int32_t var3;
+[v _var3 `l ~T0 @X0 1 a ]
+"364
+[; ;BME280.c: 364:     int32_t var4;
+[v _var4 `l ~T0 @X0 1 a ]
+"365
+[; ;BME280.c: 365:     int32_t var5;
+[v _var5 `l ~T0 @X0 1 a ]
+"366
+[; ;BME280.c: 366:     uint32_t humidity;
+[v _humidity `ul ~T0 @X0 1 a ]
+"367
+[; ;BME280.c: 367:     uint32_t humidity_max = 102400;
+[v _humidity_max `ul ~T0 @X0 1 a ]
+[e = _humidity_max -> -> 102400 `l `ul ]
+"369
+[; ;BME280.c: 369:     var1 = calib_data->t_fine - ((int32_t)76800);
+[e = _var1 - . *U _calib_data 18 -> 76800 `l ]
+"370
+[; ;BME280.c: 370:     var2 = (int32_t)(uncomp_data->humidity * 16384);
+[e = _var2 -> * . *U _uncomp_data 2 -> -> -> 16384 `i `l `ul `l ]
+"371
+[; ;BME280.c: 371:     var3 = (int32_t)(((int32_t)calib_data->dig_h4) * 1048576);
+[e = _var3 * -> . *U _calib_data 15 `l -> 1048576 `l ]
+"372
+[; ;BME280.c: 372:     var4 = ((int32_t)calib_data->dig_h5) * var1;
+[e = _var4 * -> . *U _calib_data 16 `l _var1 ]
+"373
+[; ;BME280.c: 373:     var5 = (((var2 - var3) - var4) + (int32_t)16384) / 32768;
+[e = _var5 / + - - _var2 _var3 _var4 -> -> 16384 `i `l -> 32768 `l ]
+"374
+[; ;BME280.c: 374:     var2 = (var1 * ((int32_t)calib_data->dig_h6)) / 1024;
+[e = _var2 / * _var1 -> . *U _calib_data 17 `l -> -> 1024 `i `l ]
+"375
+[; ;BME280.c: 375:     var3 = (var1 * ((int32_t)calib_data->dig_h3)) / 2048;
+[e = _var3 / * _var1 -> . *U _calib_data 14 `l -> -> 2048 `i `l ]
+"376
+[; ;BME280.c: 376:     var4 = ((var2 * (var3 + (int32_t)32768)) / 1024) + (int32_t)2097152;
+[e = _var4 + / * _var2 + _var3 -> 32768 `l -> -> 1024 `i `l -> 2097152 `l ]
+"377
+[; ;BME280.c: 377:     var2 = ((var4 * ((int32_t)calib_data->dig_h2)) + 8192) / 16384;
+[e = _var2 / + * _var4 -> . *U _calib_data 13 `l -> -> 8192 `i `l -> -> 16384 `i `l ]
+"378
+[; ;BME280.c: 378:     var3 = var5 * var2;
+[e = _var3 * _var5 _var2 ]
+"379
+[; ;BME280.c: 379:     var4 = ((var3 / 32768) * (var3 / 32768)) / 128;
+[e = _var4 / * / _var3 -> 32768 `l / _var3 -> 32768 `l -> -> 128 `i `l ]
+"380
+[; ;BME280.c: 380:     var5 = var3 - ((var4 * ((int32_t)calib_data->dig_h1)) / 16);
+[e = _var5 - _var3 / * _var4 -> . *U _calib_data 12 `l -> -> 16 `i `l ]
+"381
+[; ;BME280.c: 381:     var5 = (var5 < 0 ? 0 : var5);
+[e = _var5 ? < _var5 -> -> 0 `i `l : -> -> 0 `i `l _var5 ]
+"382
+[; ;BME280.c: 382:     var5 = (var5 > 419430400 ? 419430400 : var5);
+[e = _var5 ? > _var5 -> 419430400 `l : -> 419430400 `l _var5 ]
+"383
+[; ;BME280.c: 383:     humidity = (uint32_t)(var5 / 4096);
+[e = _humidity -> / _var5 -> -> 4096 `i `l `ul ]
+"385
+[; ;BME280.c: 385:     if (humidity > humidity_max)
+[e $ ! > _humidity _humidity_max 876  ]
+"386
+[; ;BME280.c: 386:     {
+{
+"387
+[; ;BME280.c: 387:         humidity = humidity_max;
+[e = _humidity _humidity_max ]
+"388
+[; ;BME280.c: 388:     }
+}
+[e :U 876 ]
+"390
+[; ;BME280.c: 390:     return humidity;
+[e ) _humidity ]
+[e $UE 875  ]
+"391
+[; ;BME280.c: 391: }
+[e :UE 875 ]
+}
+"395
+[; ;BME280.c: 395: void BME280_compensate_data(bme280_uncomp_data *uncomp_data,
+[v _BME280_compensate_data `(v ~T0 @X0 1 ef3`*S833`*S834`*S836 ]
+"397
+[; ;BME280.c: 397:                             bme280_calib_data *calib_data){
+{
+[e :U _BME280_compensate_data ]
+"395
+[; ;BME280.c: 395: void BME280_compensate_data(bme280_uncomp_data *uncomp_data,
+[v _uncomp_data `*S833 ~T0 @X0 1 r1 ]
+"396
+[; ;BME280.c: 396:                             bme280_data *comp_data,
+[v _comp_data `*S834 ~T0 @X0 1 r2 ]
+"397
+[; ;BME280.c: 397:                             bme280_calib_data *calib_data){
+[v _calib_data `*S836 ~T0 @X0 1 r3 ]
+[f ]
+"400
+[; ;BME280.c: 400:         comp_data->temperature = compensate_temperature(uncomp_data, calib_data);
+[e = . *U _comp_data 1 -> ( _compensate_temperature (2 , _uncomp_data _calib_data `ul ]
+"403
+[; ;BME280.c: 403:         comp_data->pressure = compensate_pressure(uncomp_data, calib_data);
+[e = . *U _comp_data 0 ( _compensate_pressure (2 , _uncomp_data _calib_data ]
+"406
+[; ;BME280.c: 406:         comp_data->humidity = compensate_humidity(uncomp_data, calib_data);
+[e = . *U _comp_data 2 ( _compensate_humidity (2 , _uncomp_data _calib_data ]
+"407
+[; ;BME280.c: 407: }
+[e :UE 877 ]
+}
+"411
+[; ;BME280.c: 411: void BME280_Config(uint8_t osrs_t, uint8_t osrs_p, uint8_t osrs_h, uint8_t filter, uint8_t t_sb, uint8_t mode){
+[v _BME280_Config `(v ~T0 @X0 1 ef6`uc`uc`uc`uc`uc`uc ]
+{
+[e :U _BME280_Config ]
+[v _osrs_t `uc ~T0 @X0 1 r1 ]
+[v _osrs_p `uc ~T0 @X0 1 r2 ]
+[v _osrs_h `uc ~T0 @X0 1 r3 ]
+[v _filter `uc ~T0 @X0 1 r4 ]
+[v _t_sb `uc ~T0 @X0 1 r5 ]
+[v _mode `uc ~T0 @X0 1 r6 ]
+[f ]
+"412
+[; ;BME280.c: 412:     uint8_t ctrl_meas_reg_tw;
+[v _ctrl_meas_reg_tw `uc ~T0 @X0 1 a ]
+"413
+[; ;BME280.c: 413:     uint8_t config_reg_tw;
+[v _config_reg_tw `uc ~T0 @X0 1 a ]
+"414
+[; ;BME280.c: 414:     uint8_t ctrl_hum_reg_tw;
+[v _ctrl_hum_reg_tw `uc ~T0 @X0 1 a ]
+"416
+[; ;BME280.c: 416:     uint8_t hum_currentValue = BME280_Read1ByteRegister((0xF2));
+[v _hum_currentValue `uc ~T0 @X0 1 a ]
+[e = _hum_currentValue ( _BME280_Read1ByteRegister (1 -> -> 242 `i `uc ]
+"417
+[; ;BME280.c: 417:     uint8_t config_currentValue = BME280_Read1ByteRegister((0xF5));
+[v _config_currentValue `uc ~T0 @X0 1 a ]
+[e = _config_currentValue ( _BME280_Read1ByteRegister (1 -> -> 245 `i `uc ]
+"419
+[; ;BME280.c: 419:     ctrl_meas_reg_tw = ((mode << 6) | (osrs_p << 3) | osrs_t);
+[e = _ctrl_meas_reg_tw -> | | << -> _mode `i -> 6 `i << -> _osrs_p `i -> 3 `i -> _osrs_t `i `uc ]
+"420
+[; ;BME280.c: 420:     ctrl_hum_reg_tw = osrs_h | hum_currentValue;
+[e = _ctrl_hum_reg_tw -> | -> _osrs_h `i -> _hum_currentValue `i `uc ]
+"421
+[; ;BME280.c: 421:     config_reg_tw = ((t_sb << 5) | (filter << 3)) | config_currentValue;
+[e = _config_reg_tw -> | | << -> _t_sb `i -> 5 `i << -> _filter `i -> 3 `i -> _config_currentValue `i `uc ]
+"424
+[; ;BME280.c: 424:     BME280_Reset();
+[e ( _BME280_Reset ..  ]
+"426
+[; ;BME280.c: 426:     BME280_Write1ByteRegister((0xF5), config_reg_tw);
+[e ( _BME280_Write1ByteRegister (2 , -> -> 245 `i `uc _config_reg_tw ]
+"427
+[; ;BME280.c: 427:     BME280_Write1ByteRegister((0xF2), ctrl_hum_reg_tw);
+[e ( _BME280_Write1ByteRegister (2 , -> -> 242 `i `uc _ctrl_hum_reg_tw ]
+"428
+[; ;BME280.c: 428:     BME280_Write1ByteRegister((0xF4), ctrl_meas_reg_tw);
+[e ( _BME280_Write1ByteRegister (2 , -> -> 244 `i `uc _ctrl_meas_reg_tw ]
+"429
+[; ;BME280.c: 429: }
+[e :UE 878 ]
+}
+"431
+[; ;BME280.c: 431: void BME280_NormalizeMeasurements(bme280_data *comp_data, bme280_res *res){
+[v _BME280_NormalizeMeasurements `(v ~T0 @X0 1 ef2`*S834`*S835 ]
+{
+[e :U _BME280_NormalizeMeasurements ]
+[v _comp_data `*S834 ~T0 @X0 1 r1 ]
+[v _res `*S835 ~T0 @X0 1 r2 ]
+[f ]
+"432
+[; ;BME280.c: 432:     res->temperature = (float)comp_data->temperature / 100.0;
+[e = . *U _res 1 -> / -> -> . *U _comp_data 1 `f `d .100.0 `f ]
+"433
+[; ;BME280.c: 433:     res->pressure = (float)comp_data->pressure / 100.0;
+[e = . *U _res 0 -> / -> -> . *U _comp_data 0 `f `d .100.0 `f ]
+"434
+[; ;BME280.c: 434:     res->humidity = (float)comp_data->humidity / 1024.0;
+[e = . *U _res 2 -> / -> -> . *U _comp_data 2 `f `d .1024.0 `f ]
+"435
+[; ;BME280.c: 435: }
+[e :UE 879 ]
+}
+"438
+[; ;BME280.c: 438: void bme280_parse_settings(BME280_DeviceSettings *settings){
+[v _bme280_parse_settings `(v ~T0 @X0 1 ef1`*S832 ]
+{
+[e :U _bme280_parse_settings ]
+[v _settings `*S832 ~T0 @X0 1 r1 ]
+[f ]
+"439
+[; ;BME280.c: 439:     bme280_num_settings n_settings;
+[v _n_settings `S831 ~T0 @X0 1 a ]
+"440
+[; ;BME280.c: 440:     _bme280_get_settings(&n_settings);
+[e ( __bme280_get_settings (1 &U _n_settings ]
+"443
+[; ;BME280.c: 443:     switch(n_settings.mode){
+[e $U 882  ]
+{
+"444
+[; ;BME280.c: 444:         case 0x00:
+[e :U 883 ]
+"445
+[; ;BME280.c: 445:             settings->Mode = "Sleep mode";
+[e = . *U _settings 0 :s 1C ]
+"446
+[; ;BME280.c: 446:             break;
+[e $U 881  ]
+"447
+[; ;BME280.c: 447:         case 0x01:
+[e :U 884 ]
+"448
+[; ;BME280.c: 448:             settings->Mode = "Forced mode";
+[e = . *U _settings 0 :s 2C ]
+"449
+[; ;BME280.c: 449:             break;
+[e $U 881  ]
+"450
+[; ;BME280.c: 450:         case 0x03:
+[e :U 885 ]
+"451
+[; ;BME280.c: 451:             settings->Mode = "Normal mode";
+[e = . *U _settings 0 :s 3C ]
+"452
+[; ;BME280.c: 452:             break;
+[e $U 881  ]
+"453
+[; ;BME280.c: 453:         }
+}
+[e $U 881  ]
+[e :U 882 ]
+[e [\ -> . _n_settings 2 `i , $ -> 0 `i 883
+ , $ -> 1 `i 884
+ , $ -> 3 `i 885
+ 881 ]
+[e :U 881 ]
+"455
+[; ;BME280.c: 455:     switch(n_settings.osrs_t){
+[e $U 887  ]
+{
+"456
+[; ;BME280.c: 456:         case 0x00:
+[e :U 888 ]
+"457
+[; ;BME280.c: 457:             settings->Temperature_oversampling = "OFF";
+[e = . *U _settings 1 :s 4C ]
+"458
+[; ;BME280.c: 458:             break;
+[e $U 886  ]
+"459
+[; ;BME280.c: 459:         case 0x01:
+[e :U 889 ]
+"460
+[; ;BME280.c: 460:             settings->Temperature_oversampling = "x1";
+[e = . *U _settings 1 :s 5C ]
+"461
+[; ;BME280.c: 461:             break;
+[e $U 886  ]
+"462
+[; ;BME280.c: 462:         case 0x02:
+[e :U 890 ]
+"463
+[; ;BME280.c: 463:             settings->Temperature_oversampling = "x2";
+[e = . *U _settings 1 :s 6C ]
+"464
+[; ;BME280.c: 464:             break;
+[e $U 886  ]
+"465
+[; ;BME280.c: 465:         case 0x03:
+[e :U 891 ]
+"466
+[; ;BME280.c: 466:             settings->Temperature_oversampling = "x4";
+[e = . *U _settings 1 :s 7C ]
+"467
+[; ;BME280.c: 467:             break;
+[e $U 886  ]
+"468
+[; ;BME280.c: 468:         case 0x04:
+[e :U 892 ]
+"469
+[; ;BME280.c: 469:             settings->Temperature_oversampling = "x8";
+[e = . *U _settings 1 :s 8C ]
+"470
+[; ;BME280.c: 470:             break;
+[e $U 886  ]
+"471
+[; ;BME280.c: 471:         case 0x05:
+[e :U 893 ]
+"472
+[; ;BME280.c: 472:             settings->Temperature_oversampling = "x16";
+[e = . *U _settings 1 :s 9C ]
+"473
+[; ;BME280.c: 473:             break;
+[e $U 886  ]
+"474
+[; ;BME280.c: 474:     }
+}
+[e $U 886  ]
+[e :U 887 ]
+[e [\ -> . _n_settings 0 `i , $ -> 0 `i 888
+ , $ -> 1 `i 889
+ , $ -> 2 `i 890
+ , $ -> 3 `i 891
+ , $ -> 4 `i 892
+ , $ -> 5 `i 893
+ 886 ]
+[e :U 886 ]
+"476
+[; ;BME280.c: 476:     switch(n_settings.osrs_p){
+[e $U 895  ]
+{
+"477
+[; ;BME280.c: 477:         case 0x00:
+[e :U 896 ]
+"478
+[; ;BME280.c: 478:             settings->Pressure_oversampling = "OFF";
+[e = . *U _settings 2 :s 10C ]
+"479
+[; ;BME280.c: 479:             break;
+[e $U 894  ]
+"480
+[; ;BME280.c: 480:         case 0x01:
+[e :U 897 ]
+"481
+[; ;BME280.c: 481:             settings->Pressure_oversampling = "x1";
+[e = . *U _settings 2 :s 11C ]
+"482
+[; ;BME280.c: 482:             break;
+[e $U 894  ]
+"483
+[; ;BME280.c: 483:         case 0x02:
+[e :U 898 ]
+"484
+[; ;BME280.c: 484:             settings->Pressure_oversampling = "x2";
+[e = . *U _settings 2 :s 12C ]
+"485
+[; ;BME280.c: 485:             break;
+[e $U 894  ]
+"486
+[; ;BME280.c: 486:         case 0x03:
+[e :U 899 ]
+"487
+[; ;BME280.c: 487:             settings->Pressure_oversampling = "x4";
+[e = . *U _settings 2 :s 13C ]
+"488
+[; ;BME280.c: 488:             break;
+[e $U 894  ]
+"489
+[; ;BME280.c: 489:         case 0x04:
+[e :U 900 ]
+"490
+[; ;BME280.c: 490:             settings->Pressure_oversampling = "x8";
+[e = . *U _settings 2 :s 14C ]
+"491
+[; ;BME280.c: 491:             break;
+[e $U 894  ]
+"492
+[; ;BME280.c: 492:         case 0x05:
+[e :U 901 ]
+"493
+[; ;BME280.c: 493:             settings->Pressure_oversampling = "x16";
+[e = . *U _settings 2 :s 15C ]
+"494
+[; ;BME280.c: 494:             break;
+[e $U 894  ]
+"495
+[; ;BME280.c: 495:     }
+}
+[e $U 894  ]
+[e :U 895 ]
+[e [\ -> . _n_settings 1 `i , $ -> 0 `i 896
+ , $ -> 1 `i 897
+ , $ -> 2 `i 898
+ , $ -> 3 `i 899
+ , $ -> 4 `i 900
+ , $ -> 5 `i 901
+ 894 ]
+[e :U 894 ]
+"497
+[; ;BME280.c: 497:     switch(n_settings.osrs_h){
+[e $U 903  ]
+{
+"498
+[; ;BME280.c: 498:         case 0x00:
+[e :U 904 ]
+"499
+[; ;BME280.c: 499:             settings->Humidity_oversampling= "OFF";
+[e = . *U _settings 3 :s 16C ]
+"500
+[; ;BME280.c: 500:             break;
+[e $U 902  ]
+"501
+[; ;BME280.c: 501:         case 0x01:
+[e :U 905 ]
+"502
+[; ;BME280.c: 502:             settings->Humidity_oversampling = "x1";
+[e = . *U _settings 3 :s 17C ]
+"503
+[; ;BME280.c: 503:             break;
+[e $U 902  ]
+"504
+[; ;BME280.c: 504:         case 0x02:
+[e :U 906 ]
+"505
+[; ;BME280.c: 505:             settings->Humidity_oversampling = "x2";
+[e = . *U _settings 3 :s 18C ]
+"506
+[; ;BME280.c: 506:             break;
+[e $U 902  ]
+"507
+[; ;BME280.c: 507:         case 0x03:
+[e :U 907 ]
+"508
+[; ;BME280.c: 508:             settings->Humidity_oversampling = "x4";
+[e = . *U _settings 3 :s 19C ]
+"509
+[; ;BME280.c: 509:             break;
+[e $U 902  ]
+"510
+[; ;BME280.c: 510:         case 0x04:
+[e :U 908 ]
+"511
+[; ;BME280.c: 511:             settings->Humidity_oversampling = "x8";
+[e = . *U _settings 3 :s 20C ]
+"512
+[; ;BME280.c: 512:             break;
+[e $U 902  ]
+"513
+[; ;BME280.c: 513:         case 0x05:
+[e :U 909 ]
+"514
+[; ;BME280.c: 514:             settings->Humidity_oversampling = "x16";
+[e = . *U _settings 3 :s 21C ]
+"515
+[; ;BME280.c: 515:             break;
+[e $U 902  ]
+"516
+[; ;BME280.c: 516:     }
+}
+[e $U 902  ]
+[e :U 903 ]
+[e [\ -> . _n_settings 3 `i , $ -> 0 `i 904
+ , $ -> 1 `i 905
+ , $ -> 2 `i 906
+ , $ -> 3 `i 907
+ , $ -> 4 `i 908
+ , $ -> 5 `i 909
+ 902 ]
+[e :U 902 ]
+"517
+[; ;BME280.c: 517:     switch(n_settings.filter){
+[e $U 911  ]
+{
+"518
+[; ;BME280.c: 518:         case (0x00):
+[e :U 912 ]
+"519
+[; ;BME280.c: 519:             settings->Filter = "OFF";
+[e = . *U _settings 4 :s 22C ]
+"520
+[; ;BME280.c: 520:             break;
+[e $U 910  ]
+"521
+[; ;BME280.c: 521:         case (0x01):
+[e :U 913 ]
+"522
+[; ;BME280.c: 522:             settings->Filter = "x2";
+[e = . *U _settings 4 :s 23C ]
+"523
+[; ;BME280.c: 523:             break;
+[e $U 910  ]
+"524
+[; ;BME280.c: 524:         case (0x02):
+[e :U 914 ]
+"525
+[; ;BME280.c: 525:             settings->Filter = "x4";
+[e = . *U _settings 4 :s 24C ]
+"526
+[; ;BME280.c: 526:             break;
+[e $U 910  ]
+"527
+[; ;BME280.c: 527:         case (0x03):
+[e :U 915 ]
+"528
+[; ;BME280.c: 528:             settings->Filter = "x8";
+[e = . *U _settings 4 :s 25C ]
+"529
+[; ;BME280.c: 529:             break;
+[e $U 910  ]
+"530
+[; ;BME280.c: 530:         case (0x04):
+[e :U 916 ]
+"531
+[; ;BME280.c: 531:             settings->Filter = "x16";
+[e = . *U _settings 4 :s 26C ]
+"532
+[; ;BME280.c: 532:             break;
+[e $U 910  ]
+"533
+[; ;BME280.c: 533:     }
+}
+[e $U 910  ]
+[e :U 911 ]
+[e [\ -> . _n_settings 5 `i , $ -> 0 `i 912
+ , $ -> 1 `i 913
+ , $ -> 2 `i 914
+ , $ -> 3 `i 915
+ , $ -> 4 `i 916
+ 910 ]
+[e :U 910 ]
+"535
+[; ;BME280.c: 535:     switch(n_settings.standby_time){
+[e $U 918  ]
+{
+"536
+[; ;BME280.c: 536:         case (0x00):
+[e :U 919 ]
+"537
+[; ;BME280.c: 537:             settings->Time_standby = "0.5 ms";
+[e = . *U _settings 5 :s 27C ]
+"538
+[; ;BME280.c: 538:             break;
+[e $U 917  ]
+"539
+[; ;BME280.c: 539:         case (0x01):
+[e :U 920 ]
+"540
+[; ;BME280.c: 540:             settings->Time_standby = "62.5 ms";
+[e = . *U _settings 5 :s 28C ]
+"541
+[; ;BME280.c: 541:             break;
+[e $U 917  ]
+"542
+[; ;BME280.c: 542:         case (0x02):
+[e :U 921 ]
+"543
+[; ;BME280.c: 543:             settings->Time_standby = "125 ms";
+[e = . *U _settings 5 :s 29C ]
+"544
+[; ;BME280.c: 544:             break;
+[e $U 917  ]
+"545
+[; ;BME280.c: 545:         case (0x03):
+[e :U 922 ]
+"546
+[; ;BME280.c: 546:             settings->Time_standby = "250 ms";
+[e = . *U _settings 5 :s 30C ]
+"547
+[; ;BME280.c: 547:             break;
+[e $U 917  ]
+"548
+[; ;BME280.c: 548:         case (0x04):
+[e :U 923 ]
+"549
+[; ;BME280.c: 549:             settings->Time_standby = "500 ms";
+[e = . *U _settings 5 :s 31C ]
+"550
+[; ;BME280.c: 550:             break;
+[e $U 917  ]
+"551
+[; ;BME280.c: 551:         case (0x05):
+[e :U 924 ]
+"552
+[; ;BME280.c: 552:             settings->Time_standby = "1000 ms";
+[e = . *U _settings 5 :s 32C ]
+"553
+[; ;BME280.c: 553:             break;
+[e $U 917  ]
+"554
+[; ;BME280.c: 554:         case (0x06):
+[e :U 925 ]
+"555
+[; ;BME280.c: 555:             settings->Time_standby = "10 ms";
+[e = . *U _settings 5 :s 33C ]
+"556
+[; ;BME280.c: 556:             break;
+[e $U 917  ]
+"557
+[; ;BME280.c: 557:         case (0x07):
+[e :U 926 ]
+"558
+[; ;BME280.c: 558:             settings->Time_standby = "20 ms";
+[e = . *U _settings 5 :s 34C ]
+"559
+[; ;BME280.c: 559:             break;
+[e $U 917  ]
+"560
+[; ;BME280.c: 560:     }
+}
+[e $U 917  ]
+[e :U 918 ]
+[e [\ -> . _n_settings 4 `i , $ -> 0 `i 919
+ , $ -> 1 `i 920
+ , $ -> 2 `i 921
+ , $ -> 3 `i 922
+ , $ -> 4 `i 923
+ , $ -> 5 `i 924
+ , $ -> 6 `i 925
+ , $ -> 7 `i 926
+ 917 ]
+[e :U 917 ]
+"561
+[; ;BME280.c: 561: }
+[e :UE 880 ]
+}
+[a 29C 49 50 53 32 109 115 0 ]
+[a 28C 54 50 46 53 32 109 115 0 ]
+[a 27C 48 46 53 32 109 115 0 ]
+[a 30C 50 53 48 32 109 115 0 ]
+[a 34C 50 48 32 109 115 0 ]
+[a 33C 49 48 32 109 115 0 ]
+[a 31C 53 48 48 32 109 115 0 ]
+[a 32C 49 48 48 48 32 109 115 0 ]
+[a 1C 83 108 101 101 112 32 109 111 100 101 0 ]
+[a 3C 78 111 114 109 97 108 32 109 111 100 101 0 ]
+[a 2C 70 111 114 99 101 100 32 109 111 100 101 0 ]
+[a 4C 79 70 70 0 ]
+[a 10C 79 70 70 0 ]
+[a 16C 79 70 70 0 ]
+[a 22C 79 70 70 0 ]
+[a 8C 120 56 0 ]
+[a 14C 120 56 0 ]
+[a 20C 120 56 0 ]
+[a 25C 120 56 0 ]
+[a 9C 120 49 54 0 ]
+[a 15C 120 49 54 0 ]
+[a 21C 120 49 54 0 ]
+[a 26C 120 49 54 0 ]
+[a 7C 120 52 0 ]
+[a 13C 120 52 0 ]
+[a 19C 120 52 0 ]
+[a 24C 120 52 0 ]
+[a 6C 120 50 0 ]
+[a 12C 120 50 0 ]
+[a 18C 120 50 0 ]
+[a 23C 120 50 0 ]
+[a 5C 120 49 0 ]
+[a 11C 120 49 0 ]
+[a 17C 120 49 0 ]

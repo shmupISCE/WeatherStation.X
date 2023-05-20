@@ -1,0 +1,1764 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F87K22 ]
+[d frameptr 4065 ]
+"67 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\mcc_generated_files/examples/i2c1_master_example.c
+[e E355 . `uc
+I2C1_NOERR 0
+I2C1_BUSY 1
+I2C1_FAIL 2
+]
+"68
+[e E360 . `uc
+I2C1_STOP 1
+I2C1_RESTART_READ 2
+I2C1_RESTART_WRITE 3
+I2C1_CONTINUE 4
+I2C1_RESET_LINK 5
+]
+"146 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\mcc_generated_files/i2c1_master.c
+[e E6865 . `uc
+I2C1_IDLE 0
+I2C1_SEND_ADR_READ 1
+I2C1_SEND_ADR_WRITE 2
+I2C1_TX 3
+I2C1_RX 4
+I2C1_RCEN 5
+I2C1_TX_EMPTY 6
+I2C1_SEND_RESTART_READ 7
+I2C1_SEND_RESTART_WRITE 8
+I2C1_SEND_RESTART 9
+I2C1_SEND_STOP 10
+I2C1_RX_ACK 11
+I2C1_RX_NACK_STOP 12
+I2C1_RX_NACK_RESTART 13
+I2C1_RESET 14
+I2C1_ADDRESS_NACK 15
+]
+"165
+[e E360 . `uc
+I2C1_STOP 1
+I2C1_RESTART_READ 2
+I2C1_RESTART_WRITE 3
+I2C1_CONTINUE 4
+I2C1_RESET_LINK 5
+]
+[e E355 . `uc
+I2C1_NOERR 0
+I2C1_BUSY 1
+I2C1_FAIL 2
+]
+"191
+[e E6883 . `uc
+I2C1_DATA_COMPLETE 0
+I2C1_WRITE_COLLISION 1
+I2C1_ADDR_NACK 2
+I2C1_DATA_NACK 3
+I2C1_TIMEOUT 4
+I2C1_NULL 5
+]
+"5 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\BME280.c
+[v _BME280_Reset BME280_Reset `(v  1 e 1 0 ]
+"14
+[v _BME280_Read1ByteRegister BME280_Read1ByteRegister `(uc  1 e 1 0 ]
+"35
+[v _BME280_Write1ByteRegister BME280_Write1ByteRegister `(v  1 e 1 0 ]
+"64
+[v _BME280_Init BME280_Init `(v  1 e 1 0 ]
+"95
+[v _bme280_read_settings_reg bme280_read_settings_reg `(v  1 s 1 bme280_read_settings_reg ]
+"104
+[v __bme280_get_settings _bme280_get_settings `(v  1 e 1 0 ]
+"119
+[v _parse_temp_press_calib_data parse_temp_press_calib_data `(v  1 s 1 parse_temp_press_calib_data ]
+"140
+[v _parse_humidity_calib_data parse_humidity_calib_data `(v  1 s 1 parse_humidity_calib_data ]
+"159
+[v _BME280_readFactoryCalibration BME280_readFactoryCalibration `(v  1 e 1 0 ]
+"175
+[v _BME280_read_measurement BME280_read_measurement `(v  1 e 1 0 ]
+"203
+[v _BME280_WakeUp_FM BME280_WakeUp_FM `(v  1 e 1 0 ]
+"274
+[v _compensate_temperature compensate_temperature `(l  1 s 4 compensate_temperature ]
+"301
+[v _compensate_pressure compensate_pressure `(ul  1 s 4 compensate_pressure ]
+"358
+[v _compensate_humidity compensate_humidity `(ul  1 s 4 compensate_humidity ]
+"395
+[v _BME280_compensate_data BME280_compensate_data `(v  1 e 1 0 ]
+"411
+[v _BME280_Config BME280_Config `(v  1 e 1 0 ]
+"431
+[v _BME280_NormalizeMeasurements BME280_NormalizeMeasurements `(v  1 e 1 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__fpclassifyf.c
+[v ___fpclassifyf __fpclassifyf `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"72 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+[v _pad pad `(i  1 s 2 pad ]
+"332
+[v _efgtoa efgtoa `(i  1 s 2 efgtoa ]
+"615
+[v _utoa utoa `(i  1 s 2 utoa ]
+"692
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+"1390
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"3 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\floorf.c
+[v _floorf floorf `(f  1 e 4 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isupper.c
+[v _isupper isupper `(i  1 e 2 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lodiv.c
+[v ___lodiv __lodiv `(uo  1 e 8 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lomod.c
+[v ___lomod __lomod `(uo  1 e 8 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"3 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strcpy.c
+[v _strcpy strcpy `(*.39uc  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"3 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strncmp.c
+[v _strncmp strncmp `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\tolower.c
+[v _tolower tolower `(i  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"70 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\glcd.c
+[v _glcd_reset glcd_reset `(v  1 e 1 0 ]
+"75
+[v _glcd_on glcd_on `(v  1 e 1 0 ]
+"95
+[v _glcd_clear glcd_clear `(v  1 e 1 0 ]
+"147
+[v _glcd_setpixel glcd_setpixel `(v  1 e 1 0 ]
+"205
+[v _glcd_vline glcd_vline `(v  1 e 1 0 ]
+"535
+[v _glcd_adv_systext glcd_adv_systext `(v  1 e 1 0 ]
+"10 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"66 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+"113
+[v _EUSART1_Read EUSART1_Read `(uc  1 e 1 0 ]
+"132
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+"146
+[v _putch putch `(v  1 e 1 0 ]
+"153
+[v _EUSART1_DefaultFramingErrorHandler EUSART1_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"155
+[v _EUSART1_DefaultOverrunErrorHandler EUSART1_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"163
+[v _EUSART1_DefaultErrorHandler EUSART1_DefaultErrorHandler `(v  1 e 1 0 ]
+"166
+[v _EUSART1_SetFramingErrorHandler EUSART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+"170
+[v _EUSART1_SetOverrunErrorHandler EUSART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"174
+[v _EUSART1_SetErrorHandler EUSART1_SetErrorHandler `(v  1 e 1 0 ]
+"63 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\mcc_generated_files/examples/i2c1_master_example.c
+[v _I2C1_Read1ByteRegister I2C1_Read1ByteRegister `(uc  1 e 1 0 ]
+"77
+[v _I2C1_Read2ByteRegister I2C1_Read2ByteRegister `(us  1 e 2 0 ]
+"91
+[v _I2C1_Write1ByteRegister I2C1_Write1ByteRegister `(v  1 e 1 0 ]
+"101
+[v _I2C1_Write2ByteRegister I2C1_Write2ByteRegister `(v  1 e 1 0 ]
+"128
+[v _I2C1_ReadDataBlock I2C1_ReadDataBlock `(v  1 e 1 0 ]
+"142
+[v _rd1RegCompleteHandler rd1RegCompleteHandler `(E360  1 s 1 rd1RegCompleteHandler ]
+"149
+[v _rd2RegCompleteHandler rd2RegCompleteHandler `(E360  1 s 1 rd2RegCompleteHandler ]
+"156
+[v _wr1RegCompleteHandler wr1RegCompleteHandler `(E360  1 s 1 wr1RegCompleteHandler ]
+"163
+[v _wr2RegCompleteHandler wr2RegCompleteHandler `(E360  1 s 1 wr2RegCompleteHandler ]
+"170
+[v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E360  1 s 1 rdBlkRegCompleteHandler ]
+"167 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\mcc_generated_files/i2c1_master.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+"176
+[v _I2C1_Open I2C1_Open `(E355  1 e 1 0 ]
+"209
+[v _I2C1_Close I2C1_Close `(E355  1 e 1 0 ]
+"224
+[v _I2C1_MasterOperation I2C1_MasterOperation `(E355  1 e 1 0 ]
+"246
+[v _I2C1_MasterRead I2C1_MasterRead `(E355  1 e 1 0 ]
+"251
+[v _I2C1_MasterWrite I2C1_MasterWrite `(E355  1 e 1 0 ]
+"263
+[v _I2C1_SetBuffer I2C1_SetBuffer `(v  1 e 1 0 ]
+"273
+[v _I2C1_SetDataCompleteCallback I2C1_SetDataCompleteCallback `(v  1 e 1 0 ]
+"283
+[v _I2C1_SetAddressNackCallback I2C1_SetAddressNackCallback `(v  1 e 1 0 ]
+"298
+[v _I2C1_SetCallback I2C1_SetCallback `(v  1 s 1 I2C1_SetCallback ]
+"312
+[v _I2C1_Poller I2C1_Poller `(v  1 s 1 I2C1_Poller ]
+"321
+[v _I2C1_MasterFsm I2C1_MasterFsm `T(v  1 s 1 I2C1_MasterFsm ]
+"333
+[v _I2C1_DO_IDLE I2C1_DO_IDLE `(E6865  1 s 1 I2C1_DO_IDLE ]
+"340
+[v _I2C1_DO_SEND_ADR_READ I2C1_DO_SEND_ADR_READ `(E6865  1 s 1 I2C1_DO_SEND_ADR_READ ]
+"347
+[v _I2C1_DO_SEND_ADR_WRITE I2C1_DO_SEND_ADR_WRITE `(E6865  1 s 1 I2C1_DO_SEND_ADR_WRITE ]
+"354
+[v _I2C1_DO_TX I2C1_DO_TX `(E6865  1 s 1 I2C1_DO_TX ]
+"378
+[v _I2C1_DO_RX I2C1_DO_RX `(E6865  1 s 1 I2C1_DO_RX ]
+"402
+[v _I2C1_DO_RCEN I2C1_DO_RCEN `(E6865  1 s 1 I2C1_DO_RCEN ]
+"409
+[v _I2C1_DO_TX_EMPTY I2C1_DO_TX_EMPTY `(E6865  1 s 1 I2C1_DO_TX_EMPTY ]
+"450
+[v _I2C1_DO_SEND_RESTART_READ I2C1_DO_SEND_RESTART_READ `(E6865  1 s 1 I2C1_DO_SEND_RESTART_READ ]
+"456
+[v _I2C1_DO_SEND_RESTART_WRITE I2C1_DO_SEND_RESTART_WRITE `(E6865  1 s 1 I2C1_DO_SEND_RESTART_WRITE ]
+"463
+[v _I2C1_DO_SEND_RESTART I2C1_DO_SEND_RESTART `(E6865  1 s 1 I2C1_DO_SEND_RESTART ]
+"469
+[v _I2C1_DO_SEND_STOP I2C1_DO_SEND_STOP `(E6865  1 s 1 I2C1_DO_SEND_STOP ]
+"475
+[v _I2C1_DO_RX_ACK I2C1_DO_RX_ACK `(E6865  1 s 1 I2C1_DO_RX_ACK ]
+"482
+[v _I2C1_DO_RX_NACK_STOP I2C1_DO_RX_NACK_STOP `(E6865  1 s 1 I2C1_DO_RX_NACK_STOP ]
+"488
+[v _I2C1_DO_RX_NACK_RESTART I2C1_DO_RX_NACK_RESTART `(E6865  1 s 1 I2C1_DO_RX_NACK_RESTART ]
+"494
+[v _I2C1_DO_RESET I2C1_DO_RESET `(E6865  1 s 1 I2C1_DO_RESET ]
+"500
+[v _I2C1_DO_ADDRESS_NACK I2C1_DO_ADDRESS_NACK `(E6865  1 s 1 I2C1_DO_ADDRESS_NACK ]
+"520
+[v _I2C1_CallbackReturnStop I2C1_CallbackReturnStop `(E360  1 e 1 0 ]
+"525
+[v _I2C1_CallbackReturnReset I2C1_CallbackReturnReset `(E360  1 e 1 0 ]
+"543
+[v _I2C1_MasterOpen I2C1_MasterOpen `T(a  1 s 1 I2C1_MasterOpen ]
+"557
+[v _I2C1_MasterClose I2C1_MasterClose `T(v  1 s 1 I2C1_MasterClose ]
+"563
+[v _I2C1_MasterGetRxData I2C1_MasterGetRxData `T(uc  1 s 1 I2C1_MasterGetRxData ]
+"568
+[v _I2C1_MasterSendTxData I2C1_MasterSendTxData `T(v  1 s 1 I2C1_MasterSendTxData ]
+"573
+[v _I2C1_MasterEnableRestart I2C1_MasterEnableRestart `T(v  1 s 1 I2C1_MasterEnableRestart ]
+"578
+[v _I2C1_MasterDisableRestart I2C1_MasterDisableRestart `T(v  1 s 1 I2C1_MasterDisableRestart ]
+"583
+[v _I2C1_MasterStartRx I2C1_MasterStartRx `T(v  1 s 1 I2C1_MasterStartRx ]
+"588
+[v _I2C1_MasterStart I2C1_MasterStart `T(v  1 s 1 I2C1_MasterStart ]
+"593
+[v _I2C1_MasterStop I2C1_MasterStop `T(v  1 s 1 I2C1_MasterStop ]
+"598
+[v _I2C1_MasterIsNack I2C1_MasterIsNack `T(a  1 s 1 I2C1_MasterIsNack ]
+"603
+[v _I2C1_MasterSendAck I2C1_MasterSendAck `T(v  1 s 1 I2C1_MasterSendAck ]
+"609
+[v _I2C1_MasterSendNack I2C1_MasterSendNack `T(v  1 s 1 I2C1_MasterSendNack ]
+"615
+[v _I2C1_MasterClearBusCollision I2C1_MasterClearBusCollision `T(v  1 s 1 I2C1_MasterClearBusCollision ]
+"625
+[v _I2C1_MasterEnableIrq I2C1_MasterEnableIrq `T(v  1 s 1 I2C1_MasterEnableIrq ]
+"635
+[v _I2C1_MasterDisableIrq I2C1_MasterDisableIrq `T(v  1 s 1 I2C1_MasterDisableIrq ]
+"640
+[v _I2C1_MasterClearIrq I2C1_MasterClearIrq `T(v  1 s 1 I2C1_MasterClearIrq ]
+"645
+[v _I2C1_MasterSetIrq I2C1_MasterSetIrq `T(v  1 s 1 I2C1_MasterSetIrq ]
+"650
+[v _I2C1_MasterWaitForEvent I2C1_MasterWaitForEvent `T(v  1 s 1 I2C1_MasterWaitForEvent ]
+"50 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"59
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"12 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\OPT3001.c
+[v _OPT3001_Read2ByteRegister OPT3001_Read2ByteRegister `(us  1 e 2 0 ]
+"22
+[v _OPT3001_Write2ByteRegister OPT3001_Write2ByteRegister `(v  1 e 1 0 ]
+"1082 C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h
+[v _ANCON2 ANCON2 `VEuc  1 e 1 @3875 ]
+"1194
+[v _ANCON1 ANCON1 `VEuc  1 e 1 @3876 ]
+"1306
+[v _ANCON0 ANCON0 `VEuc  1 e 1 @3877 ]
+"1613
+[v _REFOCON REFOCON `VEuc  1 e 1 @3882 ]
+"5313
+[v _OSCCON2 OSCCON2 `VEuc  1 e 1 @3940 ]
+"5353
+[v _BAUDCON1 BAUDCON1 `VEuc  1 e 1 @3941 ]
+"8259
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"9571
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"9683
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"9795
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"9907
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"10019
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"10131
+[v _LATF LATF `VEuc  1 e 1 @3982 ]
+"10233
+[v _LATG LATG `VEuc  1 e 1 @3983 ]
+"10309
+[v _LATH LATH `VEuc  1 e 1 @3984 ]
+"10533
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"10595
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"10657
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"10719
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"10781
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"10843
+[v _TRISF TRISF `VEuc  1 e 1 @3991 ]
+"10900
+[v _TRISG TRISG `VEuc  1 e 1 @3992 ]
+"10944
+[v _TRISH TRISH `VEuc  1 e 1 @3993 ]
+"11068
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3995 ]
+[s S1104 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 TMR1GIE 1 0 :1:2 
+`uc 1 SSP1IE 1 0 :1:3 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 PSPIE 1 0 :1:7 
+]
+"11227
+[s S1113 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+]
+[u S1118 . 1 `S1104 1 . 1 0 `S1113 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES1118  1 e 1 @3997 ]
+[s S279 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 TMR1GIF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+"11310
+[s S288 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+]
+[u S293 . 1 `S279 1 . 1 0 `S288 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES293  1 e 1 @3998 ]
+[s S911 . 1 `uc 1 TMR3GIF 1 0 :1:0 
+`uc 1 TMR3IF 1 0 :1:1 
+`uc 1 HLVDIF 1 0 :1:2 
+`uc 1 BCL1IF 1 0 :1:3 
+`uc 1 BCL2IF 1 0 :1:4 
+`uc 1 SSP2IF 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 OSCFIF 1 0 :1:7 
+]
+"11547
+[s S920 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LVDIF 1 0 :1:2 
+`uc 1 BCLIF 1 0 :1:3 
+]
+[u S924 . 1 `S911 1 . 1 0 `S920 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES924  1 e 1 @4001 ]
+"12211
+[v _RCSTA1 RCSTA1 `VEuc  1 e 1 @4011 ]
+[s S374 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"12266
+[s S383 . 1 `uc 1 RCD8 1 0 :1:0 
+`uc 1 . 1 0 :2:1 
+`uc 1 ADEN 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S389 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 NOT_RC8 1 0 :1:6 
+]
+[s S392 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 nRC8 1 0 :1:6 
+]
+[s S395 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S398 . 1 `uc 1 RX9D1 1 0 :1:0 
+`uc 1 OERR1 1 0 :1:1 
+`uc 1 FERR1 1 0 :1:2 
+`uc 1 ADDEN1 1 0 :1:3 
+`uc 1 CREN1 1 0 :1:4 
+`uc 1 SREN1 1 0 :1:5 
+`uc 1 RX91 1 0 :1:6 
+`uc 1 SPEN1 1 0 :1:7 
+]
+[s S407 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[u S410 . 1 `S374 1 . 1 0 `S383 1 . 1 0 `S389 1 . 1 0 `S392 1 . 1 0 `S395 1 . 1 0 `S398 1 . 1 0 `S407 1 . 1 0 ]
+[v _RCSTA1bits RCSTA1bits `VES410  1 e 1 @4011 ]
+"12549
+[v _TXSTA1 TXSTA1 `VEuc  1 e 1 @4012 ]
+[s S311 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"12594
+[s S320 . 1 `uc 1 TXD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S324 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 NOT_TX8 1 0 :1:6 
+]
+[s S327 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 nTX8 1 0 :1:6 
+]
+[s S330 . 1 `uc 1 TX9D1 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+`uc 1 BRGH1 1 0 :1:2 
+`uc 1 SENDB1 1 0 :1:3 
+`uc 1 SYNC1 1 0 :1:4 
+`uc 1 TXEN1 1 0 :1:5 
+`uc 1 TX91 1 0 :1:6 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[u S339 . 1 `S311 1 . 1 0 `S320 1 . 1 0 `S324 1 . 1 0 `S327 1 . 1 0 `S330 1 . 1 0 ]
+[v _TXSTA1bits TXSTA1bits `VES339  1 e 1 @4012 ]
+"12837
+[v _TXREG1 TXREG1 `VEuc  1 e 1 @4013 ]
+"12875
+[v _RCREG1 RCREG1 `VEuc  1 e 1 @4014 ]
+"12913
+[v _SPBRG1 SPBRG1 `VEuc  1 e 1 @4015 ]
+"14528
+[v _SSP1CON2 SSP1CON2 `VEuc  1 e 1 @4037 ]
+[s S841 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"14576
+[s S850 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK1 1 0 :1:1 
+`uc 1 ADMSK2 1 0 :1:2 
+`uc 1 ADMSK3 1 0 :1:3 
+`uc 1 ADMSK4 1 0 :1:4 
+`uc 1 ADMSK5 1 0 :1:5 
+]
+[s S857 . 1 `uc 1 SEN1 1 0 :1:0 
+`uc 1 ADMSK11 1 0 :1:1 
+`uc 1 ADMSK21 1 0 :1:2 
+`uc 1 ADMSK31 1 0 :1:3 
+`uc 1 ACKEN1 1 0 :1:4 
+`uc 1 ACKDT1 1 0 :1:5 
+`uc 1 ACKSTAT1 1 0 :1:6 
+`uc 1 GCEN1 1 0 :1:7 
+]
+[s S866 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RSEN1 1 0 :1:1 
+`uc 1 PEN1 1 0 :1:2 
+`uc 1 RCEN1 1 0 :1:3 
+`uc 1 ADMSK41 1 0 :1:4 
+`uc 1 ADMSK51 1 0 :1:5 
+]
+[u S873 . 1 `S841 1 . 1 0 `S850 1 . 1 0 `S857 1 . 1 0 `S866 1 . 1 0 ]
+[v _SSP1CON2bits SSP1CON2bits `VES873  1 e 1 @4037 ]
+"14882
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @4038 ]
+[s S657 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"14917
+[s S663 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[s S668 . 1 `uc 1 SSPM01 1 0 :1:0 
+`uc 1 SSPM11 1 0 :1:1 
+`uc 1 SSPM21 1 0 :1:2 
+`uc 1 SSPM31 1 0 :1:3 
+`uc 1 CKP1 1 0 :1:4 
+`uc 1 SSPEN1 1 0 :1:5 
+`uc 1 SSPOV1 1 0 :1:6 
+`uc 1 WCOL1 1 0 :1:7 
+]
+[u S677 . 1 `S657 1 . 1 0 `S663 1 . 1 0 `S668 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES677  1 e 1 @4038 ]
+"15120
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @4039 ]
+[s S941 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W 1 0 :1:2 
+]
+"15220
+[s S944 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A 1 0 :1:5 
+]
+[s S947 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+[s S956 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D 1 0 :1:5 
+]
+[s S961 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S966 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S971 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE 1 0 :1:2 
+]
+[s S974 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS 1 0 :1:5 
+]
+[s S977 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S982 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 DATA_ADDRESS 1 0 :1:5 
+]
+[s S987 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ 1 0 :1:2 
+`uc 1 I2C_START 1 0 :1:3 
+`uc 1 I2C_STOP 1 0 :1:4 
+`uc 1 I2C_DAT 1 0 :1:5 
+]
+[s S993 . 1 `uc 1 BF1 1 0 :1:0 
+`uc 1 UA1 1 0 :1:1 
+`uc 1 RW 1 0 :1:2 
+`uc 1 START 1 0 :1:3 
+`uc 1 STOP 1 0 :1:4 
+`uc 1 DA 1 0 :1:5 
+`uc 1 CKE1 1 0 :1:6 
+`uc 1 SMP1 1 0 :1:7 
+]
+[s S1002 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW1 1 0 :1:2 
+`uc 1 START1 1 0 :1:3 
+`uc 1 STOP1 1 0 :1:4 
+`uc 1 DA1 1 0 :1:5 
+]
+[s S1008 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_W 1 0 :1:2 
+]
+[s S1011 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_A 1 0 :1:5 
+]
+[u S1014 . 1 `S941 1 . 1 0 `S944 1 . 1 0 `S947 1 . 1 0 `S956 1 . 1 0 `S961 1 . 1 0 `S966 1 . 1 0 `S971 1 . 1 0 `S974 1 . 1 0 `S977 1 . 1 0 `S982 1 . 1 0 `S987 1 . 1 0 `S993 1 . 1 0 `S1002 1 . 1 0 `S1008 1 . 1 0 `S1011 1 . 1 0 ]
+[v _SSP1STATbits SSP1STATbits `VES1014  1 e 1 @4039 ]
+"15718
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @4040 ]
+"16026
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @4041 ]
+"16626
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"16703
+[v _SPBRGH1 SPBRGH1 `VEuc  1 e 1 @4052 ]
+[s S174 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"17577
+[s S183 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S192 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S196 . 1 `S174 1 . 1 0 `S183 1 . 1 0 `S192 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES196  1 e 1 @4082 ]
+"55 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+[v _flags flags `i  1 s 2 flags ]
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"66
+[v _dbuf dbuf `[80]uc  1 s 80 dbuf ]
+"69
+[v _nout nout `i  1 s 2 nout ]
+[s S233 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"52 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\mcc_generated_files/eusart1.c
+[u S238 . 1 `S233 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusart1RxLastError eusart1RxLastError `VES238  1 e 1 0 ]
+"58
+[v _EUSART1_FramingErrorHandler EUSART1_FramingErrorHandler `*.38(v  1 e 3 0 ]
+"59
+[v _EUSART1_OverrunErrorHandler EUSART1_OverrunErrorHandler `*.38(v  1 e 3 0 ]
+"60
+[v _EUSART1_ErrorHandler EUSART1_ErrorHandler `*.38(v  1 e 3 0 ]
+"146 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\mcc_generated_files/i2c1_master.c
+[v _i2c1_fsmStateTable i2c1_fsmStateTable `C[16]*.38(E6865  1 e 48 0 ]
+[s S631 . 42 `[6]*.38(E360 1 callbackTable 18 0 `[6]*.39v 1 callbackPayload 12 18 `us 1 time_out 2 30 `us 1 time_out_value 2 32 `uc 1 address 1 34 `*.39uc 1 data_ptr 2 35 `ui 1 data_length 2 37 `E6865 1 state 1 39 `E355 1 error 1 40 `uc 1 addressNackCheck 1 41 :1:0 
+`uc 1 busy 1 41 :1:1 
+`uc 1 inUse 1 41 :1:2 
+`uc 1 bufferFree 1 41 :1:3 
+]
+"165
+[v _I2C1_Status I2C1_Status `S631  1 e 42 0 ]
+"12 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\sysfont.c
+[v _system6x8 system6x8 `C[576]us  1 e 1152 0 ]
+"10 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+[s S1407 . 37 `us 1 dig_t1 2 0 `s 1 dig_t2 2 2 `s 1 dig_t3 2 4 `us 1 dig_p1 2 6 `s 1 dig_p2 2 8 `s 1 dig_p3 2 10 `s 1 dig_p4 2 12 `s 1 dig_p5 2 14 `s 1 dig_p6 2 16 `s 1 dig_p7 2 18 `s 1 dig_p8 2 20 `s 1 dig_p9 2 22 `uc 1 dig_h1 1 24 `s 1 dig_h2 2 25 `uc 1 dig_h3 1 27 `s 1 dig_h4 2 28 `s 1 dig_h5 2 30 `c 1 dig_h6 1 32 `l 1 t_fine 4 33 ]
+"25
+[v main@calib_data calib_data `S1407  1 a 37 81 ]
+"36
+[v main@humidity humidity `[15]uc  1 a 15 30 ]
+"35
+[v main@press press `[15]uc  1 a 15 15 ]
+"34
+[v main@temp temp `[15]uc  1 a 15 0 ]
+[s S1435 . 12 `f 1 pressure 4 0 `f 1 temperature 4 4 `f 1 humidity 4 8 ]
+"28
+[v main@result result `S1435  1 a 12 69 ]
+[s S1427 . 12 `ul 1 pressure 4 0 `ul 1 temperature 4 4 `ul 1 humidity 4 8 ]
+"26
+[v main@uncomp_data uncomp_data `S1427  1 a 12 57 ]
+"27
+[v main@comp_data comp_data `S1427  1 a 12 45 ]
+"60
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[s S2479 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+"13
+[v sprintf@f f `S2479  1 a 6 84 ]
+"12
+[v sprintf@ap ap `[1]*.39v  1 a 2 82 ]
+"9
+[v sprintf@s s `*.39uc  1 p 2 74 ]
+[v sprintf@fmt fmt `*.32Cuc  1 p 2 76 ]
+"23
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"8
+[v printf@ap ap `[1]*.39v  1 a 2 91 ]
+"5
+[v printf@fmt fmt `*.32Cuc  1 p 2 74 ]
+"13
+} 0
+"1390 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1393
+[v vfprintf@cfmt cfmt `*.32uc  1 a 2 89 ]
+[s S2505 _IO_FILE 0 ]
+"1390
+[v vfprintf@fp fp `*.39S2505  1 p 2 83 ]
+[v vfprintf@fmt fmt `*.32Cuc  1 p 2 85 ]
+[v vfprintf@ap ap `*.39*.39v  1 p 2 87 ]
+"1404
+} 0
+"692
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+{
+"697
+[v vfpfcnvrt@llu llu `uo  1 a 8 58 ]
+"698
+[v vfpfcnvrt@f f `d  1 a 4 66 ]
+"694
+[v vfpfcnvrt@ct ct `[3]uc  1 a 3 70 ]
+[v vfpfcnvrt@c c `uc  1 a 1 73 ]
+[s S2505 _IO_FILE 0 ]
+"692
+[v vfpfcnvrt@fp fp `*.39S2505  1 p 2 71 ]
+[v vfpfcnvrt@fmt fmt `*.39*.32uc  1 p 2 73 ]
+[v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 75 ]
+"1387
+} 0
+"615
+[v _utoa utoa `(i  1 s 2 utoa ]
+{
+"618
+[v utoa@n n `uo  1 a 8 51 ]
+"617
+[v utoa@i i `i  1 a 2 59 ]
+[v utoa@w w `i  1 a 2 49 ]
+[v utoa@p p `i  1 a 2 47 ]
+[s S2505 _IO_FILE 0 ]
+"615
+[v utoa@fp fp `*.39S2505  1 p 2 29 ]
+[v utoa@d d `uo  1 p 8 31 ]
+"641
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lomod.c
+[v ___lomod __lomod `(uo  1 e 8 0 ]
+{
+"12
+[v ___lomod@counter counter `uc  1 a 1 16 ]
+"9
+[v ___lomod@dividend dividend `uo  1 p 8 0 ]
+[v ___lomod@divisor divisor `uo  1 p 8 8 ]
+"27
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lodiv.c
+[v ___lodiv __lodiv `(uo  1 e 8 0 ]
+{
+"12
+[v ___lodiv@quotient quotient `uo  1 a 8 16 ]
+"13
+[v ___lodiv@counter counter `uc  1 a 1 24 ]
+"9
+[v ___lodiv@dividend dividend `uo  1 p 8 0 ]
+[v ___lodiv@divisor divisor `uo  1 p 8 8 ]
+"32
+} 0
+"3 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strncmp.c
+[v _strncmp strncmp `(i  1 e 2 0 ]
+{
+"5
+[v strncmp@r r `*.32Cuc  1 a 2 9 ]
+[v strncmp@l l `*.34Cuc  1 a 2 7 ]
+"3
+[v strncmp@_l _l `*.34Cuc  1 p 2 0 ]
+[v strncmp@_r _r `*.32Cuc  1 p 2 2 ]
+[v strncmp@n n `ui  1 p 2 4 ]
+"9
+} 0
+"332 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+[v _efgtoa efgtoa `(i  1 s 2 efgtoa ]
+{
+"336
+[v efgtoa@u u `d  1 a 4 52 ]
+[v efgtoa@g g `d  1 a 4 44 ]
+[v efgtoa@l l `d  1 a 4 38 ]
+[v efgtoa@h h `d  1 a 4 34 ]
+[v efgtoa@ou ou `d  1 a 4 20 ]
+"335
+[v efgtoa@n n `i  1 a 2 50 ]
+[v efgtoa@e e `i  1 a 2 48 ]
+[v efgtoa@i i `i  1 a 2 42 ]
+[v efgtoa@w w `i  1 a 2 30 ]
+[v efgtoa@p p `i  1 a 2 28 ]
+[v efgtoa@sign sign `i  1 a 2 26 ]
+[v efgtoa@d d `i  1 a 2 24 ]
+[v efgtoa@m m `i  1 a 2 18 ]
+[v efgtoa@ne ne `i  1 a 2 16 ]
+[v efgtoa@pp pp `i  1 a 2 14 ]
+[v efgtoa@t t `i  1 a 2 12 ]
+"334
+[v efgtoa@mode mode `uc  1 a 1 33 ]
+[v efgtoa@nmode nmode `uc  1 a 1 32 ]
+[s S2505 _IO_FILE 0 ]
+"332
+[v efgtoa@fp fp `*.39S2505  1 p 2 59 ]
+[v efgtoa@f f `d  1 p 4 61 ]
+[v efgtoa@c c `uc  1 p 1 65 ]
+"525
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\tolower.c
+[v _tolower tolower `(i  1 e 2 0 ]
+{
+[v tolower@c c `i  1 p 2 6 ]
+"8
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isupper.c
+[v _isupper isupper `(i  1 e 2 0 ]
+{
+[v isupper@c c `i  1 p 2 0 ]
+"8
+} 0
+"3 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strcpy.c
+[v _strcpy strcpy `(*.39uc  1 e 2 0 ]
+{
+"6
+[v strcpy@d d `*.39uc  1 a 2 8 ]
+"5
+[v strcpy@s s `*.34Cuc  1 a 2 6 ]
+"3
+[v strcpy@dest dest `*.39uc  1 p 2 0 ]
+[v strcpy@src src `*.34Cuc  1 p 2 2 ]
+"9
+} 0
+"72 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+[v _pad pad `(i  1 s 2 pad ]
+{
+"74
+[v pad@w w `i  1 a 2 27 ]
+[v pad@i i `i  1 a 2 25 ]
+[s S2505 _IO_FILE 0 ]
+"72
+[v pad@fp fp `*.39S2505  1 p 2 18 ]
+[v pad@buf buf `*.39uc  1 p 2 20 ]
+[v pad@p p `i  1 p 2 22 ]
+"95
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"7
+[v strlen@a a `*.39Cuc  1 a 2 2 ]
+"5
+[v strlen@s s `*.39Cuc  1 p 2 0 ]
+"12
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+{
+"11
+[v fputs@i i `i  1 a 2 16 ]
+"10
+[v fputs@c c `uc  1 a 1 15 ]
+"8
+[v fputs@s s `*.39Cuc  1 p 2 11 ]
+[s S2479 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputs@fp fp `*.39S2479  1 p 2 13 ]
+"19
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 2 ]
+[s S2479 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputc@fp fp `*.39S2479  1 p 2 4 ]
+"24
+} 0
+"146 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\mcc_generated_files/eusart1.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@txData txData `uc  1 a 1 wreg ]
+[v putch@txData txData `uc  1 a 1 wreg ]
+"148
+[v putch@txData txData `uc  1 a 1 1 ]
+"149
+} 0
+"132
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+{
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 0 ]
+"139
+} 0
+"3 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\floorf.c
+[v _floorf floorf `(f  1 e 4 0 ]
+{
+[u S2648 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+"5
+[v floorf@u u `S2648  1 a 4 55 ]
+"7
+[v floorf@m m `ul  1 a 4 49 ]
+"6
+[v floorf@e e `i  1 a 2 53 ]
+"3
+[v floorf@x x `f  1 p 4 39 ]
+"4
+[v floorf@F527 F527 `S2648  1 s 4 F527 ]
+"27
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__fpclassifyf.c
+[v ___fpclassifyf __fpclassifyf `(i  1 e 2 0 ]
+{
+[u S2648 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+"6
+[v ___fpclassifyf@u u `S2648  1 a 4 10 ]
+"7
+[v ___fpclassifyf@e e `i  1 a 2 8 ]
+"4
+[v ___fpclassifyf@x x `f  1 p 4 0 ]
+"5
+[v ___fpclassifyf@F465 F465 `S2648  1 s 4 F465 ]
+"11
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 9 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 8 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 0 ]
+"70
+} 0
+"245 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___flsub __flsub `(d  1 e 4 0 ]
+{
+[v ___flsub@b b `d  1 p 4 25 ]
+[v ___flsub@a a `d  1 p 4 29 ]
+"250
+} 0
+"10
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 15 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 14 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 13 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 12 ]
+"10
+[v ___fladd@b b `d  1 p 4 0 ]
+[v ___fladd@a a `d  1 p 4 4 ]
+"237
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+{
+[v ___flneg@f1 f1 `d  1 p 4 0 ]
+"20
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S2344 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S2349 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S2352 . 4 `l 1 i 4 0 `d 1 f 4 0 `S2344 1 fAsBytes 4 0 `S2349 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S2352  1 a 4 19 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 13 ]
+[s S2420 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S2423 . 2 `s 1 i 2 0 `us 1 n 2 0 `S2420 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S2423  1 a 2 23 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 18 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 17 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 12 ]
+"8
+[v ___flmul@b b `d  1 p 4 0 ]
+[v ___flmul@a a `d  1 p 4 4 ]
+"205
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 25 ]
+[v ___flge@ff2 ff2 `d  1 p 4 29 ]
+"19
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+{
+[v ___fleq@ff1 ff1 `d  1 p 4 0 ]
+[v ___fleq@ff2 ff2 `d  1 p 4 4 ]
+"12
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 5 ]
+[v ___awmod@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awmod@dividend dividend `i  1 p 2 0 ]
+[v ___awmod@divisor divisor `i  1 p 2 2 ]
+"34
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 0 ]
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+"41
+} 0
+"70 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\glcd.c
+[v _glcd_reset glcd_reset `(v  1 e 1 0 ]
+{
+"74
+} 0
+"75
+[v _glcd_on glcd_on `(v  1 e 1 0 ]
+{
+"93
+} 0
+"95
+[v _glcd_clear glcd_clear `(v  1 e 1 0 ]
+{
+"128
+[v glcd_clear@aa aa `uc  1 a 1 0 ]
+"111
+[v glcd_clear@xx xx `uc  1 a 1 1 ]
+"146
+} 0
+"535
+[v _glcd_adv_systext glcd_adv_systext `(v  1 e 1 0 ]
+{
+[v glcd_adv_systext@x x `uc  1 a 1 wreg ]
+"633
+[v glcd_adv_systext@yy yy `uc  1 a 1 19 ]
+"634
+[v glcd_adv_systext@bb bb `uc  1 a 1 17 ]
+"757
+[v glcd_adv_systext@yy_2037 yy `uc  1 a 1 20 ]
+"758
+[v glcd_adv_systext@bb_2038 bb `uc  1 a 1 18 ]
+"631
+[v glcd_adv_systext@d_2032 d `uc  1 a 1 24 ]
+"571
+[v glcd_adv_systext@d d `uc  1 a 1 22 ]
+"755
+[v glcd_adv_systext@d_2036 d `uc  1 a 1 21 ]
+"695
+[v glcd_adv_systext@d_2035 d `uc  1 a 1 23 ]
+"537
+[v glcd_adv_systext@buf buf `[5]uc  1 a 5 12 ]
+"535
+[v glcd_adv_systext@x x `uc  1 a 1 wreg ]
+[v glcd_adv_systext@y y `uc  1 p 1 0 ]
+[v glcd_adv_systext@tx tx `*.34Cuc  1 p 2 1 ]
+[v glcd_adv_systext@c c `uc  1 p 1 3 ]
+"539
+[v glcd_adv_systext@x x `uc  1 a 1 25 ]
+"793
+} 0
+"50 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"57
+} 0
+"55 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"99
+} 0
+"59 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"69
+} 0
+"167 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\mcc_generated_files/i2c1_master.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+{
+"174
+} 0
+"66 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+{
+"92
+} 0
+"170
+[v _EUSART1_SetOverrunErrorHandler EUSART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetOverrunErrorHandler@interruptHandler interruptHandler `*.38(v  1 p 3 0 ]
+"172
+} 0
+"166
+[v _EUSART1_SetFramingErrorHandler EUSART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetFramingErrorHandler@interruptHandler interruptHandler `*.38(v  1 p 3 0 ]
+"168
+} 0
+"174
+[v _EUSART1_SetErrorHandler EUSART1_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetErrorHandler@interruptHandler interruptHandler `*.38(v  1 p 3 0 ]
+"176
+} 0
+"175 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\BME280.c
+[v _BME280_read_measurement BME280_read_measurement `(v  1 e 1 0 ]
+{
+"180
+[v BME280_read_measurement@reg_data reg_data `[8]uc  1 a 8 37 ]
+"178
+[v BME280_read_measurement@data_msb data_msb `ul  1 a 4 53 ]
+"177
+[v BME280_read_measurement@data_lsb data_lsb `ul  1 a 4 49 ]
+"176
+[v BME280_read_measurement@data_xlsb data_xlsb `ul  1 a 4 45 ]
+[s S1427 . 12 `ul 1 pressure 4 0 `ul 1 temperature 4 4 `ul 1 humidity 4 8 ]
+"175
+[v BME280_read_measurement@uncomp_data uncomp_data `*.39S1427  1 p 2 27 ]
+"200
+} 0
+"159
+[v _BME280_readFactoryCalibration BME280_readFactoryCalibration `(v  1 e 1 0 ]
+{
+[s S1407 . 37 `us 1 dig_t1 2 0 `s 1 dig_t2 2 2 `s 1 dig_t3 2 4 `us 1 dig_p1 2 6 `s 1 dig_p2 2 8 `s 1 dig_p3 2 10 `s 1 dig_p4 2 12 `s 1 dig_p5 2 14 `s 1 dig_p6 2 16 `s 1 dig_p7 2 18 `s 1 dig_p8 2 20 `s 1 dig_p9 2 22 `uc 1 dig_h1 1 24 `s 1 dig_h2 2 25 `uc 1 dig_h3 1 27 `s 1 dig_h4 2 28 `s 1 dig_h5 2 30 `c 1 dig_h6 1 32 `l 1 t_fine 4 33 ]
+[v BME280_readFactoryCalibration@calib_data calib_data `*.39S1407  1 p 2 57 ]
+"162
+} 0
+"119
+[v _parse_temp_press_calib_data parse_temp_press_calib_data `(v  1 s 1 parse_temp_press_calib_data ]
+{
+"120
+[v parse_temp_press_calib_data@reg_data reg_data `[26]uc  1 a 26 31 ]
+[s S1407 . 37 `us 1 dig_t1 2 0 `s 1 dig_t2 2 2 `s 1 dig_t3 2 4 `us 1 dig_p1 2 6 `s 1 dig_p2 2 8 `s 1 dig_p3 2 10 `s 1 dig_p4 2 12 `s 1 dig_p5 2 14 `s 1 dig_p6 2 16 `s 1 dig_p7 2 18 `s 1 dig_p8 2 20 `s 1 dig_p9 2 22 `uc 1 dig_h1 1 24 `s 1 dig_h2 2 25 `uc 1 dig_h3 1 27 `s 1 dig_h4 2 28 `s 1 dig_h5 2 30 `c 1 dig_h6 1 32 `l 1 t_fine 4 33 ]
+"119
+[v parse_temp_press_calib_data@calib_data calib_data `*.39S1407  1 p 2 27 ]
+"138
+} 0
+"140
+[v _parse_humidity_calib_data parse_humidity_calib_data `(v  1 s 1 parse_humidity_calib_data ]
+{
+"141
+[v parse_humidity_calib_data@reg_data reg_data `[7]uc  1 a 7 39 ]
+"145
+[v parse_humidity_calib_data@dig_h5_msb dig_h5_msb `s  1 a 2 37 ]
+"144
+[v parse_humidity_calib_data@dig_h5_lsb dig_h5_lsb `s  1 a 2 35 ]
+"143
+[v parse_humidity_calib_data@dig_h4_msb dig_h4_msb `s  1 a 2 33 ]
+"142
+[v parse_humidity_calib_data@dig_h4_lsb dig_h4_lsb `s  1 a 2 31 ]
+[s S1407 . 37 `us 1 dig_t1 2 0 `s 1 dig_t2 2 2 `s 1 dig_t3 2 4 `us 1 dig_p1 2 6 `s 1 dig_p2 2 8 `s 1 dig_p3 2 10 `s 1 dig_p4 2 12 `s 1 dig_p5 2 14 `s 1 dig_p6 2 16 `s 1 dig_p7 2 18 `s 1 dig_p8 2 20 `s 1 dig_p9 2 22 `uc 1 dig_h1 1 24 `s 1 dig_h2 2 25 `uc 1 dig_h3 1 27 `s 1 dig_h4 2 28 `s 1 dig_h5 2 30 `c 1 dig_h6 1 32 `l 1 t_fine 4 33 ]
+"140
+[v parse_humidity_calib_data@calib_data calib_data `*.39S1407  1 p 2 27 ]
+"157
+} 0
+"128 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\mcc_generated_files/examples/i2c1_master_example.c
+[v _I2C1_ReadDataBlock I2C1_ReadDataBlock `(v  1 e 1 0 ]
+{
+[v I2C1_ReadDataBlock@address address `uc  1 a 1 wreg ]
+[s S96 . 4 `ui 1 len 2 0 `*.39uc 1 data 2 2 ]
+"130
+[v I2C1_ReadDataBlock@bufferBlock bufferBlock `S96  1 a 4 23 ]
+"128
+[v I2C1_ReadDataBlock@address address `uc  1 a 1 wreg ]
+[v I2C1_ReadDataBlock@reg reg `uc  1 p 1 17 ]
+[v I2C1_ReadDataBlock@data data `*.39uc  1 p 2 18 ]
+[v I2C1_ReadDataBlock@len len `ui  1 p 2 20 ]
+"131
+[v I2C1_ReadDataBlock@address address `uc  1 a 1 22 ]
+"140
+} 0
+"395 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\BME280.c
+[v _BME280_compensate_data BME280_compensate_data `(v  1 e 1 0 ]
+{
+[s S1427 . 12 `ul 1 pressure 4 0 `ul 1 temperature 4 4 `ul 1 humidity 4 8 ]
+[v BME280_compensate_data@uncomp_data uncomp_data `*.39S1427  1 p 2 80 ]
+"396
+[v BME280_compensate_data@comp_data comp_data `*.39S1427  1 p 2 82 ]
+[s S1407 . 37 `us 1 dig_t1 2 0 `s 1 dig_t2 2 2 `s 1 dig_t3 2 4 `us 1 dig_p1 2 6 `s 1 dig_p2 2 8 `s 1 dig_p3 2 10 `s 1 dig_p4 2 12 `s 1 dig_p5 2 14 `s 1 dig_p6 2 16 `s 1 dig_p7 2 18 `s 1 dig_p8 2 20 `s 1 dig_p9 2 22 `uc 1 dig_h1 1 24 `s 1 dig_h2 2 25 `uc 1 dig_h3 1 27 `s 1 dig_h4 2 28 `s 1 dig_h5 2 30 `c 1 dig_h6 1 32 `l 1 t_fine 4 33 ]
+"397
+[v BME280_compensate_data@calib_data calib_data `*.39S1407  1 p 2 84 ]
+"407
+} 0
+"274
+[v _compensate_temperature compensate_temperature `(l  1 s 4 compensate_temperature ]
+{
+"279
+[v compensate_temperature@temperature temperature `l  1 a 4 60 ]
+"278
+[v compensate_temperature@var2 var2 `l  1 a 4 56 ]
+"277
+[v compensate_temperature@var1 var1 `l  1 a 4 52 ]
+"281
+[v compensate_temperature@temperature_max temperature_max `l  1 a 4 48 ]
+[s S1427 . 12 `ul 1 pressure 4 0 `ul 1 temperature 4 4 `ul 1 humidity 4 8 ]
+"274
+[v compensate_temperature@uncomp_data uncomp_data `*.39S1427  1 p 2 26 ]
+[s S1407 . 37 `us 1 dig_t1 2 0 `s 1 dig_t2 2 2 `s 1 dig_t3 2 4 `us 1 dig_p1 2 6 `s 1 dig_p2 2 8 `s 1 dig_p3 2 10 `s 1 dig_p4 2 12 `s 1 dig_p5 2 14 `s 1 dig_p6 2 16 `s 1 dig_p7 2 18 `s 1 dig_p8 2 20 `s 1 dig_p9 2 22 `uc 1 dig_h1 1 24 `s 1 dig_h2 2 25 `uc 1 dig_h3 1 27 `s 1 dig_h4 2 28 `s 1 dig_h5 2 30 `c 1 dig_h6 1 32 `l 1 t_fine 4 33 ]
+"275
+[v compensate_temperature@calib_data calib_data `*.39S1407  1 p 2 28 ]
+"300
+} 0
+"301
+[v _compensate_pressure compensate_pressure `(ul  1 s 4 compensate_pressure ]
+{
+"304
+[v compensate_pressure@var1 var1 `l  1 a 4 76 ]
+"309
+[v compensate_pressure@pressure pressure `ul  1 a 4 72 ]
+"305
+[v compensate_pressure@var2 var2 `l  1 a 4 68 ]
+"311
+[v compensate_pressure@pressure_max pressure_max `ul  1 a 4 60 ]
+"308
+[v compensate_pressure@var5 var5 `ul  1 a 4 48 ]
+"307
+[v compensate_pressure@var4 var4 `l  1 a 4 44 ]
+"306
+[v compensate_pressure@var3 var3 `l  1 a 4 40 ]
+[s S1427 . 12 `ul 1 pressure 4 0 `ul 1 temperature 4 4 `ul 1 humidity 4 8 ]
+"301
+[v compensate_pressure@uncomp_data uncomp_data `*.39S1427  1 p 2 26 ]
+[s S1407 . 37 `us 1 dig_t1 2 0 `s 1 dig_t2 2 2 `s 1 dig_t3 2 4 `us 1 dig_p1 2 6 `s 1 dig_p2 2 8 `s 1 dig_p3 2 10 `s 1 dig_p4 2 12 `s 1 dig_p5 2 14 `s 1 dig_p6 2 16 `s 1 dig_p7 2 18 `s 1 dig_p8 2 20 `s 1 dig_p9 2 22 `uc 1 dig_h1 1 24 `s 1 dig_h2 2 25 `uc 1 dig_h3 1 27 `s 1 dig_h4 2 28 `s 1 dig_h5 2 30 `c 1 dig_h6 1 32 `l 1 t_fine 4 33 ]
+"302
+[v compensate_pressure@calib_data calib_data `*.39S1407  1 p 2 28 ]
+"357
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 8 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 12 ]
+"7
+[v ___lldiv@dividend dividend `ul  1 p 4 0 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 4 ]
+"30
+} 0
+"358 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\BME280.c
+[v _compensate_humidity compensate_humidity `(ul  1 s 4 compensate_humidity ]
+{
+"363
+[v compensate_humidity@var3 var3 `l  1 a 4 66 ]
+"365
+[v compensate_humidity@var5 var5 `l  1 a 4 62 ]
+"364
+[v compensate_humidity@var4 var4 `l  1 a 4 58 ]
+"362
+[v compensate_humidity@var2 var2 `l  1 a 4 54 ]
+"361
+[v compensate_humidity@var1 var1 `l  1 a 4 50 ]
+"366
+[v compensate_humidity@humidity humidity `ul  1 a 4 46 ]
+[s S1427 . 12 `ul 1 pressure 4 0 `ul 1 temperature 4 4 `ul 1 humidity 4 8 ]
+"358
+[v compensate_humidity@uncomp_data uncomp_data `*.39S1427  1 p 2 26 ]
+[s S1407 . 37 `us 1 dig_t1 2 0 `s 1 dig_t2 2 2 `s 1 dig_t3 2 4 `us 1 dig_p1 2 6 `s 1 dig_p2 2 8 `s 1 dig_p3 2 10 `s 1 dig_p4 2 12 `s 1 dig_p5 2 14 `s 1 dig_p6 2 16 `s 1 dig_p7 2 18 `s 1 dig_p8 2 20 `s 1 dig_p9 2 22 `uc 1 dig_h1 1 24 `s 1 dig_h2 2 25 `uc 1 dig_h3 1 27 `s 1 dig_h4 2 28 `s 1 dig_h5 2 30 `c 1 dig_h6 1 32 `l 1 t_fine 4 33 ]
+"359
+[v compensate_humidity@calib_data calib_data `*.39S1407  1 p 2 28 ]
+"391
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"17
+[v ___lmul@product product `ul  1 a 4 8 ]
+"15
+[v ___lmul@multiplier multiplier `ul  1 p 4 0 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 4 ]
+"129
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"10
+[v ___aldiv@quotient quotient `l  1 a 4 22 ]
+"11
+[v ___aldiv@sign sign `uc  1 a 1 21 ]
+[v ___aldiv@counter counter `uc  1 a 1 20 ]
+"7
+[v ___aldiv@dividend dividend `l  1 p 4 12 ]
+[v ___aldiv@divisor divisor `l  1 p 4 16 ]
+"41
+} 0
+"203 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\BME280.c
+[v _BME280_WakeUp_FM BME280_WakeUp_FM `(v  1 e 1 0 ]
+{
+"204
+[v BME280_WakeUp_FM@reg_val reg_val `uc  1 a 1 22 ]
+"207
+} 0
+"431
+[v _BME280_NormalizeMeasurements BME280_NormalizeMeasurements `(v  1 e 1 0 ]
+{
+[s S1427 . 12 `ul 1 pressure 4 0 `ul 1 temperature 4 4 `ul 1 humidity 4 8 ]
+[v BME280_NormalizeMeasurements@comp_data comp_data `*.39S1427  1 p 2 39 ]
+[s S1435 . 12 `f 1 pressure 4 0 `f 1 temperature 4 4 `f 1 humidity 4 8 ]
+[v BME280_NormalizeMeasurements@res res `*.39S1435  1 p 2 41 ]
+"435
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"11 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 33 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 26 ]
+"20
+[v ___fldiv@new_exp new_exp `s  1 a 2 31 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 38 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 37 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 30 ]
+"11
+[v ___fldiv@b b `d  1 p 4 14 ]
+[v ___fldiv@a a `d  1 p 4 18 ]
+"185
+} 0
+"64 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\BME280.c
+[v _BME280_Init BME280_Init `(v  1 e 1 0 ]
+{
+"71
+} 0
+"411
+[v _BME280_Config BME280_Config `(v  1 e 1 0 ]
+{
+[v BME280_Config@osrs_t osrs_t `uc  1 a 1 wreg ]
+"417
+[v BME280_Config@config_currentValue config_currentValue `uc  1 a 1 33 ]
+"416
+[v BME280_Config@hum_currentValue hum_currentValue `uc  1 a 1 32 ]
+"414
+[v BME280_Config@ctrl_hum_reg_tw ctrl_hum_reg_tw `uc  1 a 1 31 ]
+"413
+[v BME280_Config@config_reg_tw config_reg_tw `uc  1 a 1 30 ]
+"412
+[v BME280_Config@ctrl_meas_reg_tw ctrl_meas_reg_tw `uc  1 a 1 29 ]
+"411
+[v BME280_Config@osrs_t osrs_t `uc  1 a 1 wreg ]
+[v BME280_Config@osrs_p osrs_p `uc  1 p 1 22 ]
+[v BME280_Config@osrs_h osrs_h `uc  1 p 1 23 ]
+[v BME280_Config@filter filter `uc  1 p 1 24 ]
+[v BME280_Config@t_sb t_sb `uc  1 p 1 25 ]
+[v BME280_Config@mode mode `uc  1 p 1 26 ]
+"416
+[v BME280_Config@osrs_t osrs_t `uc  1 a 1 28 ]
+"429
+} 0
+"5
+[v _BME280_Reset BME280_Reset `(v  1 e 1 0 ]
+{
+"7
+} 0
+"35
+[v _BME280_Write1ByteRegister BME280_Write1ByteRegister `(v  1 e 1 0 ]
+{
+[v BME280_Write1ByteRegister@reg_addr reg_addr `uc  1 a 1 wreg ]
+[v BME280_Write1ByteRegister@reg_addr reg_addr `uc  1 a 1 wreg ]
+[v BME280_Write1ByteRegister@data_tw data_tw `uc  1 p 1 20 ]
+[v BME280_Write1ByteRegister@reg_addr reg_addr `uc  1 a 1 21 ]
+"37
+} 0
+"91 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\mcc_generated_files/examples/i2c1_master_example.c
+[v _I2C1_Write1ByteRegister I2C1_Write1ByteRegister `(v  1 e 1 0 ]
+{
+[v I2C1_Write1ByteRegister@address address `uc  1 a 1 wreg ]
+[v I2C1_Write1ByteRegister@address address `uc  1 a 1 wreg ]
+[v I2C1_Write1ByteRegister@reg reg `uc  1 p 1 17 ]
+[v I2C1_Write1ByteRegister@data data `uc  1 p 1 18 ]
+[v I2C1_Write1ByteRegister@address address `uc  1 a 1 19 ]
+"99
+} 0
+"14 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\BME280.c
+[v _BME280_Read1ByteRegister BME280_Read1ByteRegister `(uc  1 e 1 0 ]
+{
+[v BME280_Read1ByteRegister@reg_addr reg_addr `uc  1 a 1 wreg ]
+"15
+[v BME280_Read1ByteRegister@buffer buffer `uc  1 a 1 21 ]
+"14
+[v BME280_Read1ByteRegister@reg_addr reg_addr `uc  1 a 1 wreg ]
+[v BME280_Read1ByteRegister@reg_addr reg_addr `uc  1 a 1 20 ]
+"17
+} 0
+"63 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\mcc_generated_files/examples/i2c1_master_example.c
+[v _I2C1_Read1ByteRegister I2C1_Read1ByteRegister `(uc  1 e 1 0 ]
+{
+[v I2C1_Read1ByteRegister@address address `uc  1 a 1 wreg ]
+"65
+[v I2C1_Read1ByteRegister@returnValue returnValue `uc  1 a 1 19 ]
+"63
+[v I2C1_Read1ByteRegister@address address `uc  1 a 1 wreg ]
+[v I2C1_Read1ByteRegister@reg reg `uc  1 p 1 17 ]
+"65
+[v I2C1_Read1ByteRegister@address address `uc  1 a 1 18 ]
+"75
+} 0
+"283 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\mcc_generated_files/i2c1_master.c
+[v _I2C1_SetAddressNackCallback I2C1_SetAddressNackCallback `(v  1 e 1 0 ]
+{
+[v I2C1_SetAddressNackCallback@cb cb `*.38(E360  1 p 3 6 ]
+[v I2C1_SetAddressNackCallback@ptr ptr `*.2v  1 p 2 9 ]
+"286
+} 0
+"176
+[v _I2C1_Open I2C1_Open `(E355  1 e 1 0 ]
+{
+[v I2C1_Open@address address `uc  1 a 1 wreg ]
+"178
+[v I2C1_Open@returnValue returnValue `E355  1 a 1 1 ]
+"176
+[v I2C1_Open@address address `uc  1 a 1 wreg ]
+"178
+[v I2C1_Open@address address `uc  1 a 1 0 ]
+"207
+} 0
+"543
+[v _I2C1_MasterOpen I2C1_MasterOpen `T(a  1 s 1 I2C1_MasterOpen ]
+{
+"555
+} 0
+"251
+[v _I2C1_MasterWrite I2C1_MasterWrite `(E355  1 e 1 0 ]
+{
+"254
+} 0
+"224
+[v _I2C1_MasterOperation I2C1_MasterOperation `(E355  1 e 1 0 ]
+{
+[v I2C1_MasterOperation@read read `a  1 a 1 wreg ]
+"226
+[v I2C1_MasterOperation@returnValue returnValue `E355  1 a 1 16 ]
+"224
+[v I2C1_MasterOperation@read read `a  1 a 1 wreg ]
+"226
+[v I2C1_MasterOperation@read read `a  1 a 1 15 ]
+"244
+} 0
+"312
+[v _I2C1_Poller I2C1_Poller `(v  1 s 1 I2C1_Poller ]
+{
+"319
+} 0
+"650
+[v _I2C1_MasterWaitForEvent I2C1_MasterWaitForEvent `T(v  1 s 1 I2C1_MasterWaitForEvent ]
+{
+"659
+} 0
+"321
+[v _I2C1_MasterFsm I2C1_MasterFsm `T(v  1 s 1 I2C1_MasterFsm ]
+{
+"330
+} 0
+"500
+[v _I2C1_DO_ADDRESS_NACK I2C1_DO_ADDRESS_NACK `(E6865  1 s 1 I2C1_DO_ADDRESS_NACK ]
+{
+"512
+} 0
+"494
+[v _I2C1_DO_RESET I2C1_DO_RESET `(E6865  1 s 1 I2C1_DO_RESET ]
+{
+"499
+} 0
+"488
+[v _I2C1_DO_RX_NACK_RESTART I2C1_DO_RX_NACK_RESTART `(E6865  1 s 1 I2C1_DO_RX_NACK_RESTART ]
+{
+"492
+} 0
+"482
+[v _I2C1_DO_RX_NACK_STOP I2C1_DO_RX_NACK_STOP `(E6865  1 s 1 I2C1_DO_RX_NACK_STOP ]
+{
+"486
+} 0
+"475
+[v _I2C1_DO_RX_ACK I2C1_DO_RX_ACK `(E6865  1 s 1 I2C1_DO_RX_ACK ]
+{
+"479
+} 0
+"469
+[v _I2C1_DO_SEND_STOP I2C1_DO_SEND_STOP `(E6865  1 s 1 I2C1_DO_SEND_STOP ]
+{
+"473
+} 0
+"463
+[v _I2C1_DO_SEND_RESTART I2C1_DO_SEND_RESTART `(E6865  1 s 1 I2C1_DO_SEND_RESTART ]
+{
+"467
+} 0
+"456
+[v _I2C1_DO_SEND_RESTART_WRITE I2C1_DO_SEND_RESTART_WRITE `(E6865  1 s 1 I2C1_DO_SEND_RESTART_WRITE ]
+{
+"460
+} 0
+"450
+[v _I2C1_DO_SEND_RESTART_READ I2C1_DO_SEND_RESTART_READ `(E6865  1 s 1 I2C1_DO_SEND_RESTART_READ ]
+{
+"454
+} 0
+"402
+[v _I2C1_DO_RCEN I2C1_DO_RCEN `(E6865  1 s 1 I2C1_DO_RCEN ]
+{
+"407
+} 0
+"378
+[v _I2C1_DO_RX I2C1_DO_RX `(E6865  1 s 1 I2C1_DO_RX ]
+{
+"400
+} 0
+"354
+[v _I2C1_DO_TX I2C1_DO_TX `(E6865  1 s 1 I2C1_DO_TX ]
+{
+"376
+} 0
+"347
+[v _I2C1_DO_SEND_ADR_WRITE I2C1_DO_SEND_ADR_WRITE `(E6865  1 s 1 I2C1_DO_SEND_ADR_WRITE ]
+{
+"352
+} 0
+"340
+[v _I2C1_DO_SEND_ADR_READ I2C1_DO_SEND_ADR_READ `(E6865  1 s 1 I2C1_DO_SEND_ADR_READ ]
+{
+"345
+} 0
+"333
+[v _I2C1_DO_IDLE I2C1_DO_IDLE `(E6865  1 s 1 I2C1_DO_IDLE ]
+{
+"338
+} 0
+"409
+[v _I2C1_DO_TX_EMPTY I2C1_DO_TX_EMPTY `(E6865  1 s 1 I2C1_DO_TX_EMPTY ]
+{
+"424
+} 0
+"645
+[v _I2C1_MasterSetIrq I2C1_MasterSetIrq `T(v  1 s 1 I2C1_MasterSetIrq ]
+{
+"648
+} 0
+"598
+[v _I2C1_MasterIsNack I2C1_MasterIsNack `T(a  1 s 1 I2C1_MasterIsNack ]
+{
+"601
+} 0
+"568
+[v _I2C1_MasterSendTxData I2C1_MasterSendTxData `T(v  1 s 1 I2C1_MasterSendTxData ]
+{
+[v I2C1_MasterSendTxData@data data `uc  1 a 1 wreg ]
+[v I2C1_MasterSendTxData@data data `uc  1 a 1 wreg ]
+"570
+[v I2C1_MasterSendTxData@data data `uc  1 a 1 0 ]
+"571
+} 0
+"603
+[v _I2C1_MasterSendAck I2C1_MasterSendAck `T(v  1 s 1 I2C1_MasterSendAck ]
+{
+"607
+} 0
+"563
+[v _I2C1_MasterGetRxData I2C1_MasterGetRxData `T(uc  1 s 1 I2C1_MasterGetRxData ]
+{
+"566
+} 0
+"609
+[v _I2C1_MasterSendNack I2C1_MasterSendNack `T(v  1 s 1 I2C1_MasterSendNack ]
+{
+"613
+} 0
+"583
+[v _I2C1_MasterStartRx I2C1_MasterStartRx `T(v  1 s 1 I2C1_MasterStartRx ]
+{
+"586
+} 0
+"525
+[v _I2C1_CallbackReturnReset I2C1_CallbackReturnReset `(E360  1 e 1 0 ]
+{
+[v I2C1_CallbackReturnReset@funPtr funPtr `*.39v  1 p 2 11 ]
+"528
+} 0
+"520
+[v _I2C1_CallbackReturnStop I2C1_CallbackReturnStop `(E360  1 e 1 0 ]
+{
+"523
+} 0
+"170 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\mcc_generated_files/examples/i2c1_master_example.c
+[v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E360  1 s 1 rdBlkRegCompleteHandler ]
+{
+[v rdBlkRegCompleteHandler@ptr ptr `*.39v  1 p 2 11 ]
+"175
+} 0
+"156
+[v _wr1RegCompleteHandler wr1RegCompleteHandler `(E360  1 s 1 wr1RegCompleteHandler ]
+{
+[v wr1RegCompleteHandler@ptr ptr `*.39v  1 p 2 11 ]
+"161
+} 0
+"149
+[v _rd2RegCompleteHandler rd2RegCompleteHandler `(E360  1 s 1 rd2RegCompleteHandler ]
+{
+[v rd2RegCompleteHandler@ptr ptr `*.39v  1 p 2 11 ]
+"154
+} 0
+"142
+[v _rd1RegCompleteHandler rd1RegCompleteHandler `(E360  1 s 1 rd1RegCompleteHandler ]
+{
+[v rd1RegCompleteHandler@ptr ptr `*.39v  1 p 2 11 ]
+"147
+} 0
+"163
+[v _wr2RegCompleteHandler wr2RegCompleteHandler `(E360  1 s 1 wr2RegCompleteHandler ]
+{
+[v wr2RegCompleteHandler@ptr ptr `*.39v  1 p 2 11 ]
+"168
+} 0
+"273 C:\Users\Studenti\Desktop\em14.2019\WeatherStation.X\mcc_generated_files/i2c1_master.c
+[v _I2C1_SetDataCompleteCallback I2C1_SetDataCompleteCallback `(v  1 e 1 0 ]
+{
+[v I2C1_SetDataCompleteCallback@cb cb `*.38(E360  1 p 3 6 ]
+[v I2C1_SetDataCompleteCallback@ptr ptr `*.39v  1 p 2 9 ]
+"276
+} 0
+"298
+[v _I2C1_SetCallback I2C1_SetCallback `(v  1 s 1 I2C1_SetCallback ]
+{
+[v I2C1_SetCallback@idx idx `E6883  1 a 1 wreg ]
+[v I2C1_SetCallback@idx idx `E6883  1 a 1 wreg ]
+[v I2C1_SetCallback@cb cb `*.38(E360  1 p 3 0 ]
+[v I2C1_SetCallback@ptr ptr `*.39v  1 p 2 3 ]
+"300
+[v I2C1_SetCallback@idx idx `E6883  1 a 1 5 ]
+"310
+} 0
+"263
+[v _I2C1_SetBuffer I2C1_SetBuffer `(v  1 e 1 0 ]
+{
+[v I2C1_SetBuffer@buffer buffer `*.39v  1 p 2 0 ]
+[v I2C1_SetBuffer@bufferSize bufferSize `ui  1 p 2 2 ]
+"271
+} 0
+"593
+[v _I2C1_MasterStop I2C1_MasterStop `T(v  1 s 1 I2C1_MasterStop ]
+{
+"596
+} 0
+"573
+[v _I2C1_MasterEnableRestart I2C1_MasterEnableRestart `T(v  1 s 1 I2C1_MasterEnableRestart ]
+{
+"576
+} 0
+"588
+[v _I2C1_MasterStart I2C1_MasterStart `T(v  1 s 1 I2C1_MasterStart ]
+{
+"591
+} 0
+"209
+[v _I2C1_Close I2C1_Close `(E355  1 e 1 0 ]
+{
+"211
+[v I2C1_Close@returnValue returnValue `E355  1 a 1 0 ]
+"222
+} 0
+"635
+[v _I2C1_MasterDisableIrq I2C1_MasterDisableIrq `T(v  1 s 1 I2C1_MasterDisableIrq ]
+{
+"638
+} 0
+"557
+[v _I2C1_MasterClose I2C1_MasterClose `T(v  1 s 1 I2C1_MasterClose ]
+{
+"561
+} 0
+"640
+[v _I2C1_MasterClearIrq I2C1_MasterClearIrq `T(v  1 s 1 I2C1_MasterClearIrq ]
+{
+"643
+} 0

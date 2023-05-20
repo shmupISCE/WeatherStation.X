@@ -1,0 +1,1007 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"10019 C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10019: extern volatile unsigned char LATE __attribute__((address(0xF8D)));
+[v _LATE `Vuc ~T0 @X0 0 e@3981 ]
+"9907
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 9907: extern volatile unsigned char LATD __attribute__((address(0xF8C)));
+[v _LATD `Vuc ~T0 @X0 0 e@3980 ]
+"9571
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 9571: extern volatile unsigned char LATA __attribute__((address(0xF89)));
+[v _LATA `Vuc ~T0 @X0 0 e@3977 ]
+"10131
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10131: extern volatile unsigned char LATF __attribute__((address(0xF8E)));
+[v _LATF `Vuc ~T0 @X0 0 e@3982 ]
+"9683
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 9683: extern volatile unsigned char LATB __attribute__((address(0xF8A)));
+[v _LATB `Vuc ~T0 @X0 0 e@3978 ]
+"10233
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10233: extern volatile unsigned char LATG __attribute__((address(0xF8F)));
+[v _LATG `Vuc ~T0 @X0 0 e@3983 ]
+"9795
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 9795: extern volatile unsigned char LATC __attribute__((address(0xF8B)));
+[v _LATC `Vuc ~T0 @X0 0 e@3979 ]
+"10309
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10309: extern volatile unsigned char LATH __attribute__((address(0xF90)));
+[v _LATH `Vuc ~T0 @X0 0 e@3984 ]
+"10781
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10781: extern volatile unsigned char TRISE __attribute__((address(0xF96)));
+[v _TRISE `Vuc ~T0 @X0 0 e@3990 ]
+"10843
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10843: extern volatile unsigned char TRISF __attribute__((address(0xF97)));
+[v _TRISF `Vuc ~T0 @X0 0 e@3991 ]
+"10533
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10533: extern volatile unsigned char TRISA __attribute__((address(0xF92)));
+[v _TRISA `Vuc ~T0 @X0 0 e@3986 ]
+"10900
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10900: extern volatile unsigned char TRISG __attribute__((address(0xF98)));
+[v _TRISG `Vuc ~T0 @X0 0 e@3992 ]
+"10595
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10595: extern volatile unsigned char TRISB __attribute__((address(0xF93)));
+[v _TRISB `Vuc ~T0 @X0 0 e@3987 ]
+"10944
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10944: extern volatile unsigned char TRISH __attribute__((address(0xF99)));
+[v _TRISH `Vuc ~T0 @X0 0 e@3993 ]
+"10657
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10657: extern volatile unsigned char TRISC __attribute__((address(0xF94)));
+[v _TRISC `Vuc ~T0 @X0 0 e@3988 ]
+"10719
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10719: extern volatile unsigned char TRISD __attribute__((address(0xF95)));
+[v _TRISD `Vuc ~T0 @X0 0 e@3989 ]
+"1306
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 1306: extern volatile unsigned char ANCON0 __attribute__((address(0xF25)));
+[v _ANCON0 `Vuc ~T0 @X0 0 e@3877 ]
+"1194
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 1194: extern volatile unsigned char ANCON1 __attribute__((address(0xF24)));
+[v _ANCON1 `Vuc ~T0 @X0 0 e@3876 ]
+"1082
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 1082: extern volatile unsigned char ANCON2 __attribute__((address(0xF23)));
+[v _ANCON2 `Vuc ~T0 @X0 0 e@3875 ]
+"17551
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17551:     struct {
+[s S804 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S804 . RBIF INT0IF TMR0IF RBIE INT0IE TMR0IE PEIE_GIEL GIE_GIEH ]
+"17561
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17561:     struct {
+[s S805 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S805 . . INT0F T0IF . INT0E T0IE PEIE GIE ]
+"17571
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17571:     struct {
+[s S806 :6 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S806 . . GIEL GIEH ]
+"17550
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17550: typedef union {
+[u S803 `S804 1 `S805 1 `S806 1 ]
+[n S803 . . . . ]
+"17577
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17577: extern volatile INTCONbits_t INTCONbits __attribute__((address(0xFF2)));
+[v _INTCONbits `VS803 ~T0 @X0 0 e@4082 ]
+"55 C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 55: __asm("PMD3 equ 0F16h");
+[; <" PMD3 equ 0F16h ;# ">
+"117
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 117: __asm("PMD2 equ 0F17h");
+[; <" PMD2 equ 0F17h ;# ">
+"179
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 179: __asm("PMD1 equ 0F18h");
+[; <" PMD1 equ 0F18h ;# ">
+"241
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 241: __asm("PMD0 equ 0F19h");
+[; <" PMD0 equ 0F19h ;# ">
+"318
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 318: __asm("PSTR3CON equ 0F1Ah");
+[; <" PSTR3CON equ 0F1Ah ;# ">
+"429
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 429: __asm("PSTR2CON equ 0F1Bh");
+[; <" PSTR2CON equ 0F1Bh ;# ">
+"618
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 618: __asm("TXREG2 equ 0F1Ch");
+[; <" TXREG2 equ 0F1Ch ;# ">
+"638
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 638: __asm("RCREG2 equ 0F1Dh");
+[; <" RCREG2 equ 0F1Dh ;# ">
+"658
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 658: __asm("SPBRG2 equ 0F1Eh");
+[; <" SPBRG2 equ 0F1Eh ;# ">
+"678
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 678: __asm("SPBRGH2 equ 0F1Fh");
+[; <" SPBRGH2 equ 0F1Fh ;# ">
+"698
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 698: __asm("BAUDCON2 equ 0F20h");
+[; <" BAUDCON2 equ 0F20h ;# ">
+"821
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 821: __asm("TXSTA2 equ 0F21h");
+[; <" TXSTA2 equ 0F21h ;# ">
+"948
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 948: __asm("RCSTA2 equ 0F22h");
+[; <" RCSTA2 equ 0F22h ;# ">
+"1084
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 1084: __asm("ANCON2 equ 0F23h");
+[; <" ANCON2 equ 0F23h ;# ">
+"1196
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 1196: __asm("ANCON1 equ 0F24h");
+[; <" ANCON1 equ 0F24h ;# ">
+"1308
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 1308: __asm("ANCON0 equ 0F25h");
+[; <" ANCON0 equ 0F25h ;# ">
+"1420
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 1420: __asm("MEMCON equ 0F26h");
+[; <" MEMCON equ 0F26h ;# ">
+"1481
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 1481: __asm("ODCON3 equ 0F27h");
+[; <" ODCON3 equ 0F27h ;# ">
+"1514
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 1514: __asm("ODCON2 equ 0F28h");
+[; <" ODCON2 equ 0F28h ;# ">
+"1576
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 1576: __asm("ODCON1 equ 0F29h");
+[; <" ODCON1 equ 0F29h ;# ">
+"1615
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 1615: __asm("REFOCON equ 0F2Ah");
+[; <" REFOCON equ 0F2Ah ;# ">
+"1680
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 1680: __asm("CCPTMRS2 equ 0F2Bh");
+[; <" CCPTMRS2 equ 0F2Bh ;# ">
+"1727
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 1727: __asm("CCPTMRS1 equ 0F2Ch");
+[; <" CCPTMRS1 equ 0F2Ch ;# ">
+"1794
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 1794: __asm("CCPTMRS0 equ 0F2Dh");
+[; <" CCPTMRS0 equ 0F2Dh ;# ">
+"1876
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 1876: __asm("CM3CON equ 0F2Eh");
+[; <" CM3CON equ 0F2Eh ;# ">
+"1881
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 1881: __asm("CM3CON1 equ 0F2Eh");
+[; <" CM3CON1 equ 0F2Eh ;# ">
+"2128
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 2128: __asm("CM2CON equ 0F2Fh");
+[; <" CM2CON equ 0F2Fh ;# ">
+"2133
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 2133: __asm("CM2CON1 equ 0F2Fh");
+[; <" CM2CON1 equ 0F2Fh ;# ">
+"2380
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 2380: __asm("T12CON equ 0F30h");
+[; <" T12CON equ 0F30h ;# ">
+"2451
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 2451: __asm("PR12 equ 0F31h");
+[; <" PR12 equ 0F31h ;# ">
+"2471
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 2471: __asm("TMR12 equ 0F32h");
+[; <" TMR12 equ 0F32h ;# ">
+"2491
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 2491: __asm("T10CON equ 0F33h");
+[; <" T10CON equ 0F33h ;# ">
+"2562
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 2562: __asm("PR10 equ 0F34h");
+[; <" PR10 equ 0F34h ;# ">
+"2582
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 2582: __asm("TMR10 equ 0F35h");
+[; <" TMR10 equ 0F35h ;# ">
+"2602
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 2602: __asm("T8CON equ 0F36h");
+[; <" T8CON equ 0F36h ;# ">
+"2673
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 2673: __asm("PR8 equ 0F37h");
+[; <" PR8 equ 0F37h ;# ">
+"2693
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 2693: __asm("TMR8 equ 0F38h");
+[; <" TMR8 equ 0F38h ;# ">
+"2713
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 2713: __asm("T6CON equ 0F39h");
+[; <" T6CON equ 0F39h ;# ">
+"2784
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 2784: __asm("PR6 equ 0F3Ah");
+[; <" PR6 equ 0F3Ah ;# ">
+"2804
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 2804: __asm("TMR6 equ 0F3Bh");
+[; <" TMR6 equ 0F3Bh ;# ">
+"2824
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 2824: __asm("T7GCON equ 0F3Ch");
+[; <" T7GCON equ 0F3Ch ;# ">
+"2928
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 2928: __asm("T7CON equ 0F3Dh");
+[; <" T7CON equ 0F3Dh ;# ">
+"3030
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3030: __asm("TMR7 equ 0F3Eh");
+[; <" TMR7 equ 0F3Eh ;# ">
+"3037
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3037: __asm("TMR7L equ 0F3Eh");
+[; <" TMR7L equ 0F3Eh ;# ">
+"3107
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3107: __asm("TMR7H equ 0F3Fh");
+[; <" TMR7H equ 0F3Fh ;# ">
+"3127
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3127: __asm("CCP10CON equ 0F40h");
+[; <" CCP10CON equ 0F40h ;# ">
+"3206
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3206: __asm("CCPR10 equ 0F41h");
+[; <" CCPR10 equ 0F41h ;# ">
+"3213
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3213: __asm("CCPR10L equ 0F41h");
+[; <" CCPR10L equ 0F41h ;# ">
+"3233
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3233: __asm("CCPR10H equ 0F42h");
+[; <" CCPR10H equ 0F42h ;# ">
+"3253
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3253: __asm("CCP9CON equ 0F43h");
+[; <" CCP9CON equ 0F43h ;# ">
+"3332
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3332: __asm("CCPR9 equ 0F44h");
+[; <" CCPR9 equ 0F44h ;# ">
+"3339
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3339: __asm("CCPR9L equ 0F44h");
+[; <" CCPR9L equ 0F44h ;# ">
+"3359
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3359: __asm("CCPR9H equ 0F45h");
+[; <" CCPR9H equ 0F45h ;# ">
+"3379
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3379: __asm("CCP8CON equ 0F46h");
+[; <" CCP8CON equ 0F46h ;# ">
+"3458
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3458: __asm("CCPR8 equ 0F47h");
+[; <" CCPR8 equ 0F47h ;# ">
+"3465
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3465: __asm("CCPR8L equ 0F47h");
+[; <" CCPR8L equ 0F47h ;# ">
+"3485
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3485: __asm("CCPR8H equ 0F48h");
+[; <" CCPR8H equ 0F48h ;# ">
+"3505
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3505: __asm("CCP3CON equ 0F49h");
+[; <" CCP3CON equ 0F49h ;# ">
+"3587
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3587: __asm("CCPR3 equ 0F4Ah");
+[; <" CCPR3 equ 0F4Ah ;# ">
+"3594
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3594: __asm("CCPR3L equ 0F4Ah");
+[; <" CCPR3L equ 0F4Ah ;# ">
+"3614
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3614: __asm("CCPR3H equ 0F4Bh");
+[; <" CCPR3H equ 0F4Bh ;# ">
+"3634
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3634: __asm("ECCP3DEL equ 0F4Ch");
+[; <" ECCP3DEL equ 0F4Ch ;# ">
+"3704
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3704: __asm("ECCP3AS equ 0F4Dh");
+[; <" ECCP3AS equ 0F4Dh ;# ">
+"3786
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3786: __asm("CCP2CON equ 0F4Eh");
+[; <" CCP2CON equ 0F4Eh ;# ">
+"3791
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3791: __asm("ECCP2CON equ 0F4Eh");
+[; <" ECCP2CON equ 0F4Eh ;# ">
+"3978
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3978: __asm("CCPR2 equ 0F4Fh");
+[; <" CCPR2 equ 0F4Fh ;# ">
+"3985
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 3985: __asm("CCPR2L equ 0F4Fh");
+[; <" CCPR2L equ 0F4Fh ;# ">
+"4005
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4005: __asm("CCPR2H equ 0F50h");
+[; <" CCPR2H equ 0F50h ;# ">
+"4025
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4025: __asm("ECCP2DEL equ 0F51h");
+[; <" ECCP2DEL equ 0F51h ;# ">
+"4030
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4030: __asm("PWM2CON equ 0F51h");
+[; <" PWM2CON equ 0F51h ;# ">
+"4163
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4163: __asm("ECCP2AS equ 0F52h");
+[; <" ECCP2AS equ 0F52h ;# ">
+"4245
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4245: __asm("PADCFG1 equ 0F53h");
+[; <" PADCFG1 equ 0F53h ;# ">
+"4300
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4300: __asm("CM1CON equ 0F54h");
+[; <" CM1CON equ 0F54h ;# ">
+"4305
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4305: __asm("CM1CON1 equ 0F54h");
+[; <" CM1CON1 equ 0F54h ;# ">
+"4580
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4580: __asm("CTMUICON equ 0F55h");
+[; <" CTMUICON equ 0F55h ;# ">
+"4656
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4656: __asm("CTMUCONL equ 0F56h");
+[; <" CTMUCONL equ 0F56h ;# ">
+"4734
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4734: __asm("CTMUCONH equ 0F57h");
+[; <" CTMUCONH equ 0F57h ;# ">
+"4791
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4791: __asm("ALRMVAL equ 0F58h");
+[; <" ALRMVAL equ 0F58h ;# ">
+"4798
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4798: __asm("ALRMVALL equ 0F58h");
+[; <" ALRMVALL equ 0F58h ;# ">
+"4818
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4818: __asm("ALRMVALH equ 0F59h");
+[; <" ALRMVALH equ 0F59h ;# ">
+"4838
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4838: __asm("ALRMRPT equ 0F5Ah");
+[; <" ALRMRPT equ 0F5Ah ;# ">
+"4908
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4908: __asm("ALRMCFG equ 0F5Bh");
+[; <" ALRMCFG equ 0F5Bh ;# ">
+"4984
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4984: __asm("RTCVAL equ 0F5Ch");
+[; <" RTCVAL equ 0F5Ch ;# ">
+"4991
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 4991: __asm("RTCVALL equ 0F5Ch");
+[; <" RTCVALL equ 0F5Ch ;# ">
+"5011
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 5011: __asm("RTCVALH equ 0F5Dh");
+[; <" RTCVALH equ 0F5Dh ;# ">
+"5081
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 5081: __asm("RTCCAL equ 0F5Eh");
+[; <" RTCCAL equ 0F5Eh ;# ">
+"5151
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 5151: __asm("RTCCFG equ 0F5Fh");
+[; <" RTCCFG equ 0F5Fh ;# ">
+"5216
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 5216: __asm("PIE6 equ 0F60h");
+[; <" PIE6 equ 0F60h ;# ">
+"5255
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 5255: __asm("EEDATA equ 0F61h");
+[; <" EEDATA equ 0F61h ;# ">
+"5275
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 5275: __asm("EEADR equ 0F62h");
+[; <" EEADR equ 0F62h ;# ">
+"5295
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 5295: __asm("EEADRH equ 0F63h");
+[; <" EEADRH equ 0F63h ;# ">
+"5315
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 5315: __asm("OSCCON2 equ 0F64h");
+[; <" OSCCON2 equ 0F64h ;# ">
+"5355
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 5355: __asm("BAUDCON1 equ 0F65h");
+[; <" BAUDCON1 equ 0F65h ;# ">
+"5360
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 5360: __asm("BAUDCTL equ 0F65h");
+[; <" BAUDCTL equ 0F65h ;# ">
+"5364
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 5364: __asm("BAUDCON equ 0F65h");
+[; <" BAUDCON equ 0F65h ;# ">
+"5862
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 5862: __asm("SSP2CON2 equ 0F66h");
+[; <" SSP2CON2 equ 0F66h ;# ">
+"6040
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 6040: __asm("SSP2CON1 equ 0F67h");
+[; <" SSP2CON1 equ 0F67h ;# ">
+"6160
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 6160: __asm("SSP2STAT equ 0F68h");
+[; <" SSP2STAT equ 0F68h ;# ">
+"6587
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 6587: __asm("SSP2ADD equ 0F69h");
+[; <" SSP2ADD equ 0F69h ;# ">
+"6657
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 6657: __asm("SSP2MSK equ 0F69h");
+[; <" SSP2MSK equ 0F69h ;# ">
+"6727
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 6727: __asm("SSP2BUF equ 0F6Ah");
+[; <" SSP2BUF equ 0F6Ah ;# ">
+"6747
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 6747: __asm("T4CON equ 0F6Bh");
+[; <" T4CON equ 0F6Bh ;# ">
+"6818
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 6818: __asm("PR4 equ 0F6Ch");
+[; <" PR4 equ 0F6Ch ;# ">
+"6838
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 6838: __asm("TMR4 equ 0F6Dh");
+[; <" TMR4 equ 0F6Dh ;# ">
+"6858
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 6858: __asm("CCP7CON equ 0F6Eh");
+[; <" CCP7CON equ 0F6Eh ;# ">
+"6937
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 6937: __asm("CCPR7 equ 0F6Fh");
+[; <" CCPR7 equ 0F6Fh ;# ">
+"6944
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 6944: __asm("CCPR7L equ 0F6Fh");
+[; <" CCPR7L equ 0F6Fh ;# ">
+"6964
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 6964: __asm("CCPR7H equ 0F70h");
+[; <" CCPR7H equ 0F70h ;# ">
+"6984
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 6984: __asm("CCP6CON equ 0F71h");
+[; <" CCP6CON equ 0F71h ;# ">
+"7063
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7063: __asm("CCPR6 equ 0F72h");
+[; <" CCPR6 equ 0F72h ;# ">
+"7070
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7070: __asm("CCPR6L equ 0F72h");
+[; <" CCPR6L equ 0F72h ;# ">
+"7090
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7090: __asm("CCPR6H equ 0F73h");
+[; <" CCPR6H equ 0F73h ;# ">
+"7110
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7110: __asm("CCP5CON equ 0F74h");
+[; <" CCP5CON equ 0F74h ;# ">
+"7189
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7189: __asm("CCPR5 equ 0F75h");
+[; <" CCPR5 equ 0F75h ;# ">
+"7196
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7196: __asm("CCPR5L equ 0F75h");
+[; <" CCPR5L equ 0F75h ;# ">
+"7216
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7216: __asm("CCPR5H equ 0F76h");
+[; <" CCPR5H equ 0F76h ;# ">
+"7236
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7236: __asm("CCP4CON equ 0F77h");
+[; <" CCP4CON equ 0F77h ;# ">
+"7315
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7315: __asm("CCPR4 equ 0F78h");
+[; <" CCPR4 equ 0F78h ;# ">
+"7322
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7322: __asm("CCPR4L equ 0F78h");
+[; <" CCPR4L equ 0F78h ;# ">
+"7342
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7342: __asm("CCPR4H equ 0F79h");
+[; <" CCPR4H equ 0F79h ;# ">
+"7362
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7362: __asm("T5GCON equ 0F7Ah");
+[; <" T5GCON equ 0F7Ah ;# ">
+"7466
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7466: __asm("T5CON equ 0F7Bh");
+[; <" T5CON equ 0F7Bh ;# ">
+"7568
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7568: __asm("TMR5 equ 0F7Ch");
+[; <" TMR5 equ 0F7Ch ;# ">
+"7575
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7575: __asm("TMR5L equ 0F7Ch");
+[; <" TMR5L equ 0F7Ch ;# ">
+"7595
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7595: __asm("TMR5H equ 0F7Dh");
+[; <" TMR5H equ 0F7Dh ;# ">
+"7615
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7615: __asm("EECON2 equ 0F7Eh");
+[; <" EECON2 equ 0F7Eh ;# ">
+"7635
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7635: __asm("EECON1 equ 0F7Fh");
+[; <" EECON1 equ 0F7Fh ;# ">
+"7701
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7701: __asm("PORTA equ 0F80h");
+[; <" PORTA equ 0F80h ;# ">
+"7893
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 7893: __asm("PORTB equ 0F81h");
+[; <" PORTB equ 0F81h ;# ">
+"8079
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 8079: __asm("PORTC equ 0F82h");
+[; <" PORTC equ 0F82h ;# ">
+"8261
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 8261: __asm("PORTD equ 0F83h");
+[; <" PORTD equ 0F83h ;# ">
+"8502
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 8502: __asm("PORTE equ 0F84h");
+[; <" PORTE equ 0F84h ;# ">
+"8855
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 8855: __asm("PORTF equ 0F85h");
+[; <" PORTF equ 0F85h ;# ">
+"9040
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 9040: __asm("PORTG equ 0F86h");
+[; <" PORTG equ 0F86h ;# ">
+"9251
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 9251: __asm("PORTH equ 0F87h");
+[; <" PORTH equ 0F87h ;# ">
+"9461
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 9461: __asm("PORTJ equ 0F88h");
+[; <" PORTJ equ 0F88h ;# ">
+"9573
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 9573: __asm("LATA equ 0F89h");
+[; <" LATA equ 0F89h ;# ">
+"9685
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 9685: __asm("LATB equ 0F8Ah");
+[; <" LATB equ 0F8Ah ;# ">
+"9797
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 9797: __asm("LATC equ 0F8Bh");
+[; <" LATC equ 0F8Bh ;# ">
+"9909
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 9909: __asm("LATD equ 0F8Ch");
+[; <" LATD equ 0F8Ch ;# ">
+"10021
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10021: __asm("LATE equ 0F8Dh");
+[; <" LATE equ 0F8Dh ;# ">
+"10133
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10133: __asm("LATF equ 0F8Eh");
+[; <" LATF equ 0F8Eh ;# ">
+"10235
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10235: __asm("LATG equ 0F8Fh");
+[; <" LATG equ 0F8Fh ;# ">
+"10311
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10311: __asm("LATH equ 0F90h");
+[; <" LATH equ 0F90h ;# ">
+"10423
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10423: __asm("LATJ equ 0F91h");
+[; <" LATJ equ 0F91h ;# ">
+"10535
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10535: __asm("TRISA equ 0F92h");
+[; <" TRISA equ 0F92h ;# ">
+"10597
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10597: __asm("TRISB equ 0F93h");
+[; <" TRISB equ 0F93h ;# ">
+"10659
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10659: __asm("TRISC equ 0F94h");
+[; <" TRISC equ 0F94h ;# ">
+"10721
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10721: __asm("TRISD equ 0F95h");
+[; <" TRISD equ 0F95h ;# ">
+"10783
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10783: __asm("TRISE equ 0F96h");
+[; <" TRISE equ 0F96h ;# ">
+"10845
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10845: __asm("TRISF equ 0F97h");
+[; <" TRISF equ 0F97h ;# ">
+"10902
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10902: __asm("TRISG equ 0F98h");
+[; <" TRISG equ 0F98h ;# ">
+"10946
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 10946: __asm("TRISH equ 0F99h");
+[; <" TRISH equ 0F99h ;# ">
+"11008
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 11008: __asm("TRISJ equ 0F9Ah");
+[; <" TRISJ equ 0F9Ah ;# ">
+"11070
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 11070: __asm("OSCTUNE equ 0F9Bh");
+[; <" OSCTUNE equ 0F9Bh ;# ">
+"11140
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 11140: __asm("PSTR1CON equ 0F9Ch");
+[; <" PSTR1CON equ 0F9Ch ;# ">
+"11206
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 11206: __asm("PIE1 equ 0F9Dh");
+[; <" PIE1 equ 0F9Dh ;# ">
+"11289
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 11289: __asm("PIR1 equ 0F9Eh");
+[; <" PIR1 equ 0F9Eh ;# ">
+"11372
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 11372: __asm("IPR1 equ 0F9Fh");
+[; <" IPR1 equ 0F9Fh ;# ">
+"11455
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 11455: __asm("PIE2 equ 0FA0h");
+[; <" PIE2 equ 0FA0h ;# ">
+"11527
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 11527: __asm("PIR2 equ 0FA1h");
+[; <" PIR2 equ 0FA1h ;# ">
+"11599
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 11599: __asm("IPR2 equ 0FA2h");
+[; <" IPR2 equ 0FA2h ;# ">
+"11671
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 11671: __asm("PIE3 equ 0FA3h");
+[; <" PIE3 equ 0FA3h ;# ">
+"11776
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 11776: __asm("PIR3 equ 0FA4h");
+[; <" PIR3 equ 0FA4h ;# ">
+"11849
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 11849: __asm("IPR3 equ 0FA5h");
+[; <" IPR3 equ 0FA5h ;# ">
+"11922
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 11922: __asm("PIR6 equ 0FA6h");
+[; <" PIR6 equ 0FA6h ;# ">
+"11961
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 11961: __asm("PSPCON equ 0FA7h");
+[; <" PSPCON equ 0FA7h ;# ">
+"12000
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 12000: __asm("HLVDCON equ 0FA8h");
+[; <" HLVDCON equ 0FA8h ;# ">
+"12070
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 12070: __asm("IPR6 equ 0FA9h");
+[; <" IPR6 equ 0FA9h ;# ">
+"12109
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 12109: __asm("T1GCON equ 0FAAh");
+[; <" T1GCON equ 0FAAh ;# ">
+"12213
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 12213: __asm("RCSTA1 equ 0FABh");
+[; <" RCSTA1 equ 0FABh ;# ">
+"12218
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 12218: __asm("RCSTA equ 0FABh");
+[; <" RCSTA equ 0FABh ;# ">
+"12551
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 12551: __asm("TXSTA1 equ 0FACh");
+[; <" TXSTA1 equ 0FACh ;# ">
+"12556
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 12556: __asm("TXSTA equ 0FACh");
+[; <" TXSTA equ 0FACh ;# ">
+"12839
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 12839: __asm("TXREG1 equ 0FADh");
+[; <" TXREG1 equ 0FADh ;# ">
+"12844
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 12844: __asm("TXREG equ 0FADh");
+[; <" TXREG equ 0FADh ;# ">
+"12877
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 12877: __asm("RCREG1 equ 0FAEh");
+[; <" RCREG1 equ 0FAEh ;# ">
+"12882
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 12882: __asm("RCREG equ 0FAEh");
+[; <" RCREG equ 0FAEh ;# ">
+"12915
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 12915: __asm("SPBRG1 equ 0FAFh");
+[; <" SPBRG1 equ 0FAFh ;# ">
+"12920
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 12920: __asm("SPBRG equ 0FAFh");
+[; <" SPBRG equ 0FAFh ;# ">
+"12953
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 12953: __asm("T3GCON equ 0FB0h");
+[; <" T3GCON equ 0FB0h ;# ">
+"13057
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13057: __asm("T3CON equ 0FB1h");
+[; <" T3CON equ 0FB1h ;# ">
+"13168
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13168: __asm("TMR3 equ 0FB2h");
+[; <" TMR3 equ 0FB2h ;# ">
+"13175
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13175: __asm("TMR3L equ 0FB2h");
+[; <" TMR3L equ 0FB2h ;# ">
+"13195
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13195: __asm("TMR3H equ 0FB3h");
+[; <" TMR3H equ 0FB3h ;# ">
+"13215
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13215: __asm("CMSTAT equ 0FB4h");
+[; <" CMSTAT equ 0FB4h ;# ">
+"13220
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13220: __asm("CMSTATUS equ 0FB4h");
+[; <" CMSTATUS equ 0FB4h ;# ">
+"13321
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13321: __asm("CVRCON equ 0FB5h");
+[; <" CVRCON equ 0FB5h ;# ">
+"13406
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13406: __asm("PIE4 equ 0FB6h");
+[; <" PIE4 equ 0FB6h ;# ">
+"13468
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13468: __asm("PIR4 equ 0FB7h");
+[; <" PIR4 equ 0FB7h ;# ">
+"13530
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13530: __asm("IPR4 equ 0FB8h");
+[; <" IPR4 equ 0FB8h ;# ">
+"13600
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13600: __asm("PIE5 equ 0FB9h");
+[; <" PIE5 equ 0FB9h ;# ">
+"13662
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13662: __asm("PIR5 equ 0FBAh");
+[; <" PIR5 equ 0FBAh ;# ">
+"13724
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13724: __asm("CCP1CON equ 0FBBh");
+[; <" CCP1CON equ 0FBBh ;# ">
+"13729
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13729: __asm("ECCP1CON equ 0FBBh");
+[; <" ECCP1CON equ 0FBBh ;# ">
+"13916
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13916: __asm("CCPR1 equ 0FBCh");
+[; <" CCPR1 equ 0FBCh ;# ">
+"13923
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13923: __asm("CCPR1L equ 0FBCh");
+[; <" CCPR1L equ 0FBCh ;# ">
+"13943
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13943: __asm("CCPR1H equ 0FBDh");
+[; <" CCPR1H equ 0FBDh ;# ">
+"13963
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13963: __asm("ECCP1DEL equ 0FBEh");
+[; <" ECCP1DEL equ 0FBEh ;# ">
+"13968
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 13968: __asm("PWM1CON equ 0FBEh");
+[; <" PWM1CON equ 0FBEh ;# ">
+"14101
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 14101: __asm("ECCP1AS equ 0FBFh");
+[; <" ECCP1AS equ 0FBFh ;# ">
+"14183
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 14183: __asm("ADCON2 equ 0FC0h");
+[; <" ADCON2 equ 0FC0h ;# ">
+"14254
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 14254: __asm("ADCON1 equ 0FC1h");
+[; <" ADCON1 equ 0FC1h ;# ">
+"14358
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 14358: __asm("ADCON0 equ 0FC2h");
+[; <" ADCON0 equ 0FC2h ;# ">
+"14483
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 14483: __asm("ADRES equ 0FC3h");
+[; <" ADRES equ 0FC3h ;# ">
+"14490
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 14490: __asm("ADRESL equ 0FC3h");
+[; <" ADRESL equ 0FC3h ;# ">
+"14510
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 14510: __asm("ADRESH equ 0FC4h");
+[; <" ADRESH equ 0FC4h ;# ">
+"14530
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 14530: __asm("SSP1CON2 equ 0FC5h");
+[; <" SSP1CON2 equ 0FC5h ;# ">
+"14535
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 14535: __asm("SSPCON2 equ 0FC5h");
+[; <" SSPCON2 equ 0FC5h ;# ">
+"14884
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 14884: __asm("SSP1CON1 equ 0FC6h");
+[; <" SSP1CON1 equ 0FC6h ;# ">
+"14889
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 14889: __asm("SSPCON1 equ 0FC6h");
+[; <" SSPCON1 equ 0FC6h ;# ">
+"15122
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 15122: __asm("SSP1STAT equ 0FC7h");
+[; <" SSP1STAT equ 0FC7h ;# ">
+"15127
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 15127: __asm("SSPSTAT equ 0FC7h");
+[; <" SSPSTAT equ 0FC7h ;# ">
+"15720
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 15720: __asm("SSP1ADD equ 0FC8h");
+[; <" SSP1ADD equ 0FC8h ;# ">
+"15725
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 15725: __asm("SSPADD equ 0FC8h");
+[; <" SSPADD equ 0FC8h ;# ">
+"15958
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 15958: __asm("SSP1MSK equ 0FC8h");
+[; <" SSP1MSK equ 0FC8h ;# ">
+"16028
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16028: __asm("SSP1BUF equ 0FC9h");
+[; <" SSP1BUF equ 0FC9h ;# ">
+"16033
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16033: __asm("SSPBUF equ 0FC9h");
+[; <" SSPBUF equ 0FC9h ;# ">
+"16066
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16066: __asm("T2CON equ 0FCAh");
+[; <" T2CON equ 0FCAh ;# ">
+"16137
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16137: __asm("PR2 equ 0FCBh");
+[; <" PR2 equ 0FCBh ;# ">
+"16157
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16157: __asm("TMR2 equ 0FCCh");
+[; <" TMR2 equ 0FCCh ;# ">
+"16177
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16177: __asm("T1CON equ 0FCDh");
+[; <" T1CON equ 0FCDh ;# ">
+"16279
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16279: __asm("TMR1 equ 0FCEh");
+[; <" TMR1 equ 0FCEh ;# ">
+"16286
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16286: __asm("TMR1L equ 0FCEh");
+[; <" TMR1L equ 0FCEh ;# ">
+"16306
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16306: __asm("TMR1H equ 0FCFh");
+[; <" TMR1H equ 0FCFh ;# ">
+"16326
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16326: __asm("RCON equ 0FD0h");
+[; <" RCON equ 0FD0h ;# ">
+"16479
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16479: __asm("WDTCON equ 0FD1h");
+[; <" WDTCON equ 0FD1h ;# ">
+"16539
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16539: __asm("IPR5 equ 0FD2h");
+[; <" IPR5 equ 0FD2h ;# ">
+"16628
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16628: __asm("OSCCON equ 0FD3h");
+[; <" OSCCON equ 0FD3h ;# ">
+"16705
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16705: __asm("SPBRGH1 equ 0FD4h");
+[; <" SPBRGH1 equ 0FD4h ;# ">
+"16725
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16725: __asm("T0CON equ 0FD5h");
+[; <" T0CON equ 0FD5h ;# ">
+"16795
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16795: __asm("TMR0 equ 0FD6h");
+[; <" TMR0 equ 0FD6h ;# ">
+"16802
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16802: __asm("TMR0L equ 0FD6h");
+[; <" TMR0L equ 0FD6h ;# ">
+"16822
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16822: __asm("TMR0H equ 0FD7h");
+[; <" TMR0H equ 0FD7h ;# ">
+"16842
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16842: __asm("STATUS equ 0FD8h");
+[; <" STATUS equ 0FD8h ;# ">
+"16913
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16913: __asm("FSR2 equ 0FD9h");
+[; <" FSR2 equ 0FD9h ;# ">
+"16920
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16920: __asm("FSR2L equ 0FD9h");
+[; <" FSR2L equ 0FD9h ;# ">
+"16940
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16940: __asm("FSR2H equ 0FDAh");
+[; <" FSR2H equ 0FDAh ;# ">
+"16947
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16947: __asm("PLUSW2 equ 0FDBh");
+[; <" PLUSW2 equ 0FDBh ;# ">
+"16967
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16967: __asm("PREINC2 equ 0FDCh");
+[; <" PREINC2 equ 0FDCh ;# ">
+"16987
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 16987: __asm("POSTDEC2 equ 0FDDh");
+[; <" POSTDEC2 equ 0FDDh ;# ">
+"17007
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17007: __asm("POSTINC2 equ 0FDEh");
+[; <" POSTINC2 equ 0FDEh ;# ">
+"17027
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17027: __asm("INDF2 equ 0FDFh");
+[; <" INDF2 equ 0FDFh ;# ">
+"17047
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17047: __asm("BSR equ 0FE0h");
+[; <" BSR equ 0FE0h ;# ">
+"17054
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17054: __asm("FSR1 equ 0FE1h");
+[; <" FSR1 equ 0FE1h ;# ">
+"17061
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17061: __asm("FSR1L equ 0FE1h");
+[; <" FSR1L equ 0FE1h ;# ">
+"17081
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17081: __asm("FSR1H equ 0FE2h");
+[; <" FSR1H equ 0FE2h ;# ">
+"17088
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17088: __asm("PLUSW1 equ 0FE3h");
+[; <" PLUSW1 equ 0FE3h ;# ">
+"17108
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17108: __asm("PREINC1 equ 0FE4h");
+[; <" PREINC1 equ 0FE4h ;# ">
+"17128
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17128: __asm("POSTDEC1 equ 0FE5h");
+[; <" POSTDEC1 equ 0FE5h ;# ">
+"17148
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17148: __asm("POSTINC1 equ 0FE6h");
+[; <" POSTINC1 equ 0FE6h ;# ">
+"17168
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17168: __asm("INDF1 equ 0FE7h");
+[; <" INDF1 equ 0FE7h ;# ">
+"17188
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17188: __asm("WREG equ 0FE8h");
+[; <" WREG equ 0FE8h ;# ">
+"17208
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17208: __asm("FSR0 equ 0FE9h");
+[; <" FSR0 equ 0FE9h ;# ">
+"17215
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17215: __asm("FSR0L equ 0FE9h");
+[; <" FSR0L equ 0FE9h ;# ">
+"17235
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17235: __asm("FSR0H equ 0FEAh");
+[; <" FSR0H equ 0FEAh ;# ">
+"17242
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17242: __asm("PLUSW0 equ 0FEBh");
+[; <" PLUSW0 equ 0FEBh ;# ">
+"17262
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17262: __asm("PREINC0 equ 0FECh");
+[; <" PREINC0 equ 0FECh ;# ">
+"17282
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17282: __asm("POSTDEC0 equ 0FEDh");
+[; <" POSTDEC0 equ 0FEDh ;# ">
+"17302
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17302: __asm("POSTINC0 equ 0FEEh");
+[; <" POSTINC0 equ 0FEEh ;# ">
+"17322
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17322: __asm("INDF0 equ 0FEFh");
+[; <" INDF0 equ 0FEFh ;# ">
+"17342
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17342: __asm("INTCON3 equ 0FF0h");
+[; <" INTCON3 equ 0FF0h ;# ">
+"17454
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17454: __asm("INTCON2 equ 0FF1h");
+[; <" INTCON2 equ 0FF1h ;# ">
+"17547
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17547: __asm("INTCON equ 0FF2h");
+[; <" INTCON equ 0FF2h ;# ">
+"17664
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17664: __asm("PROD equ 0FF3h");
+[; <" PROD equ 0FF3h ;# ">
+"17671
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17671: __asm("PRODL equ 0FF3h");
+[; <" PRODL equ 0FF3h ;# ">
+"17691
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17691: __asm("PRODH equ 0FF4h");
+[; <" PRODH equ 0FF4h ;# ">
+"17711
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17711: __asm("TABLAT equ 0FF5h");
+[; <" TABLAT equ 0FF5h ;# ">
+"17733
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17733: __asm("TBLPTR equ 0FF6h");
+[; <" TBLPTR equ 0FF6h ;# ">
+"17740
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17740: __asm("TBLPTRL equ 0FF6h");
+[; <" TBLPTRL equ 0FF6h ;# ">
+"17760
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17760: __asm("TBLPTRH equ 0FF7h");
+[; <" TBLPTRH equ 0FF7h ;# ">
+"17780
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17780: __asm("TBLPTRU equ 0FF8h");
+[; <" TBLPTRU equ 0FF8h ;# ">
+"17789
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17789: __asm("PCLAT equ 0FF9h");
+[; <" PCLAT equ 0FF9h ;# ">
+"17796
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17796: __asm("PC equ 0FF9h");
+[; <" PC equ 0FF9h ;# ">
+"17803
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17803: __asm("PCL equ 0FF9h");
+[; <" PCL equ 0FF9h ;# ">
+"17823
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17823: __asm("PCLATH equ 0FFAh");
+[; <" PCLATH equ 0FFAh ;# ">
+"17843
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17843: __asm("PCLATU equ 0FFBh");
+[; <" PCLATU equ 0FFBh ;# ">
+"17850
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17850: __asm("STKPTR equ 0FFCh");
+[; <" STKPTR equ 0FFCh ;# ">
+"17924
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17924: __asm("TOS equ 0FFDh");
+[; <" TOS equ 0FFDh ;# ">
+"17931
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17931: __asm("TOSL equ 0FFDh");
+[; <" TOSL equ 0FFDh ;# ">
+"17951
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17951: __asm("TOSH equ 0FFEh");
+[; <" TOSH equ 0FFEh ;# ">
+"17971
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f87k22.h: 17971: __asm("TOSU equ 0FFFh");
+[; <" TOSU equ 0FFFh ;# ">
+"55 mcc_generated_files/pin_manager.c
+[; ;mcc_generated_files/pin_manager.c: 55: void PIN_MANAGER_Initialize(void)
+[v _PIN_MANAGER_Initialize `(v ~T0 @X0 1 ef ]
+"56
+[; ;mcc_generated_files/pin_manager.c: 56: {
+{
+[e :U _PIN_MANAGER_Initialize ]
+[f ]
+"60
+[; ;mcc_generated_files/pin_manager.c: 60:     LATE = 0x00;
+[e = _LATE -> -> 0 `i `uc ]
+"61
+[; ;mcc_generated_files/pin_manager.c: 61:     LATD = 0x00;
+[e = _LATD -> -> 0 `i `uc ]
+"62
+[; ;mcc_generated_files/pin_manager.c: 62:     LATA = 0x00;
+[e = _LATA -> -> 0 `i `uc ]
+"63
+[; ;mcc_generated_files/pin_manager.c: 63:     LATF = 0x00;
+[e = _LATF -> -> 0 `i `uc ]
+"64
+[; ;mcc_generated_files/pin_manager.c: 64:     LATB = 0x00;
+[e = _LATB -> -> 0 `i `uc ]
+"65
+[; ;mcc_generated_files/pin_manager.c: 65:     LATG = 0x00;
+[e = _LATG -> -> 0 `i `uc ]
+"66
+[; ;mcc_generated_files/pin_manager.c: 66:     LATC = 0x00;
+[e = _LATC -> -> 0 `i `uc ]
+"67
+[; ;mcc_generated_files/pin_manager.c: 67:     LATH = 0x00;
+[e = _LATH -> -> 0 `i `uc ]
+"72
+[; ;mcc_generated_files/pin_manager.c: 72:     TRISE = 0xFF;
+[e = _TRISE -> -> 255 `i `uc ]
+"73
+[; ;mcc_generated_files/pin_manager.c: 73:     TRISF = 0xFE;
+[e = _TRISF -> -> 254 `i `uc ]
+"74
+[; ;mcc_generated_files/pin_manager.c: 74:     TRISA = 0xFF;
+[e = _TRISA -> -> 255 `i `uc ]
+"75
+[; ;mcc_generated_files/pin_manager.c: 75:     TRISG = 0x1F;
+[e = _TRISG -> -> 31 `i `uc ]
+"76
+[; ;mcc_generated_files/pin_manager.c: 76:     TRISB = 0xFF;
+[e = _TRISB -> -> 255 `i `uc ]
+"77
+[; ;mcc_generated_files/pin_manager.c: 77:     TRISH = 0xFF;
+[e = _TRISH -> -> 255 `i `uc ]
+"78
+[; ;mcc_generated_files/pin_manager.c: 78:     TRISC = 0xBF;
+[e = _TRISC -> -> 191 `i `uc ]
+"79
+[; ;mcc_generated_files/pin_manager.c: 79:     TRISD = 0xFF;
+[e = _TRISD -> -> 255 `i `uc ]
+"84
+[; ;mcc_generated_files/pin_manager.c: 84:     ANCON0 = 0xFF;
+[e = _ANCON0 -> -> 255 `i `uc ]
+"85
+[; ;mcc_generated_files/pin_manager.c: 85:     ANCON1 = 0xFF;
+[e = _ANCON1 -> -> 255 `i `uc ]
+"86
+[; ;mcc_generated_files/pin_manager.c: 86:     ANCON2 = 0xFF;
+[e = _ANCON2 -> -> 255 `i `uc ]
+"99
+[; ;mcc_generated_files/pin_manager.c: 99: }
+[e :UE 828 ]
+}
+"101
+[; ;mcc_generated_files/pin_manager.c: 101: void PIN_MANAGER_IOC(void)
+[v _PIN_MANAGER_IOC `(v ~T0 @X0 1 ef ]
+"102
+[; ;mcc_generated_files/pin_manager.c: 102: {
+{
+[e :U _PIN_MANAGER_IOC ]
+[f ]
+"104
+[; ;mcc_generated_files/pin_manager.c: 104:     INTCONbits.RBIF = 0;
+[e = . . _INTCONbits 0 0 -> -> 0 `i `uc ]
+"105
+[; ;mcc_generated_files/pin_manager.c: 105: }
+[e :UE 829 ]
+}
